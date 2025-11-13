@@ -1,3 +1,298 @@
 # Vyentei Square
 
 Vyentei emojis, Zoitei, Korean
+
+ - `fullwidth_space`
+   - `U+2001`: em quad
+   - `U+2003`: em space
+   - `U+3000`: ideographic space
+ - Fullwidth ASCII `21-7E`
+   - `U+FF01–FF5E`
+     - `U+FF01`: Fullwidth exclamation mark (!)
+     - `U+FF02`: Fullwidth quotation mark (")
+     - …
+     - `U+FF5E`: Fullwidth tilde (~)
+   - Default / Corner (`U+FE00`) / Center (`U+FE01`) Justification Variants
+     - `U+FF01`: ！！︀！︁
+     - `U+FF0C`: ，，︀，︁
+     - `U+FF0E`: ．．︀．︁
+     - `U+FF1A`: ：：︀：︁
+     - `U+FF1B`: ；；︀；︁
+     - `U+FF1F`: ？？︀？︁
+ - Other
+   - `U+FF5F`: Fullwidth white parenthesis (left)
+   - `U+FF60`: Fullwidth white parenthesis (right)
+   - `U+FFE0`: Fullwidth cent sign (¢)
+   - `U+FFE1`: Fullwidth pound sign
+   - `U+FFE2`: Fullwidth not sign
+   - `U+FFE3`: Fullwidth macron
+   - `U+FFE4`: Fullwidth broken bar 
+   - `U+FFE5`: Fullwidth yen sign
+   - `U+FFE6`: Fullwidth won sign
+ - Zoitei Script
+   - `U+F6000`: Zoitei 'm'
+   - `U+F6001`: Zoitei 'p'
+   - `U+F6002`: Zoitei 'f'
+   - `U+F6003`: Zoitei 'þ'
+   - `U+F6004`: Zoitei 'n'
+   - `U+F6005`: Zoitei 't'
+   - `U+F6006`: Zoitei 's'
+   - `U+F6007`: Zoitei 'š'
+   - `U+F6008`: Zoitei 'ŋ'
+   - `U+F6009`: Zoitei 'k'
+   - `U+F600A`: Zoitei 'x'
+   - `U+F600B`: Zoitei 'ł'
+   - `U+F600C`: Zoitei 'l'
+   - `U+F600D`: Zoitei 'b'
+   - `U+F600E`: Zoitei 'v'
+   - `U+F600F`: Zoitei 'w'
+   - `U+F6010`: Zoitei 'c'
+   - `U+F6011`: Zoitei 'd'
+   - `U+F6012`: Zoitei 'z'
+   - `U+F6013`: Zoitei 'ž'
+   - `U+F6014`: Zoitei 'r'
+   - `U+F6015`: Zoitei 'g'
+   - `U+F6016`: Zoitei 'ň'
+   - `U+F6017`: Zoitei 'ř'
+   - `U+F6018`: Zoitei 'mm'
+   - `U+F6019`: Zoitei 'pp'
+   - `U+F601A`: Zoitei 'ff'
+   - `U+F601B`: Zoitei 'þþ'
+   - `U+F601C`: Zoitei 'nn'
+   - `U+F601D`: Zoitei 'tt'
+   - `U+F601E`: Zoitei 'ss'
+   - `U+F601F`: Zoitei 'šš'
+   - `U+F6020`: Zoitei 'ŋŋ'
+   - `U+F6021`: Zoitei 'kk'
+   - `U+F6022`: Zoitei 'xx'
+   - `U+F6023`: Zoitei 'łł'
+   - `U+F6024`: Zoitei 'll'
+   - `U+F6025`: Zoitei 'bb'
+   - `U+F6026`: Zoitei 'vv'
+   - `U+F6027`: Zoitei 'ww'
+   - `U+F6028`: Zoitei 'cc'
+   - `U+F6029`: Zoitei 'dd'
+   - `U+F602A`: Zoitei 'zz'
+   - `U+F602B`: Zoitei 'žž'
+   - `U+F602C`: Zoitei 'rr'
+   - `U+F602D`: Zoitei 'gg'
+   - `U+F602E`: Zoitei 'ňň'
+   - `U+F602F`: Zoitei 'řř'
+   - `U+F6030`: Zoitei 'yh'
+   - `U+F6031`: Zoitei 'ae' / '-y'
+   - `U+F6032`: Zoitei 'ih'
+   - `U+F6033`: Zoitei 'iy' / '-i'
+   - `U+F6034`: Zoitei 'ah'
+   - `U+F6035`: Zoitei 'ia' / '-a'
+   - `U+F6036`: Zoitei 'eh'
+   - `U+F6037`: Zoitei 'ea' / '-e'
+   - `U+F6038`: Zoitei 'uh'
+   - `U+F6039`: Zoitei 'ou' / '-u'
+   - `U+F603A`: Zoitei 'oh'
+   - `U+F603B`: Zoitei 'io'
+   - `U+F603C`: Zoitei 'ay'
+   - `U+F603D`: Zoitei 'ai'
+   - `U+F603E`: Zoitei 'ey'
+   - `U+F603F`: Zoitei 'ei'
+   - `U+F6040`: Zoitei 'oy'
+   - `U+F6041`: Zoitei 'oi'
+   - `U+F6042`: Zoitei 'iu'
+   - `U+F6043`: Zoitei 'au'
+   - `U+F6044`: Zoitei 'ao'
+   - `U+F6045`: Zoitei 'eu'
+   - `U+F6046`: Zoitei 'eo'
+   - `U+F6047`: Zoitei 'oa' / '-o'
+   - `U+F6048`: Zoitei 'yie'
+   - `U+F6049`: Zoitei 'yae'
+   - `U+F604A`: Zoitei 'yih'
+   - `U+F604B`: Zoitei 'yiy' / '-yi'
+   - `U+F604C`: Zoitei 'yah'
+   - `U+F604D`: Zoitei 'yia' / '-ya'
+   - `U+F604E`: Zoitei 'yeh'
+   - `U+F604F`: Zoitei 'yea' / '-ye'
+   - `U+F6050`: Zoitei 'yuh'
+   - `U+F6051`: Zoitei 'you' / '-yu'
+   - `U+F6052`: Zoitei 'yoh'
+   - `U+F6053`: Zoitei 'yio'
+   - `U+F6054`: Zoitei 'yay'
+   - `U+F6055`: Zoitei 'yai'
+   - `U+F6056`: Zoitei 'yey'
+   - `U+F6057`: Zoitei 'yei'
+   - `U+F6058`: Zoitei 'yoy'
+   - `U+F6059`: Zoitei 'yoi'
+   - `U+F605A`: Zoitei 'yiu'
+   - `U+F605B`: Zoitei 'yau'
+   - `U+F605C`: Zoitei 'yao'
+   - `U+F605D`: Zoitei 'yeu'
+   - `U+F605E`: Zoitei 'yeo'
+   - `U+F605F`: Zoitei 'yoa' / '-yo'
+   - `U+F6060`: Zoitei 'uyh'
+   - `U+F6061`: Zoitei 'uae' / '-uy'
+   - `U+F6062`: Zoitei 'uih'
+   - `U+F6063`: Zoitei 'uiy' / '-ui'
+   - `U+F6064`: Zoitei 'uah'
+   - `U+F6065`: Zoitei 'uia' / '-ua'
+   - `U+F6066`: Zoitei 'ueh'
+   - `U+F6067`: Zoitei 'uea' / '-ue'
+   - `U+F6068`: Zoitei 'uoe'
+   - `U+F6069`: Zoitei 'uou'
+   - `U+F606A`: Zoitei 'uoh'
+   - `U+F606B`: Zoitei 'uio'
+   - `U+F606C`: Zoitei 'uay'
+   - `U+F606D`: Zoitei 'uai'
+   - `U+F606E`: Zoitei 'uey'
+   - `U+F606F`: Zoitei 'uei'
+   - `U+F6070`: Zoitei 'uoy'
+   - `U+F6071`: Zoitei 'uoi'
+   - `U+F6072`: Zoitei 'uiu'
+   - `U+F6073`: Zoitei 'uau'
+   - `U+F6074`: Zoitei 'uao'
+   - `U+F6075`: Zoitei 'ueu'
+   - `U+F6076`: Zoitei 'ueo'
+   - `U+F6077`: Zoitei 'uoa' / '-uo'
+   - `U+F6078`: Zoitei 'mp'
+   - `U+F6079`: Zoitei 'm(p)f'
+   - `U+F607A`: Zoitei 'm(p)þ'
+   - `U+F607B`: Zoitei 'pm'
+   - `U+F607C`: Zoitei 'pf'
+   - `U+F607D`: Zoitei 'pþ'
+   - `U+F607E`: Zoitei 'fm'
+   - `U+F607F`: Zoitei 'fp'
+   - `U+F6080`: Zoitei 'fþ'
+   - `U+F6081`: Zoitei 'þm'
+   - `U+F6082`: Zoitei 'þp'
+   - `U+F6083`: Zoitei 'þf'
+   - `U+F6084`: Zoitei NTSŠ 'mp'
+   - `U+F6085`: Zoitei NTSŠ 'm(p)f'
+   - `U+F6086`: Zoitei NTSŠ 'm(p)þ'
+   - `U+F6087`: Zoitei NTSŠ 'pm'
+   - `U+F6088`: Zoitei NTSŠ 'pf'
+   - `U+F6089`: Zoitei NTSŠ 'pþ'
+   - `U+F608A`: Zoitei NTSŠ 'fm'
+   - `U+F608B`: Zoitei NTSŠ 'fp'
+   - `U+F608C`: Zoitei NTSŠ 'fþ'
+   - `U+F608D`: Zoitei NTSŠ 'þm'
+   - `U+F608E`: Zoitei NTSŠ 'þp'
+   - `U+F608F`: Zoitei NTSŠ 'þf'
+   - `U+F6090`: Zoitei ŊKXŁ 'mp'
+   - `U+F6091`: Zoitei ŊKXŁ 'm(p)f'
+   - `U+F6092`: Zoitei ŊKXŁ 'm(p)þ'
+   - `U+F6093`: Zoitei ŊKXŁ 'pm'
+   - `U+F6094`: Zoitei ŊKXŁ 'pf'
+   - `U+F6095`: Zoitei ŊKXŁ 'pþ'
+   - `U+F6096`: Zoitei ŊKXŁ 'fm'
+   - `U+F6097`: Zoitei ŊKXŁ 'fp'
+   - `U+F6098`: Zoitei ŊKXŁ 'fþ'
+   - `U+F6099`: Zoitei ŊKXŁ 'þm'
+   - `U+F609A`: Zoitei ŊKXŁ 'þp'
+   - `U+F609B`: Zoitei ŊKXŁ 'þf'
+   - `U+F609C`: Zoitei LBVW 'mp'
+   - `U+F609D`: Zoitei LBVW 'm(p)f'
+   - `U+F609E`: Zoitei LBVW 'm(p)þ'
+   - `U+F609F`: Zoitei LBVW 'pm'
+   - `U+F60A0`: Zoitei LBVW 'pf'
+   - `U+F60A1`: Zoitei LBVW 'pþ'
+   - `U+F60A2`: Zoitei LBVW 'fm'
+   - `U+F60A3`: Zoitei LBVW 'fp'
+   - `U+F60A4`: Zoitei LBVW 'fþ'
+   - `U+F60A5`: Zoitei LBVW 'þm'
+   - `U+F60A6`: Zoitei LBVW 'þp'
+   - `U+F60A7`: Zoitei LBVW 'þf'
+   - `U+F60A8`: Zoitei CDZŽ 'mp'
+   - `U+F60A9`: Zoitei CDZŽ 'm(p)f'
+   - `U+F60AA`: Zoitei CDZŽ 'm(p)þ'
+   - `U+F60AB`: Zoitei CDZŽ 'pm'
+   - `U+F60AC`: Zoitei CDZŽ 'pf'
+   - `U+F60AD`: Zoitei CDZŽ 'pþ'
+   - `U+F60AE`: Zoitei CDZŽ 'fm'
+   - `U+F60AF`: Zoitei CDZŽ 'fp'
+   - `U+F60B0`: Zoitei CDZŽ 'fþ'
+   - `U+F60B1`: Zoitei CDZŽ 'þm'
+   - `U+F60B2`: Zoitei CDZŽ 'þp'
+   - `U+F60B3`: Zoitei CDZŽ 'þf'
+   - `U+F60B4`: Zoitei RGŇŘ 'mp'
+   - `U+F60B5`: Zoitei RGŇŘ 'm(p)f'
+   - `U+F60B6`: Zoitei RGŇŘ 'm(p)þ'
+   - `U+F60B7`: Zoitei RGŇŘ 'pm'
+   - `U+F60B8`: Zoitei RGŇŘ 'pf'
+   - `U+F60B9`: Zoitei RGŇŘ 'pþ'
+   - `U+F60BA`: Zoitei RGŇŘ 'fm'
+   - `U+F60BB`: Zoitei RGŇŘ 'fp'
+   - `U+F60BC`: Zoitei RGŇŘ 'fþ'
+   - `U+F60BD`: Zoitei RGŇŘ 'þm'
+   - `U+F60BE`: Zoitei RGŇŘ 'þp'
+   - `U+F60BF`: Zoitei RGŇŘ 'þf'
+   - `U+F60C0`: Zoitei Combined 'm' + 'n-ř'
+   - …
+   - `U+F60D4`: Zoitei Combined 'p' + 'n-ř'
+   - …
+   - `U+F60E8`: Zoitei Combined 'f' + 'n-ř'
+   - …
+   - `U+F60FC`: Zoitei Combined 'þ' + 'n-ř'
+   - …
+   - `U+F6110`: Zoitei Combined 'n-š' + 'm-þ,ŋ-ř'
+   - …
+   - `U+F6160`: Zoitei Combined 'ŋ-ł' + 'm-š,l-ř'
+   - …
+   - `U+F61B0`: Zoitei Combined 'l-w' + 'm-ł,c-ř'
+   - …
+   - `U+F6200`: Zoitei Combined 'c-ž' + 'm-w,r-ř'
+   - …
+   - `U+F6250`: Zoitei Combined 'r-ř' + 'm-ž'
+   - …
+   - `U+F62A0`: Zoitei Combined M(PFÞ) + 'n-ř'
+   - …
+   - `U+F62DC`: Zoitei Combined N(PFÞ) 'n-š' + 'm-þ,ŋ-ř'
+   - …
+   - `U+F6318`: Zoitei Combined Ŋ(PFÞ) 'ŋ-ł' + 'm-š,l-ř'
+   - …
+   - `U+F6354`: Zoitei Combined L(PFÞ) 'l-w' + 'm-ł,c-ř'
+   - …
+   - `U+F6390`: Zoitei Combined C(PFÞ) 'c-ž' + 'm-w,r-ř'
+   - …
+   - `U+F63CC`: Zoitei Combined R(PFÞ) 'r-ř' + 'm-ž'
+   - …
+   - `U+F6408`: Zoitei Combined P(MFÞ) + 'n-ř'
+   - …
+   - `U+F6444`: Zoitei Combined T(MFÞ) 'n-š' + 'm-þ,ŋ-ř'
+   - …
+   - `U+F6480`: Zoitei Combined K(MFÞ) 'ŋ-ł' + 'm-š,l-ř'
+   - …
+   - `U+F64BC`: Zoitei Combined B(MFÞ) 'l-w' + 'm-ł,c-ř'
+   - …
+   - `U+F64F8`: Zoitei Combined D(MFÞ) 'c-ž' + 'm-w,r-ř'
+   - …
+   - `U+F6534`: Zoitei Combined G(MFÞ) 'r-ř' + 'm-ž'
+   - …
+   - `U+F6570`: Zoitei Combined F(MPÞ) + 'n-ř'
+   - …
+   - `U+F65AC`: Zoitei Combined S(MPÞ) 'n-š' + 'm-þ,ŋ-ř'
+   - …
+   - `U+F65E8`: Zoitei Combined X(MPÞ) 'ŋ-ł' + 'm-š,l-ř'
+   - …
+   - `U+F6624`: Zoitei Combined V(MPÞ) 'l-w' + 'm-ł,c-ř'
+   - …
+   - `U+F6660`: Zoitei Combined Z(MPÞ) 'c-ž' + 'm-w,r-ř'
+   - …
+   - `U+F669C`: Zoitei Combined Ň(MPÞ) 'r-ř' + 'm-ž'
+   - …
+   - `U+F66D8`: Zoitei Combined Þ(MPF) + 'n-ř'
+   - …
+   - `U+F6714`: Zoitei Combined Š(MPF) 'n-š' + 'm-þ,ŋ-ř'
+   - …
+   - `U+F6750`: Zoitei Combined Ł(MPF) 'ŋ-ł' + 'm-š,l-ř'
+   - …
+   - `U+F678C`: Zoitei Combined W(MPF) 'l-w' + 'm-ł,c-ř'
+   - …
+   - `U+F67C8`: Zoitei Combined Ž(MPF) 'c-ž' + 'm-w,r-ř'
+   - …
+   - `U+F6804`: Zoitei Combined Ř(MPF) 'r-ř' + 'm-ž'
+   - …
+   - `U+F6840`: Zoitei Silence 'H'
+   - `U+F6841`: Zoitei Double Silence 'HH'
+   - `U+F6842`: Zoitei Tripple Silence 'HHH'
+   - `U+F6843`: Zoitei Quadruple Silence 'HHHH'
+   - `U+F6844`: Fullwidth Open Quote '«'
+   - `U+F6845`: Fullwidth Close Quote '»'
+ - Korean Alphabet
+ - Emojis

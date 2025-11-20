@@ -294,5 +294,15 @@ Vyentei emojis, Zoitei, Korean
    - `U+F6843`: Zoitei Quadruple Silence 'HHHH'
    - `U+F6844`: Fullwidth Open Quote '«'
    - `U+F6845`: Fullwidth Close Quote '»'
+   - `U+F6846`: Zoitei y-
+   - `U+F6847`: Zoitei u-
+   - `U+F6848`: Zoitei Modifier Disconnect
+   - `U+F6849`: Zoitei Modifier Circle (Alternate Sound)
+   - `U+F684A`: Zoitei Modifier Tone Bend Up
+   - `U+F684B`: Zoitei Modifier Tone Bend Down
+   - `U+F684C`: Zoitei Modifier Tone Warble `~~~`
+   - `U+F684D`: Zoitei Modifier Vocal Fry `---`
+   - `U+F684E`: Zoitei Modifier Whisper
+   - `U+F684F`: Zoitei Modified Yell
  - Korean Alphabet
  - Emojis

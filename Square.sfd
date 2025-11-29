@@ -47,6 +47,36 @@ UnicodeInterp: none
 NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 1114165 0
+BeginChars: 1114165 5
+StartChar: space
+Encoding: 32 32 32
+Width: 2048
+Flags: W
+LayerCount: 2
+EndChar
+StartChar: nonbreakingspace
+Encoding: 160 160 160
+Width: 2048
+Flags: W
+LayerCount: 2
+EndChar
+StartChar: uni2001
+Encoding: 8193 8193 8193
+Width: 2048
+Flags: W
+LayerCount: 2
+EndChar
+StartChar: uni2003
+Encoding: 8195 8195 8195
+Width: 2048
+Flags: W
+LayerCount: 2
+EndChar
+StartChar: uni3000
+Encoding: 12288 12288 12288
+Width: 2048
+Flags: W
+LayerCount: 2
+EndChar
 EndChars
 EndSplineFont

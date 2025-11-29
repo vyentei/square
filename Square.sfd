@@ -1,0 +1,61 @@
+SplineFontDB: 3.2
+FontName: VyenteiSquare
+FullName: Vyentei Square
+FamilyName: Vyentei Square
+Weight: Book
+Copyright: Licensed under your option of CC0, or as a work in the public domain.
+Version: 0.1.0
+ItalicAngle: 0
+UnderlinePosition: -85
+UnderlineWidth: 90
+Ascent: 1556
+Descent: 492
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1705469535
+ModificationTime: 1764386049
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 2 11 6 9 3 8 4 2 2 4
+OS2TypoAscent: 1556
+OS2TypoAOffset: 0
+OS2TypoDescent: -492
+OS2TypoDOffset: 0
+OS2TypoLinegap: 410
+OS2WinAscent: 1901
+OS2WinAOffset: 0
+OS2WinDescent: 483
+OS2WinDOffset: 0
+HheadAscent: 1901
+HheadAOffset: 0
+HheadDescent: -483
+HheadDOffset: 0
+OS2Vendor: 'PfEd'
+Lookup: 4 1 1 "Zoitei" { } ['rlig' ('DFLT' <'dflt' > ) ]
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 "" "" "" "" "" "0.1.0" "" "" "Ardaku" "" "" "https://ardaku.org" "" "Creative Commons Legal Code+AAoACgAA-CC0 1.0 Universal+AAoACgAA    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE+AAoA    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN+AAoA    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS+AAoA    INFORMATION ON AN +ACIA-AS-IS+ACIA BASIS. CREATIVE COMMONS MAKES NO WARRANTIES+AAoA    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS+AAoA    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM+AAoA    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED+AAoA    HEREUNDER.+AAoACgAA-Statement of Purpose+AAoACgAA-The laws of most jurisdictions throughout the world automatically confer+AAoA-exclusive Copyright and Related Rights (defined below) upon the creator+AAoA-and subsequent owner(s) (each and all, an +ACIA-owner+ACIA) of an original work of+AAoA-authorship and/or a database (each, a +ACIA-Work+ACIA).+AAoACgAA-Certain owners wish to permanently relinquish those rights to a Work for+AAoA-the purpose of contributing to a commons of creative, cultural and+AAoA-scientific works (+ACIA-Commons+ACIA) that the public can reliably and without fear+AAoA-of later claims of infringement build upon, modify, incorporate in other+AAoA-works, reuse and redistribute as freely as possible in any form whatsoever+AAoA-and for any purposes, including without limitation commercial purposes.+AAoA-These owners may contribute to the Commons to promote the ideal of a free+AAoA-culture and the further production of creative, cultural and scientific+AAoA-works, or to gain reputation or greater distribution for their Work in+AAoA-part through the use and efforts of others.+AAoACgAA-For these and/or other purposes and motivations, and without any+AAoA-expectation of additional consideration or compensation, the person+AAoA-associating CC0 with a Work (the +ACIA-Affirmer+ACIA), to the extent that he or she+AAoA-is an owner of Copyright and Related Rights in the Work, voluntarily+AAoA-elects to apply CC0 to the Work and publicly distribute the Work under its+AAoA-terms, with knowledge of his or her Copyright and Related Rights in the+AAoA-Work and the meaning and intended legal effect of CC0 on those rights.+AAoACgAA-1. Copyright and Related Rights. A Work made available under CC0 may be+AAoA-protected by copyright and related or neighboring rights (+ACIA-Copyright and+AAoA-Related Rights+ACIA). Copyright and Related Rights include, but are not+AAoA-limited to, the following:+AAoACgAA  i. the right to reproduce, adapt, distribute, perform, display,+AAoA     communicate, and translate a Work;+AAoA ii. moral rights retained by the original author(s) and/or performer(s);+AAoA-iii. publicity and privacy rights pertaining to a person's image or+AAoA     likeness depicted in a Work;+AAoA iv. rights protecting against unfair competition in regards to a Work,+AAoA     subject to the limitations in paragraph 4(a), below;+AAoA  v. rights protecting the extraction, dissemination, use and reuse of data+AAoA     in a Work;+AAoA vi. database rights (such as those arising under Directive 96/9/EC of the+AAoA     European Parliament and of the Council of 11 March 1996 on the legal+AAoA     protection of databases, and under any national implementation+AAoA     thereof, including any amended or successor version of such+AAoA     directive); and+AAoA-vii. other similar, equivalent or corresponding rights throughout the+AAoA     world based on applicable law or treaty, and any national+AAoA     implementations thereof.+AAoACgAA-2. Waiver. To the greatest extent permitted by, but not in contravention+AAoA-of, applicable law, Affirmer hereby overtly, fully, permanently,+AAoA-irrevocably and unconditionally waives, abandons, and surrenders all of+AAoA-Affirmer's Copyright and Related Rights and associated claims and causes+AAoA-of action, whether now known or unknown (including existing as well as+AAoA-future claims and causes of action), in the Work (i) in all territories+AAoA-worldwide, (ii) for the maximum duration provided by applicable law or+AAoA-treaty (including future time extensions), (iii) in any current or future+AAoA-medium and for any number of copies, and (iv) for any purpose whatsoever,+AAoA-including without limitation commercial, advertising or promotional+AAoA-purposes (the +ACIA-Waiver+ACIA). Affirmer makes the Waiver for the benefit of each+AAoA-member of the public at large and to the detriment of Affirmer's heirs and+AAoA-successors, fully intending that such Waiver shall not be subject to+AAoA-revocation, rescission, cancellation, termination, or any other legal or+AAoA-equitable action to disrupt the quiet enjoyment of the Work by the public+AAoA-as contemplated by Affirmer's express Statement of Purpose.+AAoACgAA-3. Public License Fallback. Should any part of the Waiver for any reason+AAoA-be judged legally invalid or ineffective under applicable law, then the+AAoA-Waiver shall be preserved to the maximum extent permitted taking into+AAoA-account Affirmer's express Statement of Purpose. In addition, to the+AAoA-extent the Waiver is so judged Affirmer hereby grants to each affected+AAoA-person a royalty-free, non transferable, non sublicensable, non exclusive,+AAoA-irrevocable and unconditional license to exercise Affirmer's Copyright and+AAoA-Related Rights in the Work (i) in all territories worldwide, (ii) for the+AAoA-maximum duration provided by applicable law or treaty (including future+AAoA-time extensions), (iii) in any current or future medium and for any number+AAoA-of copies, and (iv) for any purpose whatsoever, including without+AAoA-limitation commercial, advertising or promotional purposes (the+AAoAIgAA-License+ACIA). The License shall be deemed effective as of the date CC0 was+AAoA-applied by Affirmer to the Work. Should any part of the License for any+AAoA-reason be judged legally invalid or ineffective under applicable law, such+AAoA-partial invalidity or ineffectiveness shall not invalidate the remainder+AAoA-of the License, and in such case Affirmer hereby affirms that he or she+AAoA-will not (i) exercise any of his or her remaining Copyright and Related+AAoA-Rights in the Work or (ii) assert any associated claims and causes of+AAoA-action with respect to the Work, in either case contrary to Affirmer's+AAoA-express Statement of Purpose.+AAoACgAA-4. Limitations and Disclaimers.+AAoACgAA a. No trademark or patent rights held by Affirmer are waived, abandoned,+AAoA    surrendered, licensed or otherwise affected by this document.+AAoA b. Affirmer offers the Work as-is and makes no representations or+AAoA    warranties of any kind concerning the Work, express, implied,+AAoA    statutory or otherwise, including without limitation warranties of+AAoA    title, merchantability, fitness for a particular purpose, non+AAoA    infringement, or the absence of latent or other defects, accuracy, or+AAoA    the present or absence of errors, whether or not discoverable, all to+AAoA    the greatest extent permissible under applicable law.+AAoA c. Affirmer disclaims responsibility for clearing rights of other persons+AAoA    that may apply to the Work or any use thereof, including without+AAoA    limitation any person's Copyright and Related Rights in the Work.+AAoA    Further, Affirmer disclaims responsibility for obtaining any necessary+AAoA    consents, permissions or other rights required for any use of the+AAoA    Work.+AAoA d. Affirmer understands and acknowledges that Creative Commons is not a+AAoA    party to this document and has no duty or obligation with respect to+AAoA    this CC0 or use of the Work." "https://github.com/vyentei/square/blob/v0/LICENSE"
+Encoding: UnicodeFull
+UnicodeInterp: none
+NameList: AGL without afii
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 0 27 9
+OnlyBitmaps: 1
+BeginPrivate: 0
+EndPrivate
+TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass2: "cedilla"""  "lao-below"""  "lao-above"""  "above"""  "below"""  "rtl-above"""  "Ligature rtl-above"""  "rtl-below"""  "Ligature rtl-below"""  "rtl-above-mark"""  "rtl-below-mark""" 
+BeginChars: 1114165 0
+EndChars
+EndSplineFont

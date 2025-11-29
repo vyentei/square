@@ -327,7 +327,7 @@ Vyentei emojis, Zoitei, Korean
    - `U+F6864`: Zoitei Modifier Tone Warble `~~~`
    - `U+F6865`: Zoitei Modifier Vocal Fry `---`
    - `U+F6866`: Zoitei Modifier Whispery
-   - `U+F6867`: Zoitei Modified Yell
+   - `U+F6867`: Zoitei Modifier Yell
    - `U+F6868`: Zoitei Modifier Thought
    - `U+F6869`: Zoitei Modifier Scream
    - `U+F686A`: Zoitei Modifier Hoarse

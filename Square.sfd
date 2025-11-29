@@ -77,192 +77,256 @@ StartChar: exclam
 Encoding: 33 33 33
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: quotedbl
 Encoding: 34 34 34
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: numbersign
 Encoding: 35 35 35
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: dollar
 Encoding: 36 36 36
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: percent
 Encoding: 37 37 37
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: ampersand
 Encoding: 38 38 38
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: quotesingle
 Encoding: 39 39 39
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: parenleft
 Encoding: 40 40 40
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: parenright
 Encoding: 41 41 41
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: asterisk
 Encoding: 42 42 42
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: plus
 Encoding: 43 43 43
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: comma
 Encoding: 44 44 44
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: hyphen
 Encoding: 45 45 45
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: period
 Encoding: 46 46 46
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: slash
 Encoding: 47 47 47
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: zero
 Encoding: 48 48 48
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: one
 Encoding: 49 49 49
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: two
 Encoding: 50 50 50
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: three
 Encoding: 51 51 51
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: four
 Encoding: 52 52 52
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: five
 Encoding: 53 53 53
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: six
 Encoding: 54 54 54
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: seven
 Encoding: 55 55 55
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: eight
 Encoding: 56 56 56
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: nine
 Encoding: 57 57 57
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: colon
 Encoding: 58 58 58
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: semicolon
 Encoding: 59 59 59
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: less
 Encoding: 60 60 60
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: equal
 Encoding: 61 61 61
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: greater
 Encoding: 62 62 62
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: question
 Encoding: 63 63 63
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: at
 Encoding: 64 64 64
 Width: 2048
 Flags: W
+LayerCount: 2
+Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: nonbreakingspace
@@ -288,6 +352,462 @@ Encoding: 12288 12288 12288
 Width: 2048
 Flags: W
 LayerCount: 2
+EndChar
+StartChar: .zoitei.sonorant.m
+Encoding: 1114112 -1 1114112
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.sonorant.n
+Encoding: 1114113 -1 1114113
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.sonorant.q
+Encoding: 1114114 -1 1114114
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.sonorant.l
+Encoding: 1114115 -1 1114115
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.sonorant.c
+Encoding: 1114116 -1 1114116
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.sonorant.r
+Encoding: 1114117 -1 1114117
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.plosive.p
+Encoding: 1114118 -1 1114118
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.plosive.t
+Encoding: 1114119 -1 1114119
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.plosive.k
+Encoding: 1114120 -1 1114120
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.plosive.b
+Encoding: 1114121 -1 1114121
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.plosive.d
+Encoding: 1114122 -1 1114122
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.plosive.g
+Encoding: 1114123 -1 1114123
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.unpalatalized.f
+Encoding: 1114124 -1 1114124
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.unpalatalized.s
+Encoding: 1114125 -1 1114125
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.unpalatalized.x
+Encoding: 1114126 -1 1114126
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.unpalatalized.v
+Encoding: 1114127 -1 1114127
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.unpalatalized.z
+Encoding: 1114128 -1 1114128
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.unpalatalized.nh
+Encoding: 1114129 -1 1114129
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.palatalized.th
+Encoding: 1114130 -1 1114130
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.palatalized.sh
+Encoding: 1114131 -1 1114131
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.palatalized.lh
+Encoding: 1114132 -1 1114132
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.palatalized.w
+Encoding: 1114133 -1 1114133
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.palatalized.zh
+Encoding: 1114134 -1 1114134
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.palatalized.rh
+Encoding: 1114135 -1 1114135
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.stroke.plosive
+Encoding: 1114136 -1 1114136
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.stroke.unpalatalized
+Encoding: 1114137 -1 1114137
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.stroke.palatalized
+Encoding: 1114138 -1 1114138
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.sonorant.m
+Encoding: 1114139 -1 1114139
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.sonorant.n
+Encoding: 1114140 -1 1114140
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.sonorant.q
+Encoding: 1114141 -1 1114141
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.sonorant.l
+Encoding: 1114142 -1 1114142
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.sonorant.c
+Encoding: 1114143 -1 1114143
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.sonorant.r
+Encoding: 1114144 -1 1114144
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.plosive.p
+Encoding: 1114145 -1 1114145
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.plosive.t
+Encoding: 1114146 -1 1114146
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.plosive.k
+Encoding: 1114147 -1 1114147
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.plosive.b
+Encoding: 1114148 -1 1114148
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.plosive.d
+Encoding: 1114149 -1 1114149
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.plosive.g
+Encoding: 1114150 -1 1114150
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.unpalatalized.f
+Encoding: 1114151 -1 1114151
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.unpalatalized.s
+Encoding: 1114152 -1 1114152
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.unpalatalized.x
+Encoding: 1114153 -1 1114153
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.unpalatalized.v
+Encoding: 1114154 -1 1114154
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.unpalatalized.z
+Encoding: 1114155 -1 1114155
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.unpalatalized.nh
+Encoding: 1114156 -1 1114156
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.palatalized.th
+Encoding: 1114157 -1 1114157
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.palatalized.sh
+Encoding: 1114158 -1 1114158
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.palatalized.lh
+Encoding: 1114159 -1 1114159
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.palatalized.w
+Encoding: 1114160 -1 1114160
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.palatalized.zh
+Encoding: 1114161 -1 1114161
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.palatalized.rh
+Encoding: 1114162 -1 1114162
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.stroke.plosive
+Encoding: 1114163 -1 1114163
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.stroke.unpalatalized
+Encoding: 1114164 -1 1114164
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.stroke.palatalized
+Encoding: 1114165 -1 1114165
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.cap-line.start
+Encoding: 1114166 -1 1114166
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.cap-line.middle
+Encoding: 1114167 -1 1114167
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.cap-line.end
+Encoding: 1114168 -1 1114168
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 EndChars
 EndSplineFont

@@ -296,13 +296,45 @@ Vyentei emojis, Zoitei, Korean
    - `U+F6845`: Fullwidth Close Quote '»'
    - `U+F6846`: Zoitei y-
    - `U+F6847`: Zoitei u-
-   - `U+F6848`: Zoitei Modifier Disconnect
-   - `U+F6849`: Zoitei Modifier Circle (Alternate Sound)
-   - `U+F684A`: Zoitei Modifier Tone Bend Up
-   - `U+F684B`: Zoitei Modifier Tone Bend Down
-   - `U+F684C`: Zoitei Modifier Tone Warble `~~~`
-   - `U+F684D`: Zoitei Modifier Vocal Fry `---`
-   - `U+F684E`: Zoitei Modifier Whisper
-   - `U+F684F`: Zoitei Modified Yell
+   - `U+F6848`: Zoitei aia (between `ah` and `ia`)
+   - `U+F6849`: Zoitei eae (between `eh` and `ea`)
+   - `U+F684A`: Zoitei yaia (between `yah` and `yia`)
+   - `U+F684B`: Zoitei yeae (between `yeh` and `yea`)
+   - `U+F684C`: Zoitei uaia (between `uah` and `uia`)
+   - `U+F684D`: Zoitei ueae (between `ueh` and `uea`)
+   - `U+F684E`: Zoitei iau (between `ao` and `au`)
+   - `U+F684F`: Zoitei aeu (between `eo` and `eu`)
+   - `U+F6850`: Zoitei yiau (between `yao` and `yau`)
+   - `U+F6851`: Zoitei yaeu (between `yeo` and `yeu`)
+   - `U+F6852`: Zoitei uiau (between `uao` and `uau`)
+   - `U+F6853`: Zoitei uaeu (between `ueo` and `ueu`)
+   - `U+F6854`: Zoitei iay (between `ai` and `ay`)
+   - `U+F6855`: Zoitei aey (between `ei` and `ey`)
+   - `U+F6856`: Zoitei yiay (between `yai` and `yay`)
+   - `U+F6857`: Zoitei yaey (between `yei` and `yey`)
+   - `U+F6858`: Zoitei uiay (between `uai` and `uay`)
+   - `U+F6859`: Zoitei uaey (between `uei` and `uey`)
+   - `U+F685A`: Zoitei ioy (between `oi` and `oy`)
+   - `U+F685B`: Zoitei yioy (between `yoi` and `yoy`)
+   - `U+F685C`: Zoitei uioy (between `uoi` and `uoy`)
+   - `U+F685D`: Zoitei Modifier Low Pitch / Deep
+   - `U+F685E`: Zoitei Modifier High Pitch / Falsetto
+   - `U+F685F`: Zoitei Modifier Disconnected / Isolated
+   - `U+F6860`: Zoitei Modifier Circle (Alternate Sound)
+   - `U+F6861`: Zoitei Modifier Monotone / Robotic
+   - `U+F6862`: Zoitei Modifier Tone Bend Up
+   - `U+F6863`: Zoitei Modifier Tone Bend Down
+   - `U+F6864`: Zoitei Modifier Tone Warble `~~~`
+   - `U+F6865`: Zoitei Modifier Vocal Fry `---`
+   - `U+F6866`: Zoitei Modifier Whispery
+   - `U+F6867`: Zoitei Modified Yell
+   - `U+F6868`: Zoitei Modifier Thought
+   - `U+F6869`: Zoitei Modifier Scream
+   - `U+F686A`: Zoitei Modifier Hoarse
+   - `U+F686B`: Zoitei Modifier Song
+   - `U+F686C`: Zoitei Modifier Squeal / Screetch
+   - `U+F686D`: Zoitei Modifier Shaky
+   - `U+F686E`: Zoitei Modifier Nasal
+   - `U+F686F`: Zoitei Modifier Voiced
  - Korean Alphabet
  - Emojis

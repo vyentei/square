@@ -353,6 +353,28 @@ Width: 2048
 Flags: W
 LayerCount: 2
 EndChar
+StartChar: zoitei.silence.H
+Encoding: 1009728 1009728 1009728
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+144 1412 m 0
+288 1412 l 0
+288 604 l 0
+1760 604 l 0
+1760 1412 l 0
+1904 1412 l 0
+1904 -348 l 0
+1760 -348 l 0
+1760 460 l 0
+288 460 l 0
+288 -348 l 0
+144 -348 l 0
+144 1412 l 0
+EndSplineSet
+EndChar
 StartChar: .zoitei.sonorant.m
 Encoding: 1114112 -1 1114112
 Width: 2048

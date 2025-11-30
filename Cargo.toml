@@ -1,0 +1,6 @@
+[package]
+name = "square"
+edition = "2024"
+
+[dependencies.usvg]
+version = "0.45.1"

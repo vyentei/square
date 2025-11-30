@@ -317,24 +317,73 @@ Vyentei emojis, Zoitei, Korean
    - `U+F685A`: Zoitei ioy (between `oi` and `oy`)
    - `U+F685B`: Zoitei yioy (between `yoi` and `yoy`)
    - `U+F685C`: Zoitei uioy (between `uoi` and `uoy`)
-   - `U+F685D`: Zoitei Modifier Low Pitch / Deep
-   - `U+F685E`: Zoitei Modifier High Pitch / Falsetto
-   - `U+F685F`: Zoitei Modifier Disconnected / Isolated
-   - `U+F6860`: Zoitei Modifier Circle (Alternate Sound)
-   - `U+F6861`: Zoitei Modifier Monotone / Robotic
-   - `U+F6862`: Zoitei Modifier Tone Bend Up
-   - `U+F6863`: Zoitei Modifier Tone Bend Down
-   - `U+F6864`: Zoitei Modifier Tone Warble `~~~`
-   - `U+F6865`: Zoitei Modifier Vocal Fry `---`
-   - `U+F6866`: Zoitei Modifier Whispery
-   - `U+F6867`: Zoitei Modifier Yell
-   - `U+F6868`: Zoitei Modifier Thought
-   - `U+F6869`: Zoitei Modifier Scream
-   - `U+F686A`: Zoitei Modifier Hoarse
-   - `U+F686B`: Zoitei Modifier Song
-   - `U+F686C`: Zoitei Modifier Squeal / Screetch
-   - `U+F686D`: Zoitei Modifier Shaky
-   - `U+F686E`: Zoitei Modifier Nasal
-   - `U+F686F`: Zoitei Modifier Voiced
+   - `U+F685D`: Zoitei Cap Line Modifier Low Pitch / Deep (alt: Guao)
+   - `U+F685E`: Zoitei Cap Line Modifier High Pitch / Falsetto (alt: Byao)
+   - `U+F685F`: Zoitei Cap Line Modifier Vocal Fry `---` (alt: Jiyu)
+   - `U+F6860`: Zoitei Cap Line Modifier Monotone / Robotic (alt: Warble Pitch)
+   - `U+F6861`: Zoitei Cap Line Modifier Rising Pitch (alt: Falling Pitch)
+   - `U+F6862`: Zoitei Cap Line Modifier Nasal (alt: Gutteral)
+   - `U+F6863`: Zoitei Cap Line Modifier Shaky (alt: Steady)
+   - `U+F6864`: Zoitei Cap Line Modifier Voiced (alt: Unvoiced)
+   - `U+F6865`: Zoitei Cap Line Modifier Thought (alt: Internalized Prayer)
+   - `U+F6866`: Zoitei Cap Line Modifier Whispery (alt: Ethereal)
+   - `U+F6867`: Zoitei Cap Line Modifier Yell (alt: Demonic)
+   - `U+F6868`: Zoitei Cap Line Modifier Scream (alt: Squeal / Screetch)
+   - `U+F6869`: Zoitei Cap Line Modifier Hoarse (alt: Breathy)
+   - `U+F686A`: Zoitei Cap Line Modifier Song (alt: Rap)
+   - `U+F686B`: Zoitei Cap Line Modifier Circled (alt: Boxed)
+   - `U+F686C`: Zoitei Cap Line Modifier Upside-down / Turned
+   - `U+F686D`: Zoitei Cap Line Modifier Disconnected / Isolated
+   - `U+F686E`: Zoitei Cap Line Modifier Square - Alternate Vowel Sound
+   - `U+F686F`: Zoitei Cap Line Modifier Circle - Alternate Consonant Sound
+   - `U+F6870`: Zoitei Consonant + Vowel 'yh' to 'uoa' / '-uo', 'm' to 'ř'
+   - …
+   - `U+F6F30`: Zoitei Combining Consonant 'm' to 'ř'
+   - …
+   - `U+F6F48`: Zoitei Cap Line Modifier Quiet (alt: Loud)
+   - `U+F6F49`: Zoitei Cap Line Modifier Short / Fast (alt: Long / Slow)
+   - `U+F6F4A`: Zoitei Cap Line Modifier Intense (alt: Wandering)
+   - `U+F6F4B`: Zoitei Cap Line Modifier Slurred (alt: Articulated)
+   - `U+F6F4C`: Zoitei Cap Line Modifier Creaky Voice (alt: Stutter)
+   - `U+F6F4D`: Zoitei Cap Line Modifier Pitch Vibrato (alt: Volume Tremolo)
+   - `U+F6F4E`: Zoitei Cap Line Modifier Modifier Slight (alt: Modifier Double)
+   - `U+F6F4F`: Zoitei Cap Line Modifier Modifier Alternate
+   - `U+F6F50`: Zoitei Consonant 'm' + 12/21/31/41
+   - `U+F6F51`: Zoitei Consonant 'm' + 13/23/32/42
+   - `U+F6F52`: Zoitei Consonant 'm' + 14/24/34/43
+   - …
+   - `U+F6F95`: Zoitei Consonant 'ř' + 12/21/31/41
+   - `U+F6F96`: Zoitei Consonant 'ř' + 13/23/32/42
+   - `U+F6F97`: Zoitei Consonant 'ř' + 14/24/34/43
+   - `U+F6F98`: Zoitei Consonant 12/21/31/41 + 'm'
+   - `U+F6F99`: Zoitei Consonant 13/23/32/42 + 'm'
+   - `U+F6F9A`: Zoitei Consonant 14/24/34/43 + 'm'
+   - …
+   - `U+F6FDD`: Zoitei Consonant 12/21/31/41 + 'ř'
+   - `U+F6FDE`: Zoitei Consonant 13/23/32/42 + 'ř'
+   - `U+F6FDF`: Zoitei Consonant 14/24/34/43 + 'ř'
+   - `U+F6FE0`: Zoitei Number 0x0
+   - …
+   - `U+F6FEF`: Zoitei Number 0xF
+   - `U+F6FF0`: Zoitei Number Negative Symbol
+   - `U+F6FF1`: Zoitei Number Positive Symbol
+   - `U+F6FF2`: Zoitei Number Decimal Symbol
+   - `U+F6FF3`: Zoitei Number Separator Symbol
+   - `U+F6FF4`: Zoitei Number ± Symbol
+   - `U+F6FF5`: Zoitei Number Imaginary Symbol
+   - `U+F6FF6`: Zoitei Number Decimal Base Modifier
+   - `U+F6FF7`: Zatei Monetary Symbol
+   - `U+F6FF8`: Hundred (0x100 / 100) - Alt: Trillion
+   - `U+F6FF9`: Ten-Thousand / Thousand (0x1\_0000 / 1\_000) - Alt: Quadrillion
+   - `U+F6FFA`: Hundred-Million / Million (0x1\_0000\_0000 / 1\_000\_000) -
+     Alt: Quintillion
+   - `U+F6FFB`: Trillion / Billion (0x1\_0000\_0000\_0000 / 1\_000\_000\_000) -
+     Alt: Sextillion
+   - `U+F6FFC`: Binary Modifier
+   - `U+F6FFD`: Decimal Modifier
+   - `U+F6FFE`: Zoitei Alternate Modifier
+   - `U+F6FFF`: Future Flag Emoji
+     - `U+F6D62`: ZWJ with Symbol 'zah', "Zatei Flag"
+     - `U+F6D42`: ZWJ with Symbol 'xi' "Xiykya Flag"
  - Korean Alphabet
  - Emojis

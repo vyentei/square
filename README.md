@@ -381,9 +381,9 @@ Vyentei emojis, Zoitei, Korean
      Alt: Sextillion
    - `U+F6FFC`: Binary Modifier
    - `U+F6FFD`: Decimal Modifier
-   - `U+F6FFE`: Zoitei Alternate Modifier
-   - `U+F6FFF`: Future Flag Emoji
+   - `U+F6FFE`: Future Flag Emoji
      - `U+F6D62`: ZWJ with Symbol 'zah', "Zatei Flag"
      - `U+F6D42`: ZWJ with Symbol 'xi' "Xiykya Flag"
+   - `U+F6FFF`: Zoitei Alternate Modifier
  - Korean Alphabet
  - Emojis

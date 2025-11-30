@@ -29,7 +29,10 @@ Vyentei emojis, Zoitei, Korean
    - `U+FFE4`: Fullwidth broken bar 
    - `U+FFE5`: Fullwidth yen sign
    - `U+FFE6`: Fullwidth won sign
- - Zoitei Script
+ - Zoitei Script (uses `U+200B` (ZWSP) zero width space for word separation,
+   `U+2060` (word joiner/ZWNBSP replacement) for non-breaking word separation,
+   and `U+200C` (ZWNJ) for breaking up ligatures; `U+2067` (RLI) should start
+   the text and `U+2069` (PDI) should end it)
    - `U+F6000`: Zoitei 'm'
    - `U+F6001`: Zoitei 'p'
    - `U+F6002`: Zoitei 'f'

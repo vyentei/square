@@ -28,12 +28,12 @@ fn read(glyph_name: &str) -> String {
                 for segment in segments.iter().rev() {
                     match segment {
                         PathSegment::MoveTo(Point { x, y }) => {
-                            let y = 1556.0 - y;
+                            let y = 1628.0 - y;
 
                             output.push_str(&format!("{x} {y} m 0\n"));
                         }
                         PathSegment::LineTo(Point { x, y }) => {
-                            let y = 1556.0 - y;
+                            let y = 1628.0 - y;
 
                             output.push_str(&format!("{x} {y} l 0\n"));
                         }

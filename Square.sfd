@@ -921,29 +921,47 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.cap-line.start
+StartChar: zoitei.cap-line.start
 Encoding: 1114166 -1 1114166
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+SplineSet
+1698 1556 m 0
+0 1556 l 0
+0 1388 l 0
+1698 1388 l 0
+1698 1556 l 0
+EndSplineSet
 EndChar
-StartChar: .zoitei.cap-line.middle
+StartChar: zoitei.cap-line.middle
 Encoding: 1114167 -1 1114167
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+SplineSet
+0 1556 m 0
+2048 1556 l 0
+2048 1388 l 0
+0 1388 l 0
+0 1556 l 0
+EndSplineSet
 EndChar
-StartChar: .zoitei.cap-line.end
+StartChar: zoitei.cap-line.end
 Encoding: 1114168 -1 1114168
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+SplineSet
+2048 1556 m 0
+350 1556 l 0
+350 1388 l 0
+2048 1388 l 0
+2048 1556 l 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

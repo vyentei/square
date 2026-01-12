@@ -93,22 +93,10 @@ fn read(glyph_name: &str) -> String {
                 let Some(path) = replace_close_segments(path.data()) else {
                     panic!("failed to contruct path without close")
                 };
-
-                let segments: Vec<_> = path.segments().collect();
-
-                if glyph_name == "zoitei.sonorant.q" {
-                    dbg!(&segments);
-                }
-
                 let Some(path) = reverse_path_segments(&path) else {
                     panic!("Failed to reverse path")
                 };
                 let segments: Vec<_> = path.segments().collect();
-
-                if glyph_name == "zoitei.sonorant.q" {
-                    dbg!(&segments);
-                }
-
                 let mut last_position = None;
 
                 // Render segments
@@ -164,6 +152,19 @@ fn read(glyph_name: &str) -> String {
 fn main() {
     use std::io::{BufRead, Write};
 
+    // Generate file with all the font's characters
+    let mut chars = String::new();
+
+    chars.push_str("Character List for ");
+    // Unicode equivalent of <bdo dir = "rtl">
+    chars.extend([
+        '\u{202A}', // FSI - For embedding
+        '\u{202E}', // RLO
+        'z', 'o', 'i', 't', 'e', 'i', '\u{202C}', // PDF
+        '\u{2069}', // PDI - For embedding
+        ':', '\n', '\u{202E}', // RLO
+    ]);
+
     let input_font = std::fs::File::open("./Square.sfd").unwrap();
     let input_font = std::io::BufReader::new(input_font);
     let output_font = std::fs::File::create("./.Square.sfd").unwrap();
@@ -171,11 +172,15 @@ fn main() {
     let mut current_spline: Option<String> = None;
     let mut in_fore = false;
     let mut lines = input_font.lines();
+    let mut is_zoitei = false;
 
     while let Some(Ok(mut line)) = lines.next() {
         if let Some(name) = line.strip_prefix("StartChar: ") {
             if name.starts_with("zoitei.") {
                 current_spline = Some(read(name));
+                is_zoitei = true;
+            } else if name.starts_with("composite.zoitei") {
+                is_zoitei = true;
             }
         } else if line == "EndChar" {
             current_spline = None;
@@ -188,6 +193,14 @@ fn main() {
             line.push_str(spline.as_str());
             line.push_str("EndSplineSet\n");
             output_font.write_all(line.as_bytes()).unwrap();
+        } else if let Some(encoding) = line.strip_prefix("Encoding: ")
+            && is_zoitei
+        {
+            let encoding = encoding.split(' ').next().unwrap().parse().unwrap();
+
+            if let Some(character) = char::from_u32(encoding) {
+                chars.push(character);
+            }
         }
 
         if !in_fore {
@@ -198,4 +211,8 @@ fn main() {
 
     drop((lines, output_font));
     std::fs::rename("./.Square.sfd", "./Square.sfd").unwrap();
+
+    // PDF
+    chars.extend(['\u{202C}']);
+    std::fs::write("chars_zoitei.txt", chars).unwrap();
 }

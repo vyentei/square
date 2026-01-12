@@ -47,7 +47,7 @@ UnicodeInterp: none
 NameList: AGL without afii
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 1114165 5
+BeginChars: 1114169 99
 StartChar: .notdef
 Encoding: 0 0 0
 Width: 2048

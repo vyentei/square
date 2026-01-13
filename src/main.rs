@@ -167,6 +167,12 @@ fn generate(glyph: &str) -> String {
     let fullwidth_consonant = |gn: &mut String, index: u32| {
         refer_at(gn, 1114112 + index, (-584, 0));
     };
+    let syllable_consonant = |gn: &mut String, index: u32| {
+        // Fullwidth
+        refer(gn, 1114139 + index);
+        // Middle / Standalone Cap line
+        refer(gn, 1114164);
+    };
 
     match glyph {
         // generated base consonant glyphs
@@ -181,7 +187,7 @@ fn generate(glyph: &str) -> String {
         "zoitei.unpalatalized.x" => sonorant_modifier(&mut g, 2, 1),
         "zoitei.unpalatalized.v" => sonorant_modifier(&mut g, 3, 1),
         "zoitei.unpalatalized.z" => sonorant_modifier(&mut g, 4, 1),
-        "zoitei.unpalatalized.nh" => sonorant_modifier(&mut g,  5, 1),
+        "zoitei.unpalatalized.nh" => sonorant_modifier(&mut g, 5, 1),
         "zoitei.palatalized.th" => sonorant_modifier(&mut g, 0, 2),
         "zoitei.palatalized.sh" => sonorant_modifier(&mut g, 1, 2),
         "zoitei.palatalized.lh" => sonorant_modifier(&mut g, 2, 2),
@@ -201,8 +207,8 @@ fn generate(glyph: &str) -> String {
         "zoitei.fullwidth.plosive.b" => fullwidth_consonant(&mut g, 9),
         "zoitei.fullwidth.plosive.d" => fullwidth_consonant(&mut g, 10),
         "zoitei.fullwidth.plosive.g" => fullwidth_consonant(&mut g, 11),
-        "zoitei.fullwidth.unpalatalized.f" => fullwidth_consonant(&mut g, 2),
-        "zoitei.fullwidth.unpalatalized.s" => fullwidth_consonant(&mut g, 3),
+        "zoitei.fullwidth.unpalatalized.f" => fullwidth_consonant(&mut g, 12),
+        "zoitei.fullwidth.unpalatalized.s" => fullwidth_consonant(&mut g, 13),
         "zoitei.fullwidth.unpalatalized.x" => fullwidth_consonant(&mut g, 14),
         "zoitei.fullwidth.unpalatalized.v" => fullwidth_consonant(&mut g, 15),
         "zoitei.fullwidth.unpalatalized.z" => fullwidth_consonant(&mut g, 16),
@@ -213,6 +219,31 @@ fn generate(glyph: &str) -> String {
         "zoitei.fullwidth.palatalized.w" => fullwidth_consonant(&mut g, 21),
         "zoitei.fullwidth.palatalized.zh" => fullwidth_consonant(&mut g, 22),
         "zoitei.fullwidth.palatalized.rh" => fullwidth_consonant(&mut g, 23),
+        // generated syllable consonants
+        "zoitei.syllable.l" => syllable_consonant(&mut g, 0),
+        "zoitei.syllable.c" => syllable_consonant(&mut g, 1),
+        "zoitei.syllable.r" => syllable_consonant(&mut g, 2),
+        "zoitei.syllable.m" => syllable_consonant(&mut g, 3),
+        "zoitei.syllable.n" => syllable_consonant(&mut g, 4),
+        "zoitei.syllable.q" => syllable_consonant(&mut g, 5),
+        "zoitei.syllable.p" => syllable_consonant(&mut g, 6),
+        "zoitei.syllable.t" => syllable_consonant(&mut g, 7),
+        "zoitei.syllable.k" => syllable_consonant(&mut g, 8),
+        "zoitei.syllable.b" => syllable_consonant(&mut g, 9),
+        "zoitei.syllable.d" => syllable_consonant(&mut g, 10),
+        "zoitei.syllable.g" => syllable_consonant(&mut g, 11),
+        "zoitei.syllable.f" => syllable_consonant(&mut g, 12),
+        "zoitei.syllable.s" => syllable_consonant(&mut g, 13),
+        "zoitei.syllable.x" => syllable_consonant(&mut g, 14),
+        "zoitei.syllable.v" => syllable_consonant(&mut g, 15),
+        "zoitei.syllable.z" => syllable_consonant(&mut g, 16),
+        "zoitei.syllable.nh" => syllable_consonant(&mut g, 17),
+        "zoitei.syllable.th" => syllable_consonant(&mut g, 18),
+        "zoitei.syllable.sh" => syllable_consonant(&mut g, 19),
+        "zoitei.syllable.lh" => syllable_consonant(&mut g, 20),
+        "zoitei.syllable.w" => syllable_consonant(&mut g, 21),
+        "zoitei.syllable.zh" => syllable_consonant(&mut g, 22),
+        "zoitei.syllable.rh" => syllable_consonant(&mut g, 23),
         _ => panic!("unknown generated glyph {glyph}"),
     }
 
@@ -252,9 +283,8 @@ fn main() {
             if name.starts_with("zoitei.") {
                 current_spline = Some(read(name));
                 is_zoitei = true;
-            } else if name.starts_with("composite.zoitei") {
-                is_zoitei = true;
             } else if let Some(glyph) = name.strip_prefix("generated.") {
+                is_zoitei = true;
                 current_spline = Some(String::new());
                 generated = Some(generate(glyph));
             }
@@ -284,6 +314,12 @@ fn main() {
             if let Some(character) = char::from_u32(encoding) {
                 chars.push(character);
             }
+
+            // Where to start a new paragraph
+            if matches!(encoding, 0xF600B | 0xF6017) {
+                // PDF, newline, RLO
+                chars.extend(['\u{202C}', '\n', '\u{202E}']);
+            }
         }
 
         if !in_fore {
@@ -296,6 +332,6 @@ fn main() {
     std::fs::rename("./.Square.sfd", "./Square.sfd").unwrap();
 
     // PDF
-    chars.extend(['\u{202C}']);
+    chars.push('\u{202C}');
     std::fs::write("chars_zoitei.txt", chars).unwrap();
 }

@@ -153,38 +153,70 @@ fn read(glyph_name: &str) -> String {
 fn generate(glyph: &str) -> String {
     use std::fmt::Write;
 
-    let mut generated = String::new();
-    let mut refer = |number: u32| {
-        writeln!(&mut generated, "Refer: {number} -1 N 1 0 0 1 0 0 1").unwrap();
+    let mut g = String::new();
+    let refer_at = |gn: &mut String, number: u32, (x, y): (i32, i32)| {
+        writeln!(gn, "Refer: {number} -1 N 1 0 0 1 {x} {y} 1").unwrap();
     };
-    let mut sonorant_modifier = |sonorant: u32, modifier: u32| {
-        refer(1114112 + sonorant);
-        refer(1114136 + modifier);
+    let refer = |gn: &mut String, number: u32| {
+        refer_at(gn, number, (0, 0));
+    };
+    let sonorant_modifier = |gn: &mut String, sonorant: u32, modifier: u32| {
+        refer(gn, 1114112 + sonorant);
+        refer(gn, 1114136 + modifier);
+    };
+    let fullwidth_consonant = |gn: &mut String, index: u32| {
+        refer_at(gn, 1114112 + index, (-584, 0));
     };
 
     match glyph {
-        "zoitei.plosive.p" => sonorant_modifier(0, 0),
-        "zoitei.plosive.t" => sonorant_modifier(1, 0),
-        "zoitei.plosive.k" => sonorant_modifier(2, 0),
-        "zoitei.plosive.b" => sonorant_modifier(3, 0),
-        "zoitei.plosive.d" => sonorant_modifier(4, 0),
-        "zoitei.plosive.g" => sonorant_modifier(5, 0),
-        "zoitei.unpalatalized.f" => sonorant_modifier(0, 1),
-        "zoitei.unpalatalized.s" => sonorant_modifier(1, 1),
-        "zoitei.unpalatalized.x" => sonorant_modifier(2, 1),
-        "zoitei.unpalatalized.v" => sonorant_modifier(3, 1),
-        "zoitei.unpalatalized.z" => sonorant_modifier(4, 1),
-        "zoitei.unpalatalized.nh" => sonorant_modifier(5, 1),
-        "zoitei.palatalized.th" => sonorant_modifier(0, 2),
-        "zoitei.palatalized.sh" => sonorant_modifier(1, 2),
-        "zoitei.palatalized.lh" => sonorant_modifier(2, 2),
-        "zoitei.palatalized.w" => sonorant_modifier(3, 2),
-        "zoitei.palatalized.zh" => sonorant_modifier(4, 2),
-        "zoitei.palatalized.rh" => sonorant_modifier(5, 2),
+        // generated base consonant glyphs
+        "zoitei.plosive.p" => sonorant_modifier(&mut g, 0, 0),
+        "zoitei.plosive.t" => sonorant_modifier(&mut g, 1, 0),
+        "zoitei.plosive.k" => sonorant_modifier(&mut g, 2, 0),
+        "zoitei.plosive.b" => sonorant_modifier(&mut g, 3, 0),
+        "zoitei.plosive.d" => sonorant_modifier(&mut g, 4, 0),
+        "zoitei.plosive.g" => sonorant_modifier(&mut g, 5, 0),
+        "zoitei.unpalatalized.f" => sonorant_modifier(&mut g, 0, 1),
+        "zoitei.unpalatalized.s" => sonorant_modifier(&mut g, 1, 1),
+        "zoitei.unpalatalized.x" => sonorant_modifier(&mut g, 2, 1),
+        "zoitei.unpalatalized.v" => sonorant_modifier(&mut g, 3, 1),
+        "zoitei.unpalatalized.z" => sonorant_modifier(&mut g, 4, 1),
+        "zoitei.unpalatalized.nh" => sonorant_modifier(&mut g,  5, 1),
+        "zoitei.palatalized.th" => sonorant_modifier(&mut g, 0, 2),
+        "zoitei.palatalized.sh" => sonorant_modifier(&mut g, 1, 2),
+        "zoitei.palatalized.lh" => sonorant_modifier(&mut g, 2, 2),
+        "zoitei.palatalized.w" => sonorant_modifier(&mut g, 3, 2),
+        "zoitei.palatalized.zh" => sonorant_modifier(&mut g, 4, 2),
+        "zoitei.palatalized.rh" => sonorant_modifier(&mut g, 5, 2),
+        // generated fullwidth consonants
+        "zoitei.fullwidth.sonorant.l" => fullwidth_consonant(&mut g, 0),
+        "zoitei.fullwidth.sonorant.c" => fullwidth_consonant(&mut g, 1),
+        "zoitei.fullwidth.sonorant.r" => fullwidth_consonant(&mut g, 2),
+        "zoitei.fullwidth.sonorant.m" => fullwidth_consonant(&mut g, 3),
+        "zoitei.fullwidth.sonorant.n" => fullwidth_consonant(&mut g, 4),
+        "zoitei.fullwidth.sonorant.q" => fullwidth_consonant(&mut g, 5),
+        "zoitei.fullwidth.plosive.p" => fullwidth_consonant(&mut g, 6),
+        "zoitei.fullwidth.plosive.t" => fullwidth_consonant(&mut g, 7),
+        "zoitei.fullwidth.plosive.k" => fullwidth_consonant(&mut g, 8),
+        "zoitei.fullwidth.plosive.b" => fullwidth_consonant(&mut g, 9),
+        "zoitei.fullwidth.plosive.d" => fullwidth_consonant(&mut g, 10),
+        "zoitei.fullwidth.plosive.g" => fullwidth_consonant(&mut g, 11),
+        "zoitei.fullwidth.unpalatalized.f" => fullwidth_consonant(&mut g, 2),
+        "zoitei.fullwidth.unpalatalized.s" => fullwidth_consonant(&mut g, 3),
+        "zoitei.fullwidth.unpalatalized.x" => fullwidth_consonant(&mut g, 14),
+        "zoitei.fullwidth.unpalatalized.v" => fullwidth_consonant(&mut g, 15),
+        "zoitei.fullwidth.unpalatalized.z" => fullwidth_consonant(&mut g, 16),
+        "zoitei.fullwidth.unpalatalized.nh" => fullwidth_consonant(&mut g, 17),
+        "zoitei.fullwidth.palatalized.th" => fullwidth_consonant(&mut g, 18),
+        "zoitei.fullwidth.palatalized.sh" => fullwidth_consonant(&mut g, 19),
+        "zoitei.fullwidth.palatalized.lh" => fullwidth_consonant(&mut g, 20),
+        "zoitei.fullwidth.palatalized.w" => fullwidth_consonant(&mut g, 21),
+        "zoitei.fullwidth.palatalized.zh" => fullwidth_consonant(&mut g, 22),
+        "zoitei.fullwidth.palatalized.rh" => fullwidth_consonant(&mut g, 23),
         _ => panic!("unknown generated glyph {glyph}"),
     }
 
-    generated
+    g
 }
 
 fn main() {

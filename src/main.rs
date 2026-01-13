@@ -149,6 +149,44 @@ fn read(glyph_name: &str) -> String {
     output
 }
 
+/// Generate a glyph by referencing other glyphs
+fn generate(glyph: &str) -> String {
+    use std::fmt::Write;
+
+    let mut generated = String::new();
+    let mut refer = |number: u32| {
+        writeln!(&mut generated, "Refer: {number} -1 N 1 0 0 1 0 0 1").unwrap();
+    };
+    let mut sonorant_modifier = |sonorant: u32, modifier: u32| {
+        refer(1114112 + sonorant);
+        refer(1114136 + modifier);
+    };
+
+    match glyph {
+        "zoitei.plosive.p" => sonorant_modifier(0, 0),
+        "zoitei.plosive.t" => sonorant_modifier(1, 0),
+        "zoitei.plosive.k" => sonorant_modifier(2, 0),
+        "zoitei.plosive.b" => sonorant_modifier(3, 0),
+        "zoitei.plosive.d" => sonorant_modifier(4, 0),
+        "zoitei.plosive.g" => sonorant_modifier(5, 0),
+        "zoitei.unpalatalized.f" => sonorant_modifier(0, 1),
+        "zoitei.unpalatalized.s" => sonorant_modifier(1, 1),
+        "zoitei.unpalatalized.x" => sonorant_modifier(2, 1),
+        "zoitei.unpalatalized.v" => sonorant_modifier(3, 1),
+        "zoitei.unpalatalized.z" => sonorant_modifier(4, 1),
+        "zoitei.unpalatalized.nh" => sonorant_modifier(5, 1),
+        "zoitei.palatalized.th" => sonorant_modifier(0, 2),
+        "zoitei.palatalized.sh" => sonorant_modifier(1, 2),
+        "zoitei.palatalized.lh" => sonorant_modifier(2, 2),
+        "zoitei.palatalized.w" => sonorant_modifier(3, 2),
+        "zoitei.palatalized.zh" => sonorant_modifier(4, 2),
+        "zoitei.palatalized.rh" => sonorant_modifier(5, 2),
+        _ => panic!("unknown generated glyph {glyph}"),
+    }
+
+    generated
+}
+
 fn main() {
     use std::io::{BufRead, Write};
 
@@ -173,14 +211,20 @@ fn main() {
     let mut in_fore = false;
     let mut lines = input_font.lines();
     let mut is_zoitei = false;
+    let mut generated = None;
 
     while let Some(Ok(mut line)) = lines.next() {
         if let Some(name) = line.strip_prefix("StartChar: ") {
+            generated = None;
+
             if name.starts_with("zoitei.") {
                 current_spline = Some(read(name));
                 is_zoitei = true;
             } else if name.starts_with("composite.zoitei") {
                 is_zoitei = true;
+            } else if let Some(glyph) = name.strip_prefix("generated.") {
+                current_spline = Some(String::new());
+                generated = Some(generate(glyph));
             }
         } else if line == "EndChar" {
             current_spline = None;
@@ -189,9 +233,16 @@ fn main() {
             && let Some(spline) = current_spline.take()
         {
             in_fore = true;
-            line.push_str("\nSplineSet\n");
-            line.push_str(spline.as_str());
-            line.push_str("EndSplineSet\n");
+
+            if let Some(ref generated) = generated {
+                line.push_str("\n");
+                line.push_str(generated);
+            } else {
+                line.push_str("\nSplineSet\n");
+                line.push_str(spline.as_str());
+                line.push_str("EndSplineSet\n");
+            }
+
             output_font.write_all(line.as_bytes()).unwrap();
         } else if let Some(encoding) = line.strip_prefix("Encoding: ")
             && is_zoitei

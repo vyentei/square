@@ -112,8 +112,12 @@ fn read(glyph_name: &str) -> String {
         .unwrap_or_else(|e| panic!("Failed to open {svg_path}: {e}"));
     let opt = usvg::Options::default();
     let tree = usvg::Tree::from_str(&input_svg, &opt).unwrap();
+    let output_svg = tree.to_string(&Default::default());
 
-    std::fs::write(svg_path, tree.to_string(&Default::default())).unwrap();
+    if input_svg != output_svg {
+        eprintln!("Formatting {svg_path}");
+        std::fs::write(svg_path, output_svg).unwrap();
+    }
 
     let nodes = tree.root().children();
     let mut output = String::new();

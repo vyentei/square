@@ -164,14 +164,15 @@ fn generate(glyph: &str) -> String {
         refer(gn, 1114112 + sonorant);
         refer(gn, 1114136 + modifier);
     };
-    let fullwidth_consonant = |gn: &mut String, index: u32| {
-        refer_at(gn, 1114112 + index, (-584, 0));
+    let fw_sonorant_modifier = |gn: &mut String, sonorant: u32, modifier: u32| {
+        refer(gn, 1114139 + sonorant);
+        refer(gn, 1114163 + modifier);
     };
     let syllable_consonant = |gn: &mut String, index: u32| {
         // Fullwidth
         refer(gn, 1114139 + index);
         // Middle / Standalone Cap line
-        refer(gn, 1114164);
+        refer(gn, 1114167);
     };
 
     match glyph {
@@ -195,30 +196,24 @@ fn generate(glyph: &str) -> String {
         "zoitei.palatalized.zh" => sonorant_modifier(&mut g, 4, 2),
         "zoitei.palatalized.rh" => sonorant_modifier(&mut g, 5, 2),
         // generated fullwidth consonants
-        "zoitei.fullwidth.sonorant.l" => fullwidth_consonant(&mut g, 0),
-        "zoitei.fullwidth.sonorant.c" => fullwidth_consonant(&mut g, 1),
-        "zoitei.fullwidth.sonorant.r" => fullwidth_consonant(&mut g, 2),
-        "zoitei.fullwidth.sonorant.m" => fullwidth_consonant(&mut g, 3),
-        "zoitei.fullwidth.sonorant.n" => fullwidth_consonant(&mut g, 4),
-        "zoitei.fullwidth.sonorant.q" => fullwidth_consonant(&mut g, 5),
-        "zoitei.fullwidth.plosive.p" => fullwidth_consonant(&mut g, 6),
-        "zoitei.fullwidth.plosive.t" => fullwidth_consonant(&mut g, 7),
-        "zoitei.fullwidth.plosive.k" => fullwidth_consonant(&mut g, 8),
-        "zoitei.fullwidth.plosive.b" => fullwidth_consonant(&mut g, 9),
-        "zoitei.fullwidth.plosive.d" => fullwidth_consonant(&mut g, 10),
-        "zoitei.fullwidth.plosive.g" => fullwidth_consonant(&mut g, 11),
-        "zoitei.fullwidth.unpalatalized.f" => fullwidth_consonant(&mut g, 12),
-        "zoitei.fullwidth.unpalatalized.s" => fullwidth_consonant(&mut g, 13),
-        "zoitei.fullwidth.unpalatalized.x" => fullwidth_consonant(&mut g, 14),
-        "zoitei.fullwidth.unpalatalized.v" => fullwidth_consonant(&mut g, 15),
-        "zoitei.fullwidth.unpalatalized.z" => fullwidth_consonant(&mut g, 16),
-        "zoitei.fullwidth.unpalatalized.nh" => fullwidth_consonant(&mut g, 17),
-        "zoitei.fullwidth.palatalized.th" => fullwidth_consonant(&mut g, 18),
-        "zoitei.fullwidth.palatalized.sh" => fullwidth_consonant(&mut g, 19),
-        "zoitei.fullwidth.palatalized.lh" => fullwidth_consonant(&mut g, 20),
-        "zoitei.fullwidth.palatalized.w" => fullwidth_consonant(&mut g, 21),
-        "zoitei.fullwidth.palatalized.zh" => fullwidth_consonant(&mut g, 22),
-        "zoitei.fullwidth.palatalized.rh" => fullwidth_consonant(&mut g, 23),
+        "zoitei.fullwidth.plosive.p" => fw_sonorant_modifier(&mut g, 0, 0),
+        "zoitei.fullwidth.plosive.t" => fw_sonorant_modifier(&mut g, 1, 0),
+        "zoitei.fullwidth.plosive.k" => fw_sonorant_modifier(&mut g, 2, 0),
+        "zoitei.fullwidth.plosive.b" => fw_sonorant_modifier(&mut g, 3, 0),
+        "zoitei.fullwidth.plosive.d" => fw_sonorant_modifier(&mut g, 4, 0),
+        "zoitei.fullwidth.plosive.g" => fw_sonorant_modifier(&mut g, 5, 0),
+        "zoitei.fullwidth.unpalatalized.f" => fw_sonorant_modifier(&mut g, 0, 1),
+        "zoitei.fullwidth.unpalatalized.s" => fw_sonorant_modifier(&mut g, 1, 1),
+        "zoitei.fullwidth.unpalatalized.x" => fw_sonorant_modifier(&mut g, 2, 1),
+        "zoitei.fullwidth.unpalatalized.v" => fw_sonorant_modifier(&mut g, 3, 1),
+        "zoitei.fullwidth.unpalatalized.z" => fw_sonorant_modifier(&mut g, 4, 1),
+        "zoitei.fullwidth.unpalatalized.nh" => fw_sonorant_modifier(&mut g, 5, 1),
+        "zoitei.fullwidth.palatalized.th" => fw_sonorant_modifier(&mut g, 0, 2),
+        "zoitei.fullwidth.palatalized.sh" => fw_sonorant_modifier(&mut g, 1, 2),
+        "zoitei.fullwidth.palatalized.lh" => fw_sonorant_modifier(&mut g, 2, 2),
+        "zoitei.fullwidth.palatalized.w" => fw_sonorant_modifier(&mut g, 3, 2),
+        "zoitei.fullwidth.palatalized.zh" => fw_sonorant_modifier(&mut g, 4, 2),
+        "zoitei.fullwidth.palatalized.rh" => fw_sonorant_modifier(&mut g, 5, 2),
         // generated syllable consonants
         "zoitei.syllable.l" => syllable_consonant(&mut g, 0),
         "zoitei.syllable.c" => syllable_consonant(&mut g, 1),

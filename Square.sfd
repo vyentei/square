@@ -360,7 +360,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114139 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.p
 Encoding: 1007617 1007617 1007617
@@ -369,7 +369,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114145 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.f
 Encoding: 1007618 1007618 1007618
@@ -378,7 +378,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114151 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.th
 Encoding: 1007619 1007619 1007619
@@ -387,7 +387,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114157 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.c
 Encoding: 1007620 1007620 1007620
@@ -396,7 +396,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114140 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.t
 Encoding: 1007621 1007621 1007621
@@ -405,7 +405,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114146 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.s
 Encoding: 1007622 1007622 1007622
@@ -414,7 +414,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114152 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.sh
 Encoding: 1007623 1007623 1007623
@@ -423,7 +423,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114158 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.r
 Encoding: 1007624 1007624 1007624
@@ -432,7 +432,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114141 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.k
 Encoding: 1007625 1007625 1007625
@@ -441,7 +441,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114147 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.x
 Encoding: 1007626 1007626 1007626
@@ -450,7 +450,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114153 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.lh
 Encoding: 1007627 1007627 1007627
@@ -459,7 +459,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114159 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.m
 Encoding: 1007628 1007628 1007628
@@ -468,7 +468,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114142 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.b
 Encoding: 1007629 1007629 1007629
@@ -477,7 +477,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114148 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.v
 Encoding: 1007630 1007630 1007630
@@ -486,7 +486,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114154 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.w
 Encoding: 1007631 1007631 1007631
@@ -495,7 +495,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114160 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.n
 Encoding: 1007632 1007632 1007632
@@ -504,7 +504,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114143 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.d
 Encoding: 1007633 1007633 1007633
@@ -513,7 +513,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114149 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.z
 Encoding: 1007634 1007634 1007634
@@ -522,7 +522,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114155 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.zh
 Encoding: 1007635 1007635 1007635
@@ -531,7 +531,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114161 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.q
 Encoding: 1007636 1007636 1007636
@@ -540,7 +540,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114144 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.g
 Encoding: 1007637 1007637 1007637
@@ -549,7 +549,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114150 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.nh
 Encoding: 1007638 1007638 1007638
@@ -558,7 +558,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114156 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.syllable.rh
 Encoding: 1007639 1007639 1007639
@@ -567,7 +567,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1114162 -1 N 1 0 0 1 0 0 1
-Refer: 1114164 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: zoitei.silence.H
 Encoding: 1009728 1009728 1009728
@@ -1045,53 +1045,137 @@ SplineSet
 1240 1035 l 0
 EndSplineSet
 EndChar
-StartChar: generated.zoitei.fullwidth.sonorant.l
+StartChar: zoitei.fullwidth.sonorant.l
 Encoding: 1114139 -1 1114139
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114112 -1 N 1 0 0 1 -584 0 1
+SplineSet
+934 1472 m 0
+1024 1472 l 0
+1114 1472 l 0
+1114 -4 l 0
+1114 -201 967 -348 770 -348 c 0
+336 -348 l 0
+336 -168 l 0
+740 -168 l 0
+881 -168 934 -115 934 26 c 0
+934 1472 l 0
+EndSplineSet
 EndChar
-StartChar: generated.zoitei.fullwidth.sonorant.c
+StartChar: zoitei.fullwidth.sonorant.c
 Encoding: 1114140 -1 1114140
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114113 -1 N 1 0 0 1 -584 0 1
+SplineSet
+934 1472 m 0
+1114 1472 l 0
+1114 -4 l 0
+1114 -201 967 -348 770 -348 c 0
+680 -348 l 0
+483 -348 336 -201 336 -4 c 0
+336 86 l 0
+336 283 483 430 680 430 c 0
+731 430 l 0
+731 250 l 0
+710 250 l 0
+569 250 516 197 516 56 c 0
+516 26 l 0
+516 -115 569 -168 710 -168 c 0
+740 -168 l 0
+881 -168 934 -115 934 26 c 0
+934 1472 l 0
+EndSplineSet
 EndChar
-StartChar: generated.zoitei.fullwidth.sonorant.r
+StartChar: zoitei.fullwidth.sonorant.r
 Encoding: 1114141 -1 1114141
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114114 -1 N 1 0 0 1 -584 0 1
+SplineSet
+710 250 m 0
+569 250 516 197 516 56 c 0
+516 26 l 0
+516 -115 569 -168 710 -168 c 0
+740 -168 l 0
+881 -168 934 -115 934 26 c 0
+934 250 l 0
+710 250 l 0
+934 1472 m 0
+1114 1472 l 0
+1114 430 l 0
+1712 430 l 0
+1712 250 l 0
+1114 250 l 0
+1114 -4 l 0
+1114 -201 967 -348 770 -348 c 0
+680 -348 l 0
+483 -348 336 -201 336 -4 c 0
+336 86 l 0
+336 283 483 430 680 430 c 0
+934 430 l 0
+934 1472 l 0
+EndSplineSet
 EndChar
-StartChar: generated.zoitei.fullwidth.sonorant.m
+StartChar: zoitei.fullwidth.sonorant.m
 Encoding: 1114142 -1 1114142
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114115 -1 N 1 0 0 1 -584 0 1
+SplineSet
+934 -348 m 0
+934 1472 l 0
+1114 1472 l 0
+1114 -348 l 0
+934 -348 l 0
+EndSplineSet
 EndChar
-StartChar: generated.zoitei.fullwidth.sonorant.n
+StartChar: zoitei.fullwidth.sonorant.n
 Encoding: 1114143 -1 1114143
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114116 -1 N 1 0 0 1 -584 0 1
+SplineSet
+934 1472 m 0
+1114 1472 l 0
+1114 -348 l 0
+934 -348 l 0
+336 250 l 0
+464 378 l 0
+934 -92 l 0
+934 1472 l 0
+EndSplineSet
 EndChar
-StartChar: generated.zoitei.fullwidth.sonorant.q
+StartChar: zoitei.fullwidth.sonorant.q
 Encoding: 1114144 -1 1114144
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114117 -1 N 1 0 0 1 -584 0 1
+SplineSet
+592 250 m 0
+934 -92 l 0
+934 250 l 0
+592 250 l 0
+934 1472 m 0
+1114 1472 l 0
+1114 430 l 0
+1712 430 l 0
+1712 250 l 0
+1114 250 l 0
+1114 -348 l 0
+934 -348 l 0
+336 250 l 0
+336 430 l 0
+934 430 l 0
+934 1472 l 0
+EndSplineSet
 EndChar
 StartChar: generated.zoitei.fullwidth.plosive.p
 Encoding: 1114145 -1 1114145
@@ -1099,7 +1183,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114118 -1 N 1 0 0 1 -584 0 1
+Refer: 1114139 -1 N 1 0 0 1 0 0 1
+Refer: 1114163 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.plosive.t
 Encoding: 1114146 -1 1114146
@@ -1107,7 +1192,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114119 -1 N 1 0 0 1 -584 0 1
+Refer: 1114140 -1 N 1 0 0 1 0 0 1
+Refer: 1114163 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.plosive.k
 Encoding: 1114147 -1 1114147
@@ -1115,7 +1201,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114120 -1 N 1 0 0 1 -584 0 1
+Refer: 1114141 -1 N 1 0 0 1 0 0 1
+Refer: 1114163 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.plosive.b
 Encoding: 1114148 -1 1114148
@@ -1123,7 +1210,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114121 -1 N 1 0 0 1 -584 0 1
+Refer: 1114142 -1 N 1 0 0 1 0 0 1
+Refer: 1114163 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.plosive.d
 Encoding: 1114149 -1 1114149
@@ -1131,7 +1219,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114122 -1 N 1 0 0 1 -584 0 1
+Refer: 1114143 -1 N 1 0 0 1 0 0 1
+Refer: 1114163 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.plosive.g
 Encoding: 1114150 -1 1114150
@@ -1139,7 +1228,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114123 -1 N 1 0 0 1 -584 0 1
+Refer: 1114144 -1 N 1 0 0 1 0 0 1
+Refer: 1114163 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.unpalatalized.f
 Encoding: 1114151 -1 1114151
@@ -1147,7 +1237,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114124 -1 N 1 0 0 1 -584 0 1
+Refer: 1114139 -1 N 1 0 0 1 0 0 1
+Refer: 1114164 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.unpalatalized.s
 Encoding: 1114152 -1 1114152
@@ -1155,7 +1246,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114125 -1 N 1 0 0 1 -584 0 1
+Refer: 1114140 -1 N 1 0 0 1 0 0 1
+Refer: 1114164 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.unpalatalized.x
 Encoding: 1114153 -1 1114153
@@ -1163,7 +1255,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114126 -1 N 1 0 0 1 -584 0 1
+Refer: 1114141 -1 N 1 0 0 1 0 0 1
+Refer: 1114164 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.unpalatalized.v
 Encoding: 1114154 -1 1114154
@@ -1171,7 +1264,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114127 -1 N 1 0 0 1 -584 0 1
+Refer: 1114142 -1 N 1 0 0 1 0 0 1
+Refer: 1114164 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.unpalatalized.z
 Encoding: 1114155 -1 1114155
@@ -1179,7 +1273,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114128 -1 N 1 0 0 1 -584 0 1
+Refer: 1114143 -1 N 1 0 0 1 0 0 1
+Refer: 1114164 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.unpalatalized.nh
 Encoding: 1114156 -1 1114156
@@ -1187,7 +1282,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114129 -1 N 1 0 0 1 -584 0 1
+Refer: 1114144 -1 N 1 0 0 1 0 0 1
+Refer: 1114164 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.palatalized.th
 Encoding: 1114157 -1 1114157
@@ -1195,7 +1291,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114130 -1 N 1 0 0 1 -584 0 1
+Refer: 1114139 -1 N 1 0 0 1 0 0 1
+Refer: 1114165 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.palatalized.sh
 Encoding: 1114158 -1 1114158
@@ -1203,7 +1300,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114131 -1 N 1 0 0 1 -584 0 1
+Refer: 1114140 -1 N 1 0 0 1 0 0 1
+Refer: 1114165 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.palatalized.lh
 Encoding: 1114159 -1 1114159
@@ -1211,7 +1309,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114132 -1 N 1 0 0 1 -584 0 1
+Refer: 1114141 -1 N 1 0 0 1 0 0 1
+Refer: 1114165 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.palatalized.w
 Encoding: 1114160 -1 1114160
@@ -1219,7 +1318,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114133 -1 N 1 0 0 1 -584 0 1
+Refer: 1114142 -1 N 1 0 0 1 0 0 1
+Refer: 1114165 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.palatalized.zh
 Encoding: 1114161 -1 1114161
@@ -1227,7 +1327,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114134 -1 N 1 0 0 1 -584 0 1
+Refer: 1114143 -1 N 1 0 0 1 0 0 1
+Refer: 1114165 -1 N 1 0 0 1 0 0 1
 EndChar
 StartChar: generated.zoitei.fullwidth.palatalized.rh
 Encoding: 1114162 -1 1114162
@@ -1235,10 +1336,57 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114135 -1 N 1 0 0 1 -584 0 1
+Refer: 1114144 -1 N 1 0 0 1 0 0 1
+Refer: 1114165 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: zoitei.fullwidth.stroke.plosive
+Encoding: 1114163 -1 1114163
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+336 886 m 0
+1024 886 l 0
+1024 706 l 0
+336 706 l 0
+336 886 l 0
+EndSplineSet
+EndChar
+StartChar: zoitei.fullwidth.stroke.unpalatalized
+Encoding: 1114164 -1 1114164
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+442 1110 m 0
+800 752 l 0
+672 624 l 0
+314 982 l 0
+442 1110 l 0
+EndSplineSet
+EndChar
+StartChar: zoitei.fullwidth.stroke.palatalized
+Encoding: 1114165 -1 1114165
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+516 1035 m 0
+516 924 554 886 665 886 c 0
+1712 886 l 0
+1712 706 l 0
+635 706 l 0
+468 706 336 838 336 1005 c 0
+336 1160 l 0
+516 1160 l 0
+516 1035 l 0
+EndSplineSet
 EndChar
 StartChar: zoitei.cap-line.start
-Encoding: 1114163 -1 1114163
+Encoding: 1114166 -1 1114166
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -1252,7 +1400,7 @@ SplineSet
 EndSplineSet
 EndChar
 StartChar: zoitei.cap-line.middle
-Encoding: 1114164 -1 1114164
+Encoding: 1114167 -1 1114167
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -1266,7 +1414,7 @@ SplineSet
 EndSplineSet
 EndChar
 StartChar: zoitei.cap-line.end
-Encoding: 1114165 -1 1114165
+Encoding: 1114168 -1 1114168
 Width: 2048
 Flags: W
 LayerCount: 2

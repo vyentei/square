@@ -1,1 +1,4 @@
-<svg height="2048" viewBox="0 0 2048 2048" width="2048" xmlns="http://www.w3.org/2000/svg"><path d="m1518 156v1042h-598v180l598 598h180v-598h350v-180h-350v-1042zm-342 1222h342v342z"/></svg>
+<svg width="2048" height="2048" xmlns="http://www.w3.org/2000/svg">
+    <defs/>
+    <path id="path1" fill="#000000" stroke="none" d="M 1518 156 L 1518 1268 L 990 1268 L 990 1448 L 1518 1976 L 1698 1976 L 1698 1448 L 2048 1448 L 2048 1268 L 1698 1268 L 1698 156 Z M 1246 1448 L 1518 1448 L 1518 1720 Z"/>
+</svg>

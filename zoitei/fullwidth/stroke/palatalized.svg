@@ -1,39 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   height="2048"
-   viewBox="0 0 2048 2048"
-   width="2048"
-   version="1.1"
-   id="svg1"
-   sodipodi:docname="palatalized.svg"
-   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.43701172"
-     inkscape:cx="1022.8559"
-     inkscape:cy="1024"
-     inkscape:window-width="1920"
-     inkscape:window-height="1128"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg1"
-     showguides="false" />
-  <path
-     d="M 516,593 V 468 H 336 v 155 c 0,167.01988 131.9665,298.99995 299,299 l 1077,2.3e-4 V 742 l -1047,2.3e-4 C 553.9388,742.00025 516,704.06392 516,593 Z"
-     id="path1"
-     sodipodi:nodetypes="sccssccss" />
+<svg width="2048" height="2048" xmlns="http://www.w3.org/2000/svg">
+    <defs/>
+    <path id="path1" fill="#000000" stroke="none" d="M 516 593 L 516 468 L 336 468 L 336 623 C 336 790.01996 467.9665 921.99994 635 922 L 1712 922.00024 L 1712 742 L 665 742.00024 C 553.9388 742.00024 516 704.0639 516 593 Z"/>
 </svg>

@@ -1,1 +1,4 @@
-<svg height="2048" viewBox="0 0 2048 2048" width="2048" xmlns="http://www.w3.org/2000/svg"><path d="m1024 742v180h584v-180z" stroke-width=".999947"/></svg>
+<svg width="2048" height="2048" xmlns="http://www.w3.org/2000/svg">
+    <defs/>
+    <path fill="#000000" stroke="none" d="M 1024 742 L 1024 922 L 1608 922 L 1608 742 Z"/>
+</svg>

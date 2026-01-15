@@ -80,10 +80,14 @@ fn reverse_path_segments(path: &Path) -> Option<Path> {
 
 fn read(glyph_name: &str) -> String {
     let glyph_path = glyph_name.split('.').collect::<Vec<_>>().join("/");
-    let input_svg =
-        std::fs::read_to_string(format!("./{glyph_path}.svg")).unwrap();
+    let svg_path = format!("./{glyph_path}.svg");
+    let input_svg = std::fs::read_to_string(&svg_path)
+        .unwrap_or_else(|e| panic!("Failed to open {svg_path}: {e}"));
     let opt = usvg::Options::default();
     let tree = usvg::Tree::from_str(&input_svg, &opt).unwrap();
+
+    std::fs::write(svg_path, tree.to_string(&Default::default())).unwrap();
+
     let nodes = tree.root().children();
     let mut output = String::new();
 
@@ -164,10 +168,11 @@ fn generate(glyph: &str) -> String {
         refer(gn, 1114112 + sonorant);
         refer(gn, 1114136 + modifier);
     };
-    let fw_sonorant_modifier = |gn: &mut String, sonorant: u32, modifier: u32| {
-        refer(gn, 1114139 + sonorant);
-        refer(gn, 1114163 + modifier);
-    };
+    let fw_sonorant_modifier =
+        |gn: &mut String, sonorant: u32, modifier: u32| {
+            refer(gn, 1114139 + sonorant);
+            refer(gn, 1114163 + modifier);
+        };
     let syllable_consonant = |gn: &mut String, index: u32| {
         // Fullwidth
         refer(gn, 1114139 + index);
@@ -202,12 +207,24 @@ fn generate(glyph: &str) -> String {
         "zoitei.fullwidth.plosive.b" => fw_sonorant_modifier(&mut g, 3, 0),
         "zoitei.fullwidth.plosive.d" => fw_sonorant_modifier(&mut g, 4, 0),
         "zoitei.fullwidth.plosive.g" => fw_sonorant_modifier(&mut g, 5, 0),
-        "zoitei.fullwidth.unpalatalized.f" => fw_sonorant_modifier(&mut g, 0, 1),
-        "zoitei.fullwidth.unpalatalized.s" => fw_sonorant_modifier(&mut g, 1, 1),
-        "zoitei.fullwidth.unpalatalized.x" => fw_sonorant_modifier(&mut g, 2, 1),
-        "zoitei.fullwidth.unpalatalized.v" => fw_sonorant_modifier(&mut g, 3, 1),
-        "zoitei.fullwidth.unpalatalized.z" => fw_sonorant_modifier(&mut g, 4, 1),
-        "zoitei.fullwidth.unpalatalized.nh" => fw_sonorant_modifier(&mut g, 5, 1),
+        "zoitei.fullwidth.unpalatalized.f" => {
+            fw_sonorant_modifier(&mut g, 0, 1)
+        }
+        "zoitei.fullwidth.unpalatalized.s" => {
+            fw_sonorant_modifier(&mut g, 1, 1)
+        }
+        "zoitei.fullwidth.unpalatalized.x" => {
+            fw_sonorant_modifier(&mut g, 2, 1)
+        }
+        "zoitei.fullwidth.unpalatalized.v" => {
+            fw_sonorant_modifier(&mut g, 3, 1)
+        }
+        "zoitei.fullwidth.unpalatalized.z" => {
+            fw_sonorant_modifier(&mut g, 4, 1)
+        }
+        "zoitei.fullwidth.unpalatalized.nh" => {
+            fw_sonorant_modifier(&mut g, 5, 1)
+        }
         "zoitei.fullwidth.palatalized.th" => fw_sonorant_modifier(&mut g, 0, 2),
         "zoitei.fullwidth.palatalized.sh" => fw_sonorant_modifier(&mut g, 1, 2),
         "zoitei.fullwidth.palatalized.lh" => fw_sonorant_modifier(&mut g, 2, 2),

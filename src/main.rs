@@ -1,4 +1,31 @@
+#![allow(dead_code, unused_variables)]
+
 use usvg::tiny_skia_path::{Path, PathBuilder, PathSegment, PathVerb, Point};
+
+// Private use area order font list
+const CONSONANT_LIST: &[&str] = &[
+    "l", "p", "f", "th", "c", "t", "s", "sh", "r", "k", "x", "lh", "m", "b",
+    "v", "w", "n", "d", "z", "zh", "q", "g", "nh", "rh",
+];
+
+// Font order (x / y swapped from unicode private use order)
+const CONSONANT_LIST_INDICES: &[usize] = &[
+    0, 4, 8, 12, 16, 20, //
+    1, 5, 9, 13, 17, 21, //
+    2, 6, 10, 14, 18, 22, //
+    3, 7, 11, 15, 19, 23, //
+];
+
+// Vowel list (same in font and unicode private use)
+const VOWEL_LIST: &[&str] = &[
+    "yh", "ae", "ih", "iy", "ah", "ia", "eh", "ea", "uh", "ou", "oh", "io",
+    "ay", "ai", "ey", "oy", "oi", "iu", "au", "ao", "eu", "eo", "oa", "yie",
+    "yae", "yih", "yiy", "yah", "yia", "yeh", "yea", "yuh", "you", "yoh",
+    "yio", "yay", "yai", "yey", "yoy", "yoi", "yiu", "yau", "yao", "yeu",
+    "yeo", "yoa", "uyh", "uae", "uih", "uiy", "uah", "uia", "ueh", "uea",
+    "uoe", "uou", "uoh", "uio", "uay", "uai", "uey", "uoy", "uoi", "uiu",
+    "uau", "uao", "ueu", "ueo", "uoa",
+];
 
 /// Replace `Close` with `LineTo` back to the last `MoveTo` position
 fn replace_close_segments(path: &Path) -> Option<Path> {
@@ -179,6 +206,7 @@ fn generate(glyph: &str) -> String {
         // Middle / Standalone Cap line
         refer(gn, 1114167);
     };
+    let generate_syllable = |gn: &mut String, syllable: &str| {};
 
     match glyph {
         // generated base consonant glyphs
@@ -256,6 +284,11 @@ fn generate(glyph: &str) -> String {
         "zoitei.syllable.w" => syllable_consonant(&mut g, 21),
         "zoitei.syllable.zh" => syllable_consonant(&mut g, 22),
         "zoitei.syllable.rh" => syllable_consonant(&mut g, 23),
+        // generated consonant + vowel
+        x if x.starts_with("zoitei.syllable.") => generate_syllable(
+            &mut g,
+            x.strip_prefix("zoitei.syllable.").unwrap(),
+        ),
         _ => panic!("unknown generated glyph {glyph}"),
     }
 

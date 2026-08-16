@@ -31,26 +31,33 @@ const VOWEL_LIST: &[&str] = &[
 fn replace_close_segments(path: &Path) -> Option<Path> {
     let mut builder = PathBuilder::new();
     let mut start = None;
+    let mut last = None;
 
     for segment in path.segments() {
         match segment {
             PathSegment::MoveTo(point) => {
                 start = Some(point);
+                last = Some(point);
                 builder.move_to(point.x, point.y);
             }
             PathSegment::LineTo(point) => {
+                last = Some(point);
                 builder.line_to(point.x, point.y);
             }
             PathSegment::QuadTo(pt1, pt2) => {
+                last = Some(pt2);
                 builder.quad_to(pt1.x, pt1.y, pt2.x, pt2.y);
             }
             PathSegment::CubicTo(pt1, pt2, pt3) => {
+                last = Some(pt3);
                 builder.cubic_to(pt1.x, pt1.y, pt2.x, pt2.y, pt3.x, pt3.y);
             }
             PathSegment::Close => {
                 let point = start.expect("no start");
 
-                builder.line_to(point.x, point.y);
+                if start != last {
+                    builder.line_to(point.x, point.y);
+                }
             }
         }
     }
@@ -67,28 +74,39 @@ fn reverse_path_segments(path: &Path) -> Option<Path> {
         return builder.finish();
     };
 
+    assert_eq!(path.verbs()[0], PathVerb::Move);
     builder.move_to(first_point.x, first_point.y);
 
+    let mut last_point = first_point;
     let mut last_move = first_point;
+    let mut has_moved = false;
 
     for verb in path.verbs()[1..].iter().rev() {
         match verb {
             PathVerb::Move => {
+                if has_moved && last_move != last_point {
+                    builder.line_to(last_move.x, last_move.y);
+                }
+
                 let pt = points.next()?;
 
                 last_move = pt;
+                has_moved = true;
                 builder.move_to(pt.x, pt.y);
+                last_point = pt;
             }
             PathVerb::Line => {
                 let pt = points.next()?;
 
                 builder.line_to(pt.x, pt.y);
+                last_point = pt;
             }
             PathVerb::Quad => {
                 let pt1 = points.next()?;
                 let pt2 = points.next()?;
 
                 builder.quad_to(pt1.x, pt1.y, pt2.x, pt2.y);
+                last_point = pt2;
             }
             PathVerb::Cubic => {
                 let pt1 = points.next()?;
@@ -96,12 +114,16 @@ fn reverse_path_segments(path: &Path) -> Option<Path> {
                 let pt3 = points.next()?;
 
                 builder.cubic_to(pt1.x, pt1.y, pt2.x, pt2.y, pt3.x, pt3.y);
+                last_point = pt3;
             }
             PathVerb::Close => {}
         }
     }
 
-    builder.line_to(last_move.x, last_move.y);
+    if last_move != last_point {
+        builder.line_to(last_move.x, last_move.y);
+    }
+
     builder.finish()
 }
 
@@ -169,6 +191,7 @@ fn read(glyph_name: &str) -> String {
                             let y2 = 1628.0 - y2.round();
                             let y3 = 1628.0 - y3.round();
 
+                            last_position = Some((x3, y3));
                             output.push_str(&format!(
                                 "{x1} {y1} {x2} {y2} {x3} {y3} c 0\n"
                             ));

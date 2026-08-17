@@ -712,15 +712,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1518 1472 m 0
-1698 1472 l 0
-1698 -13 l 0
-1698 -210 1577 -348 1380 -348 c 0
-990 -348 l 0
-990 -168 l 0
-1350 -168 l 0
-1491 -168 1518 -124 1518 17 c 0
-1518 1472 l 0
+1564 1472 m 0
+1744 1472 l 0
+1744 -13 l 0
+1744 -210 1623 -348 1426 -348 c 0
+1036 -348 l 0
+1036 -168 l 0
+1396 -168 l 0
+1537 -168 1564 -124 1564 17 c 0
+1564 1472 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.sonorant.c
@@ -730,23 +730,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1518 1472 m 0
-1698 1472 l 0
-1698 -13 l 0
-1698 -210 1577 -348 1380 -348 c 0
-1308 -348 l 0
-1111 -348 990 -227 990 -30 c 0
-990 42 l 0
-990 239 1146 360 1343 360 c 0
-1385 360 l 0
-1385 180 l 0
-1373 180 l 0
-1232 180 1170 153 1170 12 c 0
-1170 0 l 0
-1170 -141 1197 -168 1338 -168 c 0
-1350 -168 l 0
-1491 -168 1518 -124 1518 17 c 0
-1518 1472 l 0
+1564 1472 m 0
+1744 1472 l 0
+1744 -13 l 0
+1744 -210 1623 -348 1426 -348 c 0
+1354 -348 l 0
+1157 -348 1036 -227 1036 -30 c 0
+1036 42 l 0
+1036 239 1192 360 1389 360 c 0
+1431 360 l 0
+1431 180 l 0
+1419 180 l 0
+1278 180 1216 153 1216 12 c 0
+1216 0 l 0
+1216 -141 1243 -168 1384 -168 c 0
+1396 -168 l 0
+1537 -168 1564 -124 1564 17 c 0
+1564 1472 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.sonorant.r
@@ -756,28 +756,28 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1373 180 m 0
-1232 180 1170 153 1170 12 c 0
-1170 0 l 0
-1170 -141 1197 -168 1338 -168 c 0
-1350 -168 l 0
-1491 -168 1518 -124 1518 17 c 0
-1518 180 l 0
-1373 180 l 0
-1518 1472 m 0
-1698 1472 l 0
-1698 360 l 0
+1419 180 m 0
+1278 180 1216 153 1216 12 c 0
+1216 0 l 0
+1216 -141 1243 -168 1384 -168 c 0
+1396 -168 l 0
+1537 -168 1564 -124 1564 17 c 0
+1564 180 l 0
+1419 180 l 0
+1564 1472 m 0
+1744 1472 l 0
+1744 360 l 0
 2048 360 l 0
 2048 180 l 0
-1698 180 l 0
-1698 -13 l 0
-1698 -210 1577 -348 1380 -348 c 0
-1308 -348 l 0
-1111 -348 990 -227 990 -30 c 0
-990 42 l 0
-990 239 1146 360 1343 360 c 0
-1518 360 l 0
-1518 1472 l 0
+1744 180 l 0
+1744 -13 l 0
+1744 -210 1623 -348 1426 -348 c 0
+1354 -348 l 0
+1157 -348 1036 -227 1036 -30 c 0
+1036 42 l 0
+1036 239 1192 360 1389 360 c 0
+1564 360 l 0
+1564 1472 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.sonorant.m
@@ -787,11 +787,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1518 -348 m 0
-1518 1472 l 0
-1698 1472 l 0
-1698 -348 l 0
-1518 -348 l 0
+1564 -348 m 0
+1564 1472 l 0
+1744 1472 l 0
+1744 -348 l 0
+1564 -348 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.sonorant.n
@@ -801,14 +801,14 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1518 1472 m 0
-1698 1472 l 0
-1698 -348 l 0
-1518 -348 l 0
-990 180 l 0
-1118 308 l 0
-1518 -92 l 0
-1518 1472 l 0
+1564 1472 m 0
+1744 1472 l 0
+1744 -348 l 0
+1564 -348 l 0
+1036 180 l 0
+1164 308 l 0
+1564 -92 l 0
+1564 1472 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.sonorant.q
@@ -818,22 +818,22 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1246 180 m 0
-1518 -92 l 0
-1518 180 l 0
-1246 180 l 0
-1518 1472 m 0
-1698 1472 l 0
-1698 360 l 0
+1292 180 m 0
+1564 -92 l 0
+1564 180 l 0
+1292 180 l 0
+1564 1472 m 0
+1744 1472 l 0
+1744 360 l 0
 2048 360 l 0
 2048 180 l 0
-1698 180 l 0
-1698 -348 l 0
-1518 -348 l 0
-990 180 l 0
-990 360 l 0
-1518 360 l 0
-1518 1472 l 0
+1744 180 l 0
+1744 -348 l 0
+1564 -348 l 0
+1036 180 l 0
+1036 360 l 0
+1564 360 l 0
+1564 1472 l 0
 EndSplineSet
 EndChar
 StartChar: generated.zoitei.plosive.p
@@ -1005,11 +1005,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1024 886 m 0
-1608 886 l 0
-1608 706 l 0
-1024 706 l 0
-1024 886 l 0
+1036 874 m 0
+1620 874 l 0
+1620 694 l 0
+1036 694 l 0
+1036 874 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.stroke.unpalatalized
@@ -1019,11 +1019,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1096 1110 m 0
-1454 752 l 0
-1326 624 l 0
-968 982 l 0
-1096 1110 l 0
+1152 1098 m 0
+1510 740 l 0
+1382 612 l 0
+1024 970 l 0
+1152 1098 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.stroke.palatalized
@@ -1033,15 +1033,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1240 1035 m 0
-1240 924 1278 886 1389 886 c 0
-2048 886 l 0
-2048 706 l 0
-1359 706 l 0
-1192 706 1060 838 1060 1005 c 0
-1060 1160 l 0
-1240 1160 l 0
-1240 1035 l 0
+1216 1023 m 0
+1216 912 1254 874 1365 874 c 0
+2048 874 l 0
+2048 694 l 0
+1335 694 l 0
+1168 694 1036 826 1036 993 c 0
+1036 1148 l 0
+1216 1148 l 0
+1216 1023 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.fullwidth.sonorant.l
@@ -1345,11 +1345,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-336 886 m 0
-1024 886 l 0
-1024 706 l 0
-336 706 l 0
-336 886 l 0
+336 874 m 0
+1024 874 l 0
+1024 694 l 0
+336 694 l 0
+336 874 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.fullwidth.stroke.unpalatalized
@@ -1359,11 +1359,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-442 1110 m 0
-800 752 l 0
-672 624 l 0
-314 982 l 0
-442 1110 l 0
+442 1098 m 0
+800 740 l 0
+672 612 l 0
+314 970 l 0
+442 1098 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.fullwidth.stroke.palatalized
@@ -1373,15 +1373,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-516 1035 m 0
-516 924 554 886 665 886 c 0
-1712 886 l 0
-1712 706 l 0
-635 706 l 0
-468 706 336 838 336 1005 c 0
-336 1160 l 0
-516 1160 l 0
-516 1035 l 0
+516 1023 m 0
+516 912 554 874 665 874 c 0
+1712 874 l 0
+1712 694 l 0
+635 694 l 0
+468 694 336 826 336 993 c 0
+336 1148 l 0
+516 1148 l 0
+516 1023 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.cap-line.start
@@ -1433,18 +1433,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-122 936 m 0
-902 936 l 0
-902 756 l 0
-902 272 l 0
-722 272 l 0
-722 756 l 0
-602 756 l 0
-602 272 l 0
-422 272 l 0
-422 756 l 0
-122 756 l 0
-122 936 l 0
+512 670 m 0
+302 460 l 0
+722 460 l 0
+512 670 l 0
+512 926 m 0
+902 536 l 0
+902 280 l 0
+122 280 l 0
+122 536 l 0
+512 926 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ae
@@ -1475,15 +1473,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-122 936 m 0
-902 936 l 0
-902 272 l 0
-122 272 l 0
-122 452 l 0
-722 452 l 0
-722 756 l 0
-122 756 l 0
-122 936 l 0
+512 889 m 0
+902 499 l 0
+767 378 l 0
+602 543 l 0
+602 319 l 0
+422 319 l 0
+422 543 l 0
+257 378 l 0
+122 499 l 0
+512 889 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.iy
@@ -1493,20 +1492,20 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-602 756 m 0
-602 452 l 0
-722 452 l 0
-722 756 l 0
-602 756 l 0
-122 936 m 0
-902 936 l 0
-902 272 l 0
-122 272 l 0
-122 452 l 0
-422 452 l 0
-422 756 l 0
-122 756 l 0
-122 936 l 0
+602 580 m 0
+602 460 l 0
+722 460 l 0
+602 580 l 0
+422 580 m 0
+302 460 l 0
+422 460 l 0
+422 580 l 0
+512 926 m 0
+978 460 l 0
+978 280 l 0
+46 280 l 0
+46 460 l 0
+512 926 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ah
@@ -1558,13 +1557,25 @@ SplineSet
 122 936 l 0
 EndSplineSet
 EndChar
-StartChar: .zoitei.vowel.eh
+StartChar: zoitei.vowel.eh
 Encoding: 1114175 -1 1114175
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+SplineSet
+422 936 m 0
+602 936 l 0
+602 528 l 0
+774 700 l 0
+902 572 l 0
+602 272 l 0
+422 272 l 0
+422 680 l 0
+250 508 l 0
+122 636 l 0
+422 936 l 0
+EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ea
 Encoding: 1114176 -1 1114176
@@ -2755,18 +2766,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-112 749 m 0
-292 749 l 0
-292 630 393 529 512 529 c 0
-631 529 732 630 732 749 c 0
-912 749 l 0
-912 529 732 349 512 349 c 0
-292 349 112 529 112 749 c 0
-422 839 m 0
-422 659 l 0
-602 659 l 0
-602 839 l 0
-422 839 l 0
+112 936 m 0
+292 936 l 0
+292 817 393 716 512 716 c 0
+631 716 732 817 732 936 c 0
+912 936 l 0
+912 747 779 587 602 546 c 0
+602 272 l 0
+422 272 l 0
+422 546 l 0
+245 587 112 746 112 936 c 0
 EndSplineSet
 EndChar
 StartChar: .zoitei.fullwidth.vowel.y

@@ -19,11 +19,11 @@ const CONSONANT_LIST_INDICES: &[usize] = &[
 // Vowel list (same in font and unicode private use)
 const VOWEL_LIST: &[&str] = &[
     "yh", "ae", "ih", "iy", "ah", "ia", "eh", "ea", "uh", "ou", "oh", "io",
-    "ay", "ai", "ey", "oy", "oi", "iu", "au", "ao", "eu", "eo", "oa", "yie",
-    "yae", "yih", "yiy", "yah", "yia", "yeh", "yea", "yuh", "you", "yoh",
-    "yio", "yay", "yai", "yey", "yoy", "yoi", "yiu", "yau", "yao", "yeu",
+    "ay", "ai", "ey", "ei", "oy", "oi", "iu", "au", "ao", "eu", "eo", "oa",
+    "yie", "yae", "yih", "yiy", "yah", "yia", "yeh", "yea", "yuh", "you", "yoh",
+    "yio", "yay", "yai", "yey", "yei", "yoy", "yoi", "yiu", "yau", "yao", "yeu",
     "yeo", "yoa", "uyh", "uae", "uih", "uiy", "uah", "uia", "ueh", "uea",
-    "uoe", "uou", "uoh", "uio", "uay", "uai", "uey", "uoy", "uoi", "uiu",
+    "uoe", "uou", "uoh", "uio", "uay", "uai", "uey", "uei", "uoy", "uoi", "uiu",
     "uau", "uao", "ueu", "ueo", "uoa",
 ];
 

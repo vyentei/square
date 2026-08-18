@@ -1727,15 +1727,28 @@ SplineSet
 422 1069 l 0
 EndSplineSet
 EndChar
-StartChar: .zoitei.vowel.oy
+StartChar: zoitei.vowel.ei
 Encoding: 1114184 -1 1114184
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+SplineSet
+422 979 m 0
+602 979 l 0
+602 407 l 0
+978 407 l 0
+978 227 l 0
+46 227 l 0
+46 407 l 0
+422 407 l 0
+422 799 l 0
+46 799 l 0
+46 979 l 0
+422 979 l 0
+EndSplineSet
 EndChar
-StartChar: .zoitei.vowel.oi
+StartChar: .zoitei.vowel.oy
 Encoding: 1114185 -1 1114185
 Width: 2048
 Flags: W
@@ -1743,7 +1756,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.iu
+StartChar: .zoitei.vowel.oi
 Encoding: 1114186 -1 1114186
 Width: 2048
 Flags: W
@@ -1751,7 +1764,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.au
+StartChar: .zoitei.vowel.iu
 Encoding: 1114187 -1 1114187
 Width: 2048
 Flags: W
@@ -1759,7 +1772,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.ao
+StartChar: .zoitei.vowel.au
 Encoding: 1114188 -1 1114188
 Width: 2048
 Flags: W
@@ -1767,8 +1780,16 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: zoitei.vowel.eu
+StartChar: .zoitei.vowel.ao
 Encoding: 1114189 -1 1114189
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: zoitei.vowel.eu
+Encoding: 1114190 -1 1114190
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -1796,7 +1817,7 @@ SplineSet
 EndSplineSet
 EndChar
 StartChar: .zoitei.vowel.eo
-Encoding: 1114190 -1 1114190
+Encoding: 1114191 -1 1114191
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -1804,7 +1825,7 @@ Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: zoitei.vowel.oa
-Encoding: 1114191 -1 1114191
+Encoding: 1114192 -1 1114192
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -1828,14 +1849,6 @@ SplineSet
 EndSplineSet
 EndChar
 StartChar: .zoitei.vowel.yie
-Encoding: 1114192 -1 1114192
-Width: 2048
-Flags: W
-LayerCount: 2
-Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
-EndChar
-StartChar: .zoitei.vowel.yae
 Encoding: 1114193 -1 1114193
 Width: 2048
 Flags: W
@@ -1843,7 +1856,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yih
+StartChar: .zoitei.vowel.yae
 Encoding: 1114194 -1 1114194
 Width: 2048
 Flags: W
@@ -1851,7 +1864,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yiy
+StartChar: .zoitei.vowel.yih
 Encoding: 1114195 -1 1114195
 Width: 2048
 Flags: W
@@ -1859,7 +1872,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yah
+StartChar: .zoitei.vowel.yiy
 Encoding: 1114196 -1 1114196
 Width: 2048
 Flags: W
@@ -1867,7 +1880,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yia
+StartChar: .zoitei.vowel.yah
 Encoding: 1114197 -1 1114197
 Width: 2048
 Flags: W
@@ -1875,7 +1888,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yeh
+StartChar: .zoitei.vowel.yia
 Encoding: 1114198 -1 1114198
 Width: 2048
 Flags: W
@@ -1883,7 +1896,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yea
+StartChar: .zoitei.vowel.yeh
 Encoding: 1114199 -1 1114199
 Width: 2048
 Flags: W
@@ -1891,7 +1904,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yuh
+StartChar: .zoitei.vowel.yea
 Encoding: 1114200 -1 1114200
 Width: 2048
 Flags: W
@@ -1899,7 +1912,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.you
+StartChar: .zoitei.vowel.yuh
 Encoding: 1114201 -1 1114201
 Width: 2048
 Flags: W
@@ -1907,7 +1920,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yoh
+StartChar: .zoitei.vowel.you
 Encoding: 1114202 -1 1114202
 Width: 2048
 Flags: W
@@ -1915,7 +1928,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yio
+StartChar: .zoitei.vowel.yoh
 Encoding: 1114203 -1 1114203
 Width: 2048
 Flags: W
@@ -1923,7 +1936,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yay
+StartChar: .zoitei.vowel.yio
 Encoding: 1114204 -1 1114204
 Width: 2048
 Flags: W
@@ -1931,7 +1944,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yai
+StartChar: .zoitei.vowel.yay
 Encoding: 1114205 -1 1114205
 Width: 2048
 Flags: W
@@ -1939,7 +1952,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yey
+StartChar: .zoitei.vowel.yai
 Encoding: 1114206 -1 1114206
 Width: 2048
 Flags: W
@@ -1947,7 +1960,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yoy
+StartChar: .zoitei.vowel.yey
 Encoding: 1114207 -1 1114207
 Width: 2048
 Flags: W
@@ -1955,7 +1968,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yoi
+StartChar: .zoitei.vowel.yei
 Encoding: 1114208 -1 1114208
 Width: 2048
 Flags: W
@@ -1963,7 +1976,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yiu
+StartChar: .zoitei.vowel.yoy
 Encoding: 1114209 -1 1114209
 Width: 2048
 Flags: W
@@ -1971,7 +1984,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yau
+StartChar: .zoitei.vowel.yoi
 Encoding: 1114210 -1 1114210
 Width: 2048
 Flags: W
@@ -1979,7 +1992,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yao
+StartChar: .zoitei.vowel.yiu
 Encoding: 1114211 -1 1114211
 Width: 2048
 Flags: W
@@ -1987,7 +2000,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yeu
+StartChar: .zoitei.vowel.yau
 Encoding: 1114212 -1 1114212
 Width: 2048
 Flags: W
@@ -1995,7 +2008,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yeo
+StartChar: .zoitei.vowel.yao
 Encoding: 1114213 -1 1114213
 Width: 2048
 Flags: W
@@ -2003,7 +2016,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.yoa
+StartChar: .zoitei.vowel.yeu
 Encoding: 1114214 -1 1114214
 Width: 2048
 Flags: W
@@ -2011,7 +2024,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uyh
+StartChar: .zoitei.vowel.yeo
 Encoding: 1114215 -1 1114215
 Width: 2048
 Flags: W
@@ -2019,7 +2032,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uae
+StartChar: .zoitei.vowel.yoa
 Encoding: 1114216 -1 1114216
 Width: 2048
 Flags: W
@@ -2027,7 +2040,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uih
+StartChar: .zoitei.vowel.uyh
 Encoding: 1114217 -1 1114217
 Width: 2048
 Flags: W
@@ -2035,7 +2048,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uiy
+StartChar: .zoitei.vowel.uae
 Encoding: 1114218 -1 1114218
 Width: 2048
 Flags: W
@@ -2043,7 +2056,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uah
+StartChar: .zoitei.vowel.uih
 Encoding: 1114219 -1 1114219
 Width: 2048
 Flags: W
@@ -2051,7 +2064,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uia
+StartChar: .zoitei.vowel.uiy
 Encoding: 1114220 -1 1114220
 Width: 2048
 Flags: W
@@ -2059,7 +2072,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.ueh
+StartChar: .zoitei.vowel.uah
 Encoding: 1114221 -1 1114221
 Width: 2048
 Flags: W
@@ -2067,7 +2080,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uea
+StartChar: .zoitei.vowel.uia
 Encoding: 1114222 -1 1114222
 Width: 2048
 Flags: W
@@ -2075,7 +2088,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uoe
+StartChar: .zoitei.vowel.ueh
 Encoding: 1114223 -1 1114223
 Width: 2048
 Flags: W
@@ -2083,7 +2096,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uou
+StartChar: .zoitei.vowel.uea
 Encoding: 1114224 -1 1114224
 Width: 2048
 Flags: W
@@ -2091,7 +2104,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uoh
+StartChar: .zoitei.vowel.uoe
 Encoding: 1114225 -1 1114225
 Width: 2048
 Flags: W
@@ -2099,7 +2112,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uio
+StartChar: .zoitei.vowel.uou
 Encoding: 1114226 -1 1114226
 Width: 2048
 Flags: W
@@ -2107,7 +2120,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uay
+StartChar: .zoitei.vowel.uoh
 Encoding: 1114227 -1 1114227
 Width: 2048
 Flags: W
@@ -2115,7 +2128,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uai
+StartChar: .zoitei.vowel.uio
 Encoding: 1114228 -1 1114228
 Width: 2048
 Flags: W
@@ -2123,7 +2136,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uey
+StartChar: .zoitei.vowel.uay
 Encoding: 1114229 -1 1114229
 Width: 2048
 Flags: W
@@ -2131,7 +2144,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uoy
+StartChar: .zoitei.vowel.uai
 Encoding: 1114230 -1 1114230
 Width: 2048
 Flags: W
@@ -2139,7 +2152,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uoi
+StartChar: .zoitei.vowel.uey
 Encoding: 1114231 -1 1114231
 Width: 2048
 Flags: W
@@ -2147,7 +2160,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uiu
+StartChar: .zoitei.vowel.uei
 Encoding: 1114232 -1 1114232
 Width: 2048
 Flags: W
@@ -2155,7 +2168,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uau
+StartChar: .zoitei.vowel.uoy
 Encoding: 1114233 -1 1114233
 Width: 2048
 Flags: W
@@ -2163,7 +2176,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uao
+StartChar: .zoitei.vowel.uoi
 Encoding: 1114234 -1 1114234
 Width: 2048
 Flags: W
@@ -2171,7 +2184,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.ueu
+StartChar: .zoitei.vowel.uiu
 Encoding: 1114235 -1 1114235
 Width: 2048
 Flags: W
@@ -2179,7 +2192,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.ueo
+StartChar: .zoitei.vowel.uau
 Encoding: 1114236 -1 1114236
 Width: 2048
 Flags: W
@@ -2187,7 +2200,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.vowel.uoa
+StartChar: .zoitei.vowel.uao
 Encoding: 1114237 -1 1114237
 Width: 2048
 Flags: W
@@ -2195,7 +2208,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yh
+StartChar: .zoitei.vowel.ueu
 Encoding: 1114238 -1 1114238
 Width: 2048
 Flags: W
@@ -2203,7 +2216,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ae
+StartChar: .zoitei.vowel.ueo
 Encoding: 1114239 -1 1114239
 Width: 2048
 Flags: W
@@ -2211,7 +2224,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ih
+StartChar: .zoitei.vowel.uoa
 Encoding: 1114240 -1 1114240
 Width: 2048
 Flags: W
@@ -2219,7 +2232,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.iy
+StartChar: .zoitei.fullwidth.vowel.yh
 Encoding: 1114241 -1 1114241
 Width: 2048
 Flags: W
@@ -2227,7 +2240,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ah
+StartChar: .zoitei.fullwidth.vowel.ae
 Encoding: 1114242 -1 1114242
 Width: 2048
 Flags: W
@@ -2235,7 +2248,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ia
+StartChar: .zoitei.fullwidth.vowel.ih
 Encoding: 1114243 -1 1114243
 Width: 2048
 Flags: W
@@ -2243,7 +2256,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.eh
+StartChar: .zoitei.fullwidth.vowel.iy
 Encoding: 1114244 -1 1114244
 Width: 2048
 Flags: W
@@ -2251,7 +2264,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ea
+StartChar: .zoitei.fullwidth.vowel.ah
 Encoding: 1114245 -1 1114245
 Width: 2048
 Flags: W
@@ -2259,7 +2272,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uh
+StartChar: .zoitei.fullwidth.vowel.ia
 Encoding: 1114246 -1 1114246
 Width: 2048
 Flags: W
@@ -2267,7 +2280,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ou
+StartChar: .zoitei.fullwidth.vowel.eh
 Encoding: 1114247 -1 1114247
 Width: 2048
 Flags: W
@@ -2275,7 +2288,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.oh
+StartChar: .zoitei.fullwidth.vowel.ea
 Encoding: 1114248 -1 1114248
 Width: 2048
 Flags: W
@@ -2283,7 +2296,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.io
+StartChar: .zoitei.fullwidth.vowel.uh
 Encoding: 1114249 -1 1114249
 Width: 2048
 Flags: W
@@ -2291,7 +2304,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ay
+StartChar: .zoitei.fullwidth.vowel.ou
 Encoding: 1114250 -1 1114250
 Width: 2048
 Flags: W
@@ -2299,7 +2312,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ai
+StartChar: .zoitei.fullwidth.vowel.oh
 Encoding: 1114251 -1 1114251
 Width: 2048
 Flags: W
@@ -2307,7 +2320,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ey
+StartChar: .zoitei.fullwidth.vowel.io
 Encoding: 1114252 -1 1114252
 Width: 2048
 Flags: W
@@ -2315,7 +2328,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.oy
+StartChar: .zoitei.fullwidth.vowel.ay
 Encoding: 1114253 -1 1114253
 Width: 2048
 Flags: W
@@ -2323,7 +2336,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.oi
+StartChar: .zoitei.fullwidth.vowel.ai
 Encoding: 1114254 -1 1114254
 Width: 2048
 Flags: W
@@ -2331,7 +2344,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.iu
+StartChar: .zoitei.fullwidth.vowel.ey
 Encoding: 1114255 -1 1114255
 Width: 2048
 Flags: W
@@ -2339,7 +2352,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.au
+StartChar: .zoitei.fullwidth.vowel.ei
 Encoding: 1114256 -1 1114256
 Width: 2048
 Flags: W
@@ -2347,7 +2360,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ao
+StartChar: .zoitei.fullwidth.vowel.oy
 Encoding: 1114257 -1 1114257
 Width: 2048
 Flags: W
@@ -2355,7 +2368,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.eu
+StartChar: .zoitei.fullwidth.vowel.oi
 Encoding: 1114258 -1 1114258
 Width: 2048
 Flags: W
@@ -2363,7 +2376,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.eo
+StartChar: .zoitei.fullwidth.vowel.iu
 Encoding: 1114259 -1 1114259
 Width: 2048
 Flags: W
@@ -2371,7 +2384,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.oa
+StartChar: .zoitei.fullwidth.vowel.au
 Encoding: 1114260 -1 1114260
 Width: 2048
 Flags: W
@@ -2379,7 +2392,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yie
+StartChar: .zoitei.fullwidth.vowel.ao
 Encoding: 1114261 -1 1114261
 Width: 2048
 Flags: W
@@ -2387,7 +2400,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yae
+StartChar: .zoitei.fullwidth.vowel.eu
 Encoding: 1114262 -1 1114262
 Width: 2048
 Flags: W
@@ -2395,7 +2408,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yih
+StartChar: .zoitei.fullwidth.vowel.eo
 Encoding: 1114263 -1 1114263
 Width: 2048
 Flags: W
@@ -2403,7 +2416,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yiy
+StartChar: .zoitei.fullwidth.vowel.oa
 Encoding: 1114264 -1 1114264
 Width: 2048
 Flags: W
@@ -2411,7 +2424,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yah
+StartChar: .zoitei.fullwidth.vowel.yie
 Encoding: 1114265 -1 1114265
 Width: 2048
 Flags: W
@@ -2419,7 +2432,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yia
+StartChar: .zoitei.fullwidth.vowel.yae
 Encoding: 1114266 -1 1114266
 Width: 2048
 Flags: W
@@ -2427,7 +2440,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yeh
+StartChar: .zoitei.fullwidth.vowel.yih
 Encoding: 1114267 -1 1114267
 Width: 2048
 Flags: W
@@ -2435,7 +2448,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yea
+StartChar: .zoitei.fullwidth.vowel.yiy
 Encoding: 1114268 -1 1114268
 Width: 2048
 Flags: W
@@ -2443,7 +2456,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yuh
+StartChar: .zoitei.fullwidth.vowel.yah
 Encoding: 1114269 -1 1114269
 Width: 2048
 Flags: W
@@ -2451,7 +2464,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.you
+StartChar: .zoitei.fullwidth.vowel.yia
 Encoding: 1114270 -1 1114270
 Width: 2048
 Flags: W
@@ -2459,7 +2472,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yoh
+StartChar: .zoitei.fullwidth.vowel.yeh
 Encoding: 1114271 -1 1114271
 Width: 2048
 Flags: W
@@ -2467,7 +2480,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yio
+StartChar: .zoitei.fullwidth.vowel.yea
 Encoding: 1114272 -1 1114272
 Width: 2048
 Flags: W
@@ -2475,7 +2488,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yay
+StartChar: .zoitei.fullwidth.vowel.yuh
 Encoding: 1114273 -1 1114273
 Width: 2048
 Flags: W
@@ -2483,7 +2496,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yai
+StartChar: .zoitei.fullwidth.vowel.you
 Encoding: 1114274 -1 1114274
 Width: 2048
 Flags: W
@@ -2491,7 +2504,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yey
+StartChar: .zoitei.fullwidth.vowel.yoh
 Encoding: 1114275 -1 1114275
 Width: 2048
 Flags: W
@@ -2499,7 +2512,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yoy
+StartChar: .zoitei.fullwidth.vowel.yio
 Encoding: 1114276 -1 1114276
 Width: 2048
 Flags: W
@@ -2507,7 +2520,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yoi
+StartChar: .zoitei.fullwidth.vowel.yay
 Encoding: 1114277 -1 1114277
 Width: 2048
 Flags: W
@@ -2515,7 +2528,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yiu
+StartChar: .zoitei.fullwidth.vowel.yai
 Encoding: 1114278 -1 1114278
 Width: 2048
 Flags: W
@@ -2523,7 +2536,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yau
+StartChar: .zoitei.fullwidth.vowel.yey
 Encoding: 1114279 -1 1114279
 Width: 2048
 Flags: W
@@ -2531,7 +2544,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yao
+StartChar: .zoitei.fullwidth.vowel.yei
 Encoding: 1114280 -1 1114280
 Width: 2048
 Flags: W
@@ -2539,7 +2552,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yeu
+StartChar: .zoitei.fullwidth.vowel.yoy
 Encoding: 1114281 -1 1114281
 Width: 2048
 Flags: W
@@ -2547,7 +2560,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yeo
+StartChar: .zoitei.fullwidth.vowel.yoi
 Encoding: 1114282 -1 1114282
 Width: 2048
 Flags: W
@@ -2555,7 +2568,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.yoa
+StartChar: .zoitei.fullwidth.vowel.yiu
 Encoding: 1114283 -1 1114283
 Width: 2048
 Flags: W
@@ -2563,7 +2576,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uyh
+StartChar: .zoitei.fullwidth.vowel.yau
 Encoding: 1114284 -1 1114284
 Width: 2048
 Flags: W
@@ -2571,7 +2584,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uae
+StartChar: .zoitei.fullwidth.vowel.yao
 Encoding: 1114285 -1 1114285
 Width: 2048
 Flags: W
@@ -2579,7 +2592,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uih
+StartChar: .zoitei.fullwidth.vowel.yeu
 Encoding: 1114286 -1 1114286
 Width: 2048
 Flags: W
@@ -2587,7 +2600,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uiy
+StartChar: .zoitei.fullwidth.vowel.yeo
 Encoding: 1114287 -1 1114287
 Width: 2048
 Flags: W
@@ -2595,7 +2608,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uah
+StartChar: .zoitei.fullwidth.vowel.yoa
 Encoding: 1114288 -1 1114288
 Width: 2048
 Flags: W
@@ -2603,7 +2616,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uia
+StartChar: .zoitei.fullwidth.vowel.uyh
 Encoding: 1114289 -1 1114289
 Width: 2048
 Flags: W
@@ -2611,7 +2624,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ueh
+StartChar: .zoitei.fullwidth.vowel.uae
 Encoding: 1114290 -1 1114290
 Width: 2048
 Flags: W
@@ -2619,7 +2632,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uea
+StartChar: .zoitei.fullwidth.vowel.uih
 Encoding: 1114291 -1 1114291
 Width: 2048
 Flags: W
@@ -2627,7 +2640,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uoe
+StartChar: .zoitei.fullwidth.vowel.uiy
 Encoding: 1114292 -1 1114292
 Width: 2048
 Flags: W
@@ -2635,7 +2648,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uou
+StartChar: .zoitei.fullwidth.vowel.uah
 Encoding: 1114293 -1 1114293
 Width: 2048
 Flags: W
@@ -2643,7 +2656,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uoh
+StartChar: .zoitei.fullwidth.vowel.uia
 Encoding: 1114294 -1 1114294
 Width: 2048
 Flags: W
@@ -2651,7 +2664,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uio
+StartChar: .zoitei.fullwidth.vowel.ueh
 Encoding: 1114295 -1 1114295
 Width: 2048
 Flags: W
@@ -2659,7 +2672,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uay
+StartChar: .zoitei.fullwidth.vowel.uea
 Encoding: 1114296 -1 1114296
 Width: 2048
 Flags: W
@@ -2667,7 +2680,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uai
+StartChar: .zoitei.fullwidth.vowel.uoe
 Encoding: 1114297 -1 1114297
 Width: 2048
 Flags: W
@@ -2675,7 +2688,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uey
+StartChar: .zoitei.fullwidth.vowel.uou
 Encoding: 1114298 -1 1114298
 Width: 2048
 Flags: W
@@ -2683,7 +2696,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uoy
+StartChar: .zoitei.fullwidth.vowel.uoh
 Encoding: 1114299 -1 1114299
 Width: 2048
 Flags: W
@@ -2691,7 +2704,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uoi
+StartChar: .zoitei.fullwidth.vowel.uio
 Encoding: 1114300 -1 1114300
 Width: 2048
 Flags: W
@@ -2699,7 +2712,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uiu
+StartChar: .zoitei.fullwidth.vowel.uay
 Encoding: 1114301 -1 1114301
 Width: 2048
 Flags: W
@@ -2707,7 +2720,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uau
+StartChar: .zoitei.fullwidth.vowel.uai
 Encoding: 1114302 -1 1114302
 Width: 2048
 Flags: W
@@ -2715,7 +2728,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uao
+StartChar: .zoitei.fullwidth.vowel.uey
 Encoding: 1114303 -1 1114303
 Width: 2048
 Flags: W
@@ -2723,7 +2736,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ueu
+StartChar: .zoitei.fullwidth.vowel.uei
 Encoding: 1114304 -1 1114304
 Width: 2048
 Flags: W
@@ -2731,7 +2744,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.ueo
+StartChar: .zoitei.fullwidth.vowel.uoy
 Encoding: 1114305 -1 1114305
 Width: 2048
 Flags: W
@@ -2739,7 +2752,7 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: .zoitei.fullwidth.vowel.uoa
+StartChar: .zoitei.fullwidth.vowel.uoi
 Encoding: 1114306 -1 1114306
 Width: 2048
 Flags: W
@@ -2747,8 +2760,56 @@ LayerCount: 2
 Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
-StartChar: zoitei.vowel.y
+StartChar: .zoitei.fullwidth.vowel.uiu
 Encoding: 1114307 -1 1114307
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.vowel.uau
+Encoding: 1114308 -1 1114308
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.vowel.uao
+Encoding: 1114309 -1 1114309
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.vowel.ueu
+Encoding: 1114310 -1 1114310
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.vowel.ueo
+Encoding: 1114311 -1 1114311
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: .zoitei.fullwidth.vowel.uoa
+Encoding: 1114312 -1 1114312
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 0 N 1 0 0 1 0 0 1
+EndChar
+StartChar: zoitei.vowel.y
+Encoding: 1114313 -1 1114313
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -2766,7 +2827,7 @@ SplineSet
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.u
-Encoding: 1114308 -1 1114308
+Encoding: 1114314 -1 1114314
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -2785,7 +2846,7 @@ SplineSet
 EndSplineSet
 EndChar
 StartChar: .zoitei.fullwidth.vowel.y
-Encoding: 1114309 -1 1114309
+Encoding: 1114315 -1 1114315
 Width: 2048
 Flags: W
 LayerCount: 2
@@ -2793,7 +2854,7 @@ Fore
 Refer: 0 0 N 1 0 0 1 0 0 1
 EndChar
 StartChar: .zoitei.fullwidth.vowel.u
-Encoding: 1114310 -1 1114310
+Encoding: 1114316 -1 1114316
 Width: 2048
 Flags: W
 LayerCount: 2

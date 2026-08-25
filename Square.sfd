@@ -1644,12 +1644,12 @@ LayerCount: 2
 Fore
 SplineSet
 46 131 m 0
-226 131 l 0
-226 289 354 417 512 417 c 0
-670 417 798 289 798 131 c 0
-978 131 l 0
-978 388 769 597 512 597 c 0
-255 597 46 388 46 131 c 0
+46 388 255 597 512 597 c 0
+769 597 978 388 978 131 c 0
+798 131 l 0
+798 289 670 417 512 417 c 0
+354 417 226 289 226 131 c 0
+46 131 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.io
@@ -2006,8 +2006,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114169 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 556 1
+Refer: 1114169 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 319 1
 EndChar
 StartChar: generated.zoitei.vowel.yae
 Encoding: 1114194 -1 1114194
@@ -2015,8 +2015,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114170 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 699 1
+Refer: 1114170 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 462 1
 EndChar
 StartChar: generated.zoitei.vowel.yih
 Encoding: 1114195 -1 1114195
@@ -2024,8 +2024,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114171 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 556 1
+Refer: 1114171 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 319 1
 EndChar
 StartChar: generated.zoitei.vowel.yiy
 Encoding: 1114196 -1 1114196
@@ -2033,8 +2033,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114172 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 556 1
+Refer: 1114172 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 319 1
 EndChar
 StartChar: generated.zoitei.vowel.yah
 Encoding: 1114197 -1 1114197
@@ -2042,8 +2042,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114173 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 699 1
+Refer: 1114173 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 462 1
 EndChar
 StartChar: generated.zoitei.vowel.yia
 Encoding: 1114198 -1 1114198
@@ -2051,8 +2051,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114174 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 601 1
+Refer: 1114174 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 364 1
 EndChar
 StartChar: generated.zoitei.vowel.yeh
 Encoding: 1114199 -1 1114199
@@ -2060,8 +2060,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114175 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 556 1
+Refer: 1114175 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 319 1
 EndChar
 StartChar: generated.zoitei.vowel.yea
 Encoding: 1114200 -1 1114200
@@ -2069,8 +2069,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114176 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 601 1
+Refer: 1114176 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 364 1
 EndChar
 StartChar: generated.zoitei.vowel.yuh
 Encoding: 1114201 -1 1114201
@@ -2078,8 +2078,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114177 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 642 1
+Refer: 1114177 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 405 1
 EndChar
 StartChar: generated.zoitei.vowel.you
 Encoding: 1114202 -1 1114202
@@ -2087,8 +2087,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114178 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 875 1
+Refer: 1114178 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 638 1
 EndChar
 StartChar: generated.zoitei.vowel.yoh
 Encoding: 1114203 -1 1114203
@@ -2096,8 +2096,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114179 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 511 1
+Refer: 1114179 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 274 1
 EndChar
 StartChar: generated.zoitei.vowel.yio
 Encoding: 1114204 -1 1114204
@@ -2105,8 +2105,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114180 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 744 1
+Refer: 1114180 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 507 1
 EndChar
 StartChar: generated.zoitei.vowel.yay
 Encoding: 1114205 -1 1114205
@@ -2114,8 +2114,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114181 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 744 1
+Refer: 1114181 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 507 1
 EndChar
 StartChar: generated.zoitei.vowel.yai
 Encoding: 1114206 -1 1114206
@@ -2123,8 +2123,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114182 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 601 1
+Refer: 1114182 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 364 1
 EndChar
 StartChar: generated.zoitei.vowel.yey
 Encoding: 1114207 -1 1114207
@@ -2132,8 +2132,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114183 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 744 1
+Refer: 1114183 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 507 1
 EndChar
 StartChar: generated.zoitei.vowel.yei
 Encoding: 1114208 -1 1114208
@@ -2141,8 +2141,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114184 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 601 1
+Refer: 1114184 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 364 1
 EndChar
 StartChar: generated.zoitei.vowel.yoy
 Encoding: 1114209 -1 1114209
@@ -2150,8 +2150,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114185 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 687 1
+Refer: 1114185 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 450 1
 EndChar
 StartChar: generated.zoitei.vowel.yoi
 Encoding: 1114210 -1 1114210
@@ -2159,8 +2159,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114186 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 920 1
+Refer: 1114186 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 683 1
 EndChar
 StartChar: generated.zoitei.vowel.yiu
 Encoding: 1114211 -1 1114211
@@ -2168,8 +2168,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114187 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 875 1
+Refer: 1114187 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 638 1
 EndChar
 StartChar: generated.zoitei.vowel.yau
 Encoding: 1114212 -1 1114212
@@ -2177,8 +2177,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114188 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 875 1
+Refer: 1114188 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 638 1
 EndChar
 StartChar: generated.zoitei.vowel.yao
 Encoding: 1114213 -1 1114213
@@ -2186,8 +2186,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114189 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 920 1
+Refer: 1114189 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 683 1
 EndChar
 StartChar: generated.zoitei.vowel.yeu
 Encoding: 1114214 -1 1114214
@@ -2195,8 +2195,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114190 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 875 1
+Refer: 1114190 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 638 1
 EndChar
 StartChar: generated.zoitei.vowel.yeo
 Encoding: 1114215 -1 1114215
@@ -2204,8 +2204,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114191 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 687 1
+Refer: 1114191 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 450 1
 EndChar
 StartChar: generated.zoitei.vowel.yoa
 Encoding: 1114216 -1 1114216
@@ -2213,8 +2213,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114192 -1 N 1 0 0 1 0 0 1
-Refer: 1114313 -1 N 1 0 0 1 0 875 1
+Refer: 1114192 -1 N 1 0 0 1 0 -319 1
+Refer: 1114313 -1 N 1 0 0 1 0 638 1
 EndChar
 StartChar: generated.zoitei.vowel.uyh
 Encoding: 1114217 -1 1114217
@@ -2222,8 +2222,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114169 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 642 1
+Refer: 1114169 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 233 1
 EndChar
 StartChar: generated.zoitei.vowel.uae
 Encoding: 1114218 -1 1114218
@@ -2231,8 +2231,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114170 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 785 1
+Refer: 1114170 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 376 1
 EndChar
 StartChar: generated.zoitei.vowel.uih
 Encoding: 1114219 -1 1114219
@@ -2240,8 +2240,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114171 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 642 1
+Refer: 1114171 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 233 1
 EndChar
 StartChar: generated.zoitei.vowel.uiy
 Encoding: 1114220 -1 1114220
@@ -2249,8 +2249,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114172 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 642 1
+Refer: 1114172 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 233 1
 EndChar
 StartChar: generated.zoitei.vowel.uah
 Encoding: 1114221 -1 1114221
@@ -2258,8 +2258,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114173 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 785 1
+Refer: 1114173 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 376 1
 EndChar
 StartChar: generated.zoitei.vowel.uia
 Encoding: 1114222 -1 1114222
@@ -2267,8 +2267,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114174 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 687 1
+Refer: 1114174 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 278 1
 EndChar
 StartChar: generated.zoitei.vowel.ueh
 Encoding: 1114223 -1 1114223
@@ -2276,8 +2276,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114175 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 642 1
+Refer: 1114175 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 233 1
 EndChar
 StartChar: generated.zoitei.vowel.uea
 Encoding: 1114224 -1 1114224
@@ -2285,8 +2285,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114176 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 687 1
+Refer: 1114176 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 278 1
 EndChar
 StartChar: generated.zoitei.vowel.uoe
 Encoding: 1114225 -1 1114225
@@ -2294,8 +2294,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114177 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 728 1
+Refer: 1114177 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 319 1
 EndChar
 StartChar: generated.zoitei.vowel.uou
 Encoding: 1114226 -1 1114226
@@ -2303,8 +2303,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114178 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 961 1
+Refer: 1114178 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 552 1
 EndChar
 StartChar: generated.zoitei.vowel.uoh
 Encoding: 1114227 -1 1114227
@@ -2312,8 +2312,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114179 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 597 1
+Refer: 1114179 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 188 1
 EndChar
 StartChar: generated.zoitei.vowel.uio
 Encoding: 1114228 -1 1114228
@@ -2321,8 +2321,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114180 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 830 1
+Refer: 1114180 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 421 1
 EndChar
 StartChar: generated.zoitei.vowel.uay
 Encoding: 1114229 -1 1114229
@@ -2330,8 +2330,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114181 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 830 1
+Refer: 1114181 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 421 1
 EndChar
 StartChar: generated.zoitei.vowel.uai
 Encoding: 1114230 -1 1114230
@@ -2339,8 +2339,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114182 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 687 1
+Refer: 1114182 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 278 1
 EndChar
 StartChar: generated.zoitei.vowel.uey
 Encoding: 1114231 -1 1114231
@@ -2348,8 +2348,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114183 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 830 1
+Refer: 1114183 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 421 1
 EndChar
 StartChar: generated.zoitei.vowel.uei
 Encoding: 1114232 -1 1114232
@@ -2357,8 +2357,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114184 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 687 1
+Refer: 1114184 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 278 1
 EndChar
 StartChar: generated.zoitei.vowel.uoy
 Encoding: 1114233 -1 1114233
@@ -2366,8 +2366,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114185 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 773 1
+Refer: 1114185 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 364 1
 EndChar
 StartChar: generated.zoitei.vowel.uoi
 Encoding: 1114234 -1 1114234
@@ -2375,8 +2375,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114186 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 1006 1
+Refer: 1114186 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 597 1
 EndChar
 StartChar: generated.zoitei.vowel.uiu
 Encoding: 1114235 -1 1114235
@@ -2384,8 +2384,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114187 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 961 1
+Refer: 1114187 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 552 1
 EndChar
 StartChar: generated.zoitei.vowel.uau
 Encoding: 1114236 -1 1114236
@@ -2393,8 +2393,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114188 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 961 1
+Refer: 1114188 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 552 1
 EndChar
 StartChar: generated.zoitei.vowel.uao
 Encoding: 1114237 -1 1114237
@@ -2402,8 +2402,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114189 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 1006 1
+Refer: 1114189 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 597 1
 EndChar
 StartChar: generated.zoitei.vowel.ueu
 Encoding: 1114238 -1 1114238
@@ -2411,8 +2411,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114190 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 961 1
+Refer: 1114190 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 552 1
 EndChar
 StartChar: generated.zoitei.vowel.ueo
 Encoding: 1114239 -1 1114239
@@ -2420,8 +2420,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114191 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 773 1
+Refer: 1114191 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 364 1
 EndChar
 StartChar: generated.zoitei.vowel.uoa
 Encoding: 1114240 -1 1114240
@@ -2429,8 +2429,8 @@ Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1114192 -1 N 1 0 0 1 0 0 1
-Refer: 1114314 -1 N 1 0 0 1 0 961 1
+Refer: 1114192 -1 N 1 0 0 1 0 -319 1
+Refer: 1114314 -1 N 1 0 0 1 0 552 1
 EndChar
 StartChar: .zoitei.fullwidth.vowel.yh
 Encoding: 1114241 -1 1114241

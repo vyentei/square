@@ -27,10 +27,10 @@ const VOWEL_LIST: &[&str] = &[
     "uoy", "uoi", "uiu", "uau", "uao", "ueu", "ueo", "uoa",
 ];
 
-// Offset to move onglide to (0, 0)
+// Offset to move onglide to (0, 0) with spacing
 const ONGLIDE_Y: &[i32] = &[
-    556 + 661 + 86 - 72 - 2048 + 239, // y
-    728 + 661 - 72 - 2048 + 239,      // u
+    556 + 661 + 86 - 72 - 2048 + 239 - 90 + 172, // y
+    728 + 661 - 72 - 2048 + 239 - 90,      // u
 ];
 
 // Vowel y positions (used to position onglides)
@@ -61,8 +61,8 @@ const VOWEL_Y: &[i32] = &[
     72 + 2048 - (239 + 428), // oa
 ];
 
-// The Y offset to add to the vowel, subtract from vowel Y to get onglide Y
-const ONGLIDE_OFFSET: i32 = 274;
+// The Y offset to subtract from the vowel (added height / 2)
+const ONGLIDE_OFFSET: i32 = 319;
 
 /// Replace `Close` with `LineTo` back to the last `MoveTo` position
 fn replace_close_segments(path: &Path) -> Option<Path> {
@@ -260,20 +260,18 @@ fn generate(glyph: &str) -> String {
         let inverted_y = 2048 - VOWEL_Y[usize::try_from(vowel).unwrap()];
         // The height
         let height = (1024 - inverted_y) * 2;
-        //let inverted_y = inverted_y - ONGLIDE_OFFSET;
-        //
-        //let onglide_y = inverted_y + height;
 
-        refer_at(gn, 1114169 + vowel, (0, 0)); // -ONGLIDE_OFFSET));
+        refer_at(gn, 1114169 + vowel, (0, -ONGLIDE_OFFSET));
         refer_at(
             gn,
             1114313 + onglide,
             (
                 0,
                 VOWEL_Y[usize::try_from(vowel).unwrap()]
-                    + ONGLIDE_Y[usize::try_from(onglide).unwrap()],
+                    + ONGLIDE_Y[usize::try_from(onglide).unwrap()]
+                    - ONGLIDE_OFFSET,
             ),
-        ); // inverted_y - ONGLIDE_OFFSET * 4));
+        );
     };
     let sonorant_modifier = |gn: &mut String, sonorant: u32, modifier: u32| {
         refer(gn, 1114112 + sonorant);

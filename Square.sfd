@@ -1433,18 +1433,18 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-498 701 m 0
-302 505 l 0
-722 505 l 0
-526 701 l 0
-498 701 l 0
-422 881 m 0
-602 881 l 0
-978 505 l 0
-978 325 l 0
-46 325 l 0
-46 505 l 0
-422 881 l 0
+498 462 m 0
+302 266 l 0
+722 266 l 0
+526 462 l 0
+498 462 l 0
+422 642 m 0
+602 642 l 0
+978 266 l 0
+978 86 l 0
+46 86 l 0
+46 266 l 0
+422 642 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ae
@@ -1454,18 +1454,18 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-422 1024 m 0
-602 1024 l 0
-602 724 l 0
-850 972 l 0
-978 844 l 0
-602 468 l 0
-602 182 l 0
-422 182 l 0
-422 768 l 0
-174 520 l 0
-46 648 l 0
-422 1024 l 0
+422 785 m 0
+602 785 l 0
+602 485 l 0
+850 733 l 0
+978 605 l 0
+602 229 l 0
+602 -57 l 0
+422 -57 l 0
+422 529 l 0
+174 281 l 0
+46 409 l 0
+422 785 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ih
@@ -1475,17 +1475,17 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-602 881 m 0
-978 505 l 0
-850 377 l 0
-602 625 l 0
-602 325 l 0
-422 325 l 0
-422 625 l 0
-174 377 l 0
-46 505 l 0
-422 881 l 0
-602 881 l 0
+602 642 m 0
+978 266 l 0
+850 138 l 0
+602 386 l 0
+602 86 l 0
+422 86 l 0
+422 386 l 0
+174 138 l 0
+46 266 l 0
+422 642 l 0
+602 642 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.iy
@@ -1495,21 +1495,21 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-602 625 m 0
-602 505 l 0
-722 505 l 0
-602 625 l 0
-422 625 m 0
-302 505 l 0
-422 505 l 0
-422 625 l 0
-422 881 m 0
-602 881 l 0
-978 505 l 0
-978 325 l 0
-46 325 l 0
-46 505 l 0
-422 881 l 0
+602 386 m 0
+602 266 l 0
+722 266 l 0
+602 386 l 0
+422 386 m 0
+302 266 l 0
+422 266 l 0
+422 386 l 0
+422 642 m 0
+602 642 l 0
+978 266 l 0
+978 86 l 0
+46 86 l 0
+46 266 l 0
+422 642 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ah
@@ -1519,22 +1519,22 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-498 844 m 0
-302 648 l 0
-722 648 l 0
-526 844 l 0
-498 844 l 0
-422 1024 m 0
-602 1024 l 0
-978 648 l 0
-978 468 l 0
-602 468 l 0
-602 182 l 0
-422 182 l 0
-422 468 l 0
-46 468 l 0
-46 648 l 0
-422 1024 l 0
+498 605 m 0
+302 409 l 0
+722 409 l 0
+526 605 l 0
+498 605 l 0
+422 785 m 0
+602 785 l 0
+978 409 l 0
+978 229 l 0
+602 229 l 0
+602 -57 l 0
+422 -57 l 0
+422 229 l 0
+46 229 l 0
+46 409 l 0
+422 785 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ia
@@ -1544,16 +1544,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-226 746 m 0
-226 460 l 0
-798 460 l 0
-798 746 l 0
-226 746 l 0
-46 926 m 0
-978 926 l 0
-978 280 l 0
-46 280 l 0
-46 926 l 0
+226 507 m 0
+226 221 l 0
+798 221 l 0
+798 507 l 0
+226 507 l 0
+46 687 m 0
+978 687 l 0
+978 41 l 0
+46 41 l 0
+46 687 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.eh
@@ -1563,17 +1563,17 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-422 881 m 0
-602 881 l 0
-602 581 l 0
-850 829 l 0
-978 701 l 0
-602 325 l 0
-422 325 l 0
-422 625 l 0
-174 377 l 0
-46 505 l 0
-422 881 l 0
+422 642 m 0
+602 642 l 0
+602 342 l 0
+850 590 l 0
+978 462 l 0
+602 86 l 0
+422 86 l 0
+422 386 l 0
+174 138 l 0
+46 266 l 0
+422 642 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ea
@@ -1583,13 +1583,13 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-46 926 m 0
-978 926 l 0
-978 280 l 0
-798 280 l 0
-798 746 l 0
-46 746 l 0
-46 926 l 0
+46 687 m 0
+978 687 l 0
+978 41 l 0
+798 41 l 0
+798 507 l 0
+46 507 l 0
+46 687 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.uh
@@ -1599,16 +1599,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-512 967 m 0
-769 967 978 758 978 501 c 0
-798 501 l 0
-798 627 716 735 602 772 c 0
-602 239 l 0
-422 239 l 0
-422 772 l 0
-308 735 226 627 226 501 c 0
-46 501 l 0
-46 758 255 967 512 967 c 0
+512 728 m 0
+769 728 978 519 978 262 c 0
+798 262 l 0
+798 388 716 496 602 533 c 0
+602 0 l 0
+422 0 l 0
+422 533 l 0
+308 496 226 388 226 262 c 0
+46 262 l 0
+46 519 255 728 512 728 c 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ou
@@ -1618,22 +1618,22 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-602 1005 m 0
-602 463 l 0
-716 500 798 608 798 734 c 0
-798 860 716 968 602 1005 c 0
-422 1005 m 0
-308 968 226 860 226 734 c 0
-226 608 308 500 422 463 c 0
-422 1005 l 0
-512 1200 m 0
-769 1200 978 991 978 734 c 0
-978 508 816 319 602 277 c 0
-602 6 l 0
-422 6 l 0
-422 277 l 0
-208 319 46 508 46 734 c 0
-46 991 255 1200 512 1200 c 0
+602 766 m 0
+602 224 l 0
+716 261 798 369 798 495 c 0
+798 621 716 729 602 766 c 0
+422 766 m 0
+308 729 226 621 226 495 c 0
+226 369 308 261 422 224 c 0
+422 766 l 0
+512 961 m 0
+769 961 978 752 978 495 c 0
+978 269 816 80 602 38 c 0
+602 -233 l 0
+422 -233 l 0
+422 38 l 0
+208 80 46 269 46 495 c 0
+46 752 255 961 512 961 c 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.oh
@@ -1643,13 +1643,13 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-46 370 m 0
-226 370 l 0
-226 528 354 656 512 656 c 0
-670 656 798 528 798 370 c 0
-978 370 l 0
-978 627 769 836 512 836 c 0
-255 836 46 627 46 370 c 0
+46 131 m 0
+226 131 l 0
+226 289 354 417 512 417 c 0
+670 417 798 289 798 131 c 0
+978 131 l 0
+978 388 769 597 512 597 c 0
+255 597 46 388 46 131 c 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.io
@@ -1659,16 +1659,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-512 889 m 0
-354 889 226 761 226 603 c 0
-226 445 354 317 512 317 c 0
-670 317 798 445 798 603 c 0
-798 761 670 889 512 889 c 0
-512 1069 m 0
-769 1069 978 860 978 603 c 0
-978 346 769 137 512 137 c 0
-255 137 46 346 46 603 c 0
-46 860 255 1069 512 1069 c 0
+512 650 m 0
+354 650 226 522 226 364 c 0
+226 206 354 78 512 78 c 0
+670 78 798 206 798 364 c 0
+798 522 670 650 512 650 c 0
+512 830 m 0
+769 830 978 621 978 364 c 0
+978 107 769 -102 512 -102 c 0
+255 -102 46 107 46 364 c 0
+46 621 255 830 512 830 c 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ay
@@ -1678,26 +1678,26 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-498 889 m 0
-302 693 l 0
-722 693 l 0
-526 889 l 0
-498 889 l 0
-422 1069 m 0
-602 1069 l 0
-978 693 l 0
-978 513 l 0
-602 513 l 0
-602 317 l 0
-978 317 l 0
-978 137 l 0
-46 137 l 0
-46 317 l 0
-422 317 l 0
-422 513 l 0
-46 513 l 0
-46 693 l 0
-422 1069 l 0
+498 650 m 0
+302 454 l 0
+722 454 l 0
+526 650 l 0
+498 650 l 0
+422 830 m 0
+602 830 l 0
+978 454 l 0
+978 274 l 0
+602 274 l 0
+602 78 l 0
+978 78 l 0
+978 -102 l 0
+46 -102 l 0
+46 78 l 0
+422 78 l 0
+422 274 l 0
+46 274 l 0
+46 454 l 0
+422 830 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ai
@@ -1707,21 +1707,21 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-602 746 m 0
-602 460 l 0
-798 460 l 0
-798 746 l 0
-602 746 l 0
-226 746 m 0
-226 460 l 0
-422 460 l 0
-422 746 l 0
-226 746 l 0
-46 926 m 0
-978 926 l 0
-978 280 l 0
-46 280 l 0
-46 926 l 0
+602 507 m 0
+602 221 l 0
+798 221 l 0
+798 507 l 0
+602 507 l 0
+226 507 m 0
+226 221 l 0
+422 221 l 0
+422 507 l 0
+226 507 l 0
+46 687 m 0
+978 687 l 0
+978 41 l 0
+46 41 l 0
+46 687 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ey
@@ -1731,22 +1731,22 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-422 1069 m 0
-602 1069 l 0
-602 769 l 0
-850 1017 l 0
-978 889 l 0
-602 513 l 0
-602 317 l 0
-978 317 l 0
-978 137 l 0
-46 137 l 0
-46 317 l 0
-422 317 l 0
-422 813 l 0
-174 565 l 0
-46 693 l 0
-422 1069 l 0
+422 830 m 0
+602 830 l 0
+602 530 l 0
+850 778 l 0
+978 650 l 0
+602 274 l 0
+602 78 l 0
+978 78 l 0
+978 -102 l 0
+46 -102 l 0
+46 78 l 0
+422 78 l 0
+422 574 l 0
+174 326 l 0
+46 454 l 0
+422 830 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ei
@@ -1756,18 +1756,18 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-422 926 m 0
-602 926 l 0
-602 460 l 0
-978 460 l 0
-978 280 l 0
-46 280 l 0
-46 460 l 0
-422 460 l 0
-422 746 l 0
-46 746 l 0
-46 926 l 0
-422 926 l 0
+422 687 m 0
+602 687 l 0
+602 221 l 0
+978 221 l 0
+978 41 l 0
+46 41 l 0
+46 221 l 0
+422 221 l 0
+422 507 l 0
+46 507 l 0
+46 687 l 0
+422 687 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.oy
@@ -1777,20 +1777,20 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-512 1012 m 0
-769 1012 978 803 978 546 c 0
-798 546 l 0
-798 672 716 780 602 817 c 0
-602 374 l 0
-978 374 l 0
-978 194 l 0
-46 194 l 0
-46 374 l 0
-422 374 l 0
-422 817 l 0
-308 780 226 672 226 546 c 0
-46 546 l 0
-46 803 255 1012 512 1012 c 0
+512 773 m 0
+769 773 978 564 978 307 c 0
+798 307 l 0
+798 433 716 541 602 578 c 0
+602 135 l 0
+978 135 l 0
+978 -45 l 0
+46 -45 l 0
+46 135 l 0
+422 135 l 0
+422 578 l 0
+308 541 226 433 226 307 c 0
+46 307 l 0
+46 564 255 773 512 773 c 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.oi
@@ -1800,26 +1800,26 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-512 1065 m 0
-354 1065 226 937 226 779 c 0
-226 653 308 545 422 508 c 0
-422 779 l 0
-602 779 l 0
-602 508 l 0
-716 545 798 653 798 779 c 0
-798 937 670 1065 512 1065 c 0
-512 1245 m 0
-769 1245 978 1036 978 779 c 0
-978 553 816 364 602 322 c 0
-602 141 l 0
-978 141 l 0
-978 -39 l 0
-46 -39 l 0
-46 141 l 0
-422 141 l 0
-422 322 l 0
-208 364 46 553 46 779 c 0
-46 1036 255 1245 512 1245 c 0
+512 826 m 0
+354 826 226 698 226 540 c 0
+226 414 308 306 422 269 c 0
+422 540 l 0
+602 540 l 0
+602 269 l 0
+716 306 798 414 798 540 c 0
+798 698 670 826 512 826 c 0
+512 1006 m 0
+769 1006 978 797 978 540 c 0
+978 314 816 125 602 83 c 0
+602 -98 l 0
+978 -98 l 0
+978 -278 l 0
+46 -278 l 0
+46 -98 l 0
+422 -98 l 0
+422 83 l 0
+208 125 46 314 46 540 c 0
+46 797 255 1006 512 1006 c 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.iu
@@ -1829,27 +1829,27 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-602 944 m 0
-602 463 l 0
-707 497 785 592 797 705 c 0
-797 749 l 0
-602 944 l 0
-422 944 m 0
-227 749 l 0
-227 705 l 0
-239 592 317 497 422 463 c 0
-422 944 l 0
-422 1200 m 0
-602 1200 l 0
-978 824 l 0
-978 734 l 0
-978 508 816 319 602 277 c 0
-602 6 l 0
-422 6 l 0
-422 277 l 0
-208 319 46 508 46 734 c 0
-46 824 l 0
-422 1200 l 0
+602 705 m 0
+602 224 l 0
+707 258 785 353 797 466 c 0
+797 510 l 0
+602 705 l 0
+422 705 m 0
+227 510 l 0
+227 466 l 0
+239 353 317 258 422 224 c 0
+422 705 l 0
+422 961 m 0
+602 961 l 0
+978 585 l 0
+978 495 l 0
+978 269 816 80 602 38 c 0
+602 -233 l 0
+422 -233 l 0
+422 38 l 0
+208 80 46 269 46 495 c 0
+46 585 l 0
+422 961 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.au
@@ -1859,30 +1859,30 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-602 644 m 0
-602 463 l 0
-687 491 755 559 783 644 c 0
-602 644 l 0
-241 644 m 0
-269 559 337 491 422 463 c 0
-422 644 l 0
-241 644 l 0
-498 1020 m 0
-302 824 l 0
-722 824 l 0
-526 1020 l 0
-498 1020 l 0
-422 1200 m 0
-602 1200 l 0
-978 824 l 0
-978 734 l 0
-978 508 816 319 602 277 c 0
-602 6 l 0
-422 6 l 0
-422 277 l 0
-208 319 46 508 46 734 c 0
-46 824 l 0
-422 1200 l 0
+602 405 m 0
+602 224 l 0
+687 252 755 320 783 405 c 0
+602 405 l 0
+241 405 m 0
+269 320 337 252 422 224 c 0
+422 405 l 0
+241 405 l 0
+498 781 m 0
+302 585 l 0
+722 585 l 0
+526 781 l 0
+498 781 l 0
+422 961 m 0
+602 961 l 0
+978 585 l 0
+978 495 l 0
+978 269 816 80 602 38 c 0
+602 -233 l 0
+422 -233 l 0
+422 38 l 0
+208 80 46 269 46 495 c 0
+46 585 l 0
+422 961 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.ao
@@ -1892,30 +1892,30 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-602 599 m 0
-602 418 l 0
-687 446 755 514 783 599 c 0
-602 599 l 0
-241 599 m 0
-269 514 337 446 422 418 c 0
-422 599 l 0
-241 599 l 0
-226 1065 m 0
-226 779 l 0
-798 779 l 0
-798 1065 l 0
-226 1065 l 0
-46 1245 m 0
-978 1245 l 0
-978 779 l 0
-978 689 l 0
-978 463 816 274 602 232 c 0
-602 -39 l 0
-422 -39 l 0
-422 232 l 0
-208 274 46 463 46 689 c 0
-46 779 l 0
-46 1245 l 0
+602 360 m 0
+602 179 l 0
+687 207 755 275 783 360 c 0
+602 360 l 0
+241 360 m 0
+269 275 337 207 422 179 c 0
+422 360 l 0
+241 360 l 0
+226 826 m 0
+226 540 l 0
+798 540 l 0
+798 826 l 0
+226 826 l 0
+46 1006 m 0
+978 1006 l 0
+978 540 l 0
+978 450 l 0
+978 224 816 35 602 -7 c 0
+602 -278 l 0
+422 -278 l 0
+422 -7 l 0
+208 35 46 224 46 450 c 0
+46 540 l 0
+46 1006 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.eu
@@ -1925,27 +1925,27 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-422 944 m 0
-227 749 l 0
-227 705 l 0
-239 592 317 497 422 463 c 0
-422 944 l 0
-422 1200 m 0
-602 1200 l 0
-602 900 l 0
-850 1148 l 0
-978 1020 l 0
-602 644 l 0
-602 463 l 0
-716 500 798 608 798 734 c 0
-978 734 l 0
-978 508 816 319 602 277 c 0
-602 6 l 0
-422 6 l 0
-422 277 l 0
-208 319 46 508 46 734 c 0
-46 824 l 0
-422 1200 l 0
+422 705 m 0
+227 510 l 0
+227 466 l 0
+239 353 317 258 422 224 c 0
+422 705 l 0
+422 961 m 0
+602 961 l 0
+602 661 l 0
+850 909 l 0
+978 781 l 0
+602 405 l 0
+602 224 l 0
+716 261 798 369 798 495 c 0
+978 495 l 0
+978 269 816 80 602 38 c 0
+602 -233 l 0
+422 -233 l 0
+422 38 l 0
+208 80 46 269 46 495 c 0
+46 585 l 0
+422 961 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.eo
@@ -1955,24 +1955,24 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-241 832 m 0
-269 747 337 679 422 651 c 0
-422 832 l 0
-241 832 l 0
-46 1012 m 0
-422 1012 l 0
-602 1012 l 0
-602 651 l 0
-716 688 798 796 798 922 c 0
-798 967 l 0
-978 967 l 0
-978 922 l 0
-978 696 816 507 602 465 c 0
-602 194 l 0
-422 194 l 0
-422 465 l 0
-208 507 46 696 46 922 c 0
-46 1012 l 0
+241 593 m 0
+269 508 337 440 422 412 c 0
+422 593 l 0
+241 593 l 0
+46 773 m 0
+422 773 l 0
+602 773 l 0
+602 412 l 0
+716 449 798 557 798 683 c 0
+798 728 l 0
+978 728 l 0
+978 683 l 0
+978 457 816 268 602 226 c 0
+602 -45 l 0
+422 -45 l 0
+422 226 l 0
+208 268 46 457 46 683 c 0
+46 773 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.oa
@@ -1982,407 +1982,455 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-512 1020 m 0
-354 1020 226 892 226 734 c 0
-226 608 308 500 422 463 c 0
-422 734 l 0
-602 734 l 0
-602 463 l 0
-716 500 798 608 798 734 c 0
-798 892 670 1020 512 1020 c 0
-512 1200 m 0
-769 1200 978 991 978 734 c 0
-978 508 816 319 602 277 c 0
-602 6 l 0
-422 6 l 0
-422 277 l 0
-208 319 46 508 46 734 c 0
-46 991 255 1200 512 1200 c 0
+512 781 m 0
+354 781 226 653 226 495 c 0
+226 369 308 261 422 224 c 0
+422 495 l 0
+602 495 l 0
+602 224 l 0
+716 261 798 369 798 495 c 0
+798 653 670 781 512 781 c 0
+512 961 m 0
+769 961 978 752 978 495 c 0
+978 269 816 80 602 38 c 0
+602 -233 l 0
+422 -233 l 0
+422 38 l 0
+208 80 46 269 46 495 c 0
+46 752 255 961 512 961 c 0
 EndSplineSet
 EndChar
-StartChar: .zoitei.vowel.yie
+StartChar: generated.zoitei.vowel.yie
 Encoding: 1114193 -1 1114193
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114169 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 556 1
 EndChar
-StartChar: .zoitei.vowel.yae
+StartChar: generated.zoitei.vowel.yae
 Encoding: 1114194 -1 1114194
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 699 1
 EndChar
-StartChar: .zoitei.vowel.yih
+StartChar: generated.zoitei.vowel.yih
 Encoding: 1114195 -1 1114195
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114171 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 556 1
 EndChar
-StartChar: .zoitei.vowel.yiy
+StartChar: generated.zoitei.vowel.yiy
 Encoding: 1114196 -1 1114196
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114172 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 556 1
 EndChar
-StartChar: .zoitei.vowel.yah
+StartChar: generated.zoitei.vowel.yah
 Encoding: 1114197 -1 1114197
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114173 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 699 1
 EndChar
-StartChar: .zoitei.vowel.yia
+StartChar: generated.zoitei.vowel.yia
 Encoding: 1114198 -1 1114198
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114174 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 601 1
 EndChar
-StartChar: .zoitei.vowel.yeh
+StartChar: generated.zoitei.vowel.yeh
 Encoding: 1114199 -1 1114199
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114175 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 556 1
 EndChar
-StartChar: .zoitei.vowel.yea
+StartChar: generated.zoitei.vowel.yea
 Encoding: 1114200 -1 1114200
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114176 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 601 1
 EndChar
-StartChar: .zoitei.vowel.yuh
+StartChar: generated.zoitei.vowel.yuh
 Encoding: 1114201 -1 1114201
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114177 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 642 1
 EndChar
-StartChar: .zoitei.vowel.you
+StartChar: generated.zoitei.vowel.you
 Encoding: 1114202 -1 1114202
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114178 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 875 1
 EndChar
-StartChar: .zoitei.vowel.yoh
+StartChar: generated.zoitei.vowel.yoh
 Encoding: 1114203 -1 1114203
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114179 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 511 1
 EndChar
-StartChar: .zoitei.vowel.yio
+StartChar: generated.zoitei.vowel.yio
 Encoding: 1114204 -1 1114204
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114180 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 744 1
 EndChar
-StartChar: .zoitei.vowel.yay
+StartChar: generated.zoitei.vowel.yay
 Encoding: 1114205 -1 1114205
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114181 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 744 1
 EndChar
-StartChar: .zoitei.vowel.yai
+StartChar: generated.zoitei.vowel.yai
 Encoding: 1114206 -1 1114206
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114182 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 601 1
 EndChar
-StartChar: .zoitei.vowel.yey
+StartChar: generated.zoitei.vowel.yey
 Encoding: 1114207 -1 1114207
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114183 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 744 1
 EndChar
-StartChar: .zoitei.vowel.yei
+StartChar: generated.zoitei.vowel.yei
 Encoding: 1114208 -1 1114208
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114184 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 601 1
 EndChar
-StartChar: .zoitei.vowel.yoy
+StartChar: generated.zoitei.vowel.yoy
 Encoding: 1114209 -1 1114209
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114185 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 687 1
 EndChar
-StartChar: .zoitei.vowel.yoi
+StartChar: generated.zoitei.vowel.yoi
 Encoding: 1114210 -1 1114210
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114186 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 920 1
 EndChar
-StartChar: .zoitei.vowel.yiu
+StartChar: generated.zoitei.vowel.yiu
 Encoding: 1114211 -1 1114211
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114187 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 875 1
 EndChar
-StartChar: .zoitei.vowel.yau
+StartChar: generated.zoitei.vowel.yau
 Encoding: 1114212 -1 1114212
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114188 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 875 1
 EndChar
-StartChar: .zoitei.vowel.yao
+StartChar: generated.zoitei.vowel.yao
 Encoding: 1114213 -1 1114213
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114189 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 920 1
 EndChar
-StartChar: .zoitei.vowel.yeu
+StartChar: generated.zoitei.vowel.yeu
 Encoding: 1114214 -1 1114214
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114190 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 875 1
 EndChar
-StartChar: .zoitei.vowel.yeo
+StartChar: generated.zoitei.vowel.yeo
 Encoding: 1114215 -1 1114215
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114191 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 687 1
 EndChar
-StartChar: .zoitei.vowel.yoa
+StartChar: generated.zoitei.vowel.yoa
 Encoding: 1114216 -1 1114216
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114192 -1 N 1 0 0 1 0 0 1
+Refer: 1114313 -1 N 1 0 0 1 0 875 1
 EndChar
-StartChar: .zoitei.vowel.uyh
+StartChar: generated.zoitei.vowel.uyh
 Encoding: 1114217 -1 1114217
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114169 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 642 1
 EndChar
-StartChar: .zoitei.vowel.uae
+StartChar: generated.zoitei.vowel.uae
 Encoding: 1114218 -1 1114218
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 785 1
 EndChar
-StartChar: .zoitei.vowel.uih
+StartChar: generated.zoitei.vowel.uih
 Encoding: 1114219 -1 1114219
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114171 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 642 1
 EndChar
-StartChar: .zoitei.vowel.uiy
+StartChar: generated.zoitei.vowel.uiy
 Encoding: 1114220 -1 1114220
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114172 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 642 1
 EndChar
-StartChar: .zoitei.vowel.uah
+StartChar: generated.zoitei.vowel.uah
 Encoding: 1114221 -1 1114221
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114173 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 785 1
 EndChar
-StartChar: .zoitei.vowel.uia
+StartChar: generated.zoitei.vowel.uia
 Encoding: 1114222 -1 1114222
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114174 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 687 1
 EndChar
-StartChar: .zoitei.vowel.ueh
+StartChar: generated.zoitei.vowel.ueh
 Encoding: 1114223 -1 1114223
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114175 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 642 1
 EndChar
-StartChar: .zoitei.vowel.uea
+StartChar: generated.zoitei.vowel.uea
 Encoding: 1114224 -1 1114224
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114176 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 687 1
 EndChar
-StartChar: .zoitei.vowel.uoe
+StartChar: generated.zoitei.vowel.uoe
 Encoding: 1114225 -1 1114225
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114177 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 728 1
 EndChar
-StartChar: .zoitei.vowel.uou
+StartChar: generated.zoitei.vowel.uou
 Encoding: 1114226 -1 1114226
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114178 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 961 1
 EndChar
-StartChar: .zoitei.vowel.uoh
+StartChar: generated.zoitei.vowel.uoh
 Encoding: 1114227 -1 1114227
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114179 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 597 1
 EndChar
-StartChar: .zoitei.vowel.uio
+StartChar: generated.zoitei.vowel.uio
 Encoding: 1114228 -1 1114228
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114180 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 830 1
 EndChar
-StartChar: .zoitei.vowel.uay
+StartChar: generated.zoitei.vowel.uay
 Encoding: 1114229 -1 1114229
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114181 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 830 1
 EndChar
-StartChar: .zoitei.vowel.uai
+StartChar: generated.zoitei.vowel.uai
 Encoding: 1114230 -1 1114230
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114182 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 687 1
 EndChar
-StartChar: .zoitei.vowel.uey
+StartChar: generated.zoitei.vowel.uey
 Encoding: 1114231 -1 1114231
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114183 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 830 1
 EndChar
-StartChar: .zoitei.vowel.uei
+StartChar: generated.zoitei.vowel.uei
 Encoding: 1114232 -1 1114232
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114184 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 687 1
 EndChar
-StartChar: .zoitei.vowel.uoy
+StartChar: generated.zoitei.vowel.uoy
 Encoding: 1114233 -1 1114233
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114185 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 773 1
 EndChar
-StartChar: .zoitei.vowel.uoi
+StartChar: generated.zoitei.vowel.uoi
 Encoding: 1114234 -1 1114234
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114186 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 1006 1
 EndChar
-StartChar: .zoitei.vowel.uiu
+StartChar: generated.zoitei.vowel.uiu
 Encoding: 1114235 -1 1114235
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114187 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 961 1
 EndChar
-StartChar: .zoitei.vowel.uau
+StartChar: generated.zoitei.vowel.uau
 Encoding: 1114236 -1 1114236
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114188 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 961 1
 EndChar
-StartChar: .zoitei.vowel.uao
+StartChar: generated.zoitei.vowel.uao
 Encoding: 1114237 -1 1114237
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114189 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 1006 1
 EndChar
-StartChar: .zoitei.vowel.ueu
+StartChar: generated.zoitei.vowel.ueu
 Encoding: 1114238 -1 1114238
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114190 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 961 1
 EndChar
-StartChar: .zoitei.vowel.ueo
+StartChar: generated.zoitei.vowel.ueo
 Encoding: 1114239 -1 1114239
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114191 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 773 1
 EndChar
-StartChar: .zoitei.vowel.uoa
+StartChar: generated.zoitei.vowel.uoa
 Encoding: 1114240 -1 1114240
 Width: 2048
 Flags: W
 LayerCount: 2
 Fore
-Refer: 0 0 N 1 0 0 1 0 0 1
+Refer: 1114192 -1 N 1 0 0 1 0 0 1
+Refer: 1114314 -1 N 1 0 0 1 0 961 1
 EndChar
 StartChar: .zoitei.fullwidth.vowel.yh
 Encoding: 1114241 -1 1114241
@@ -2967,15 +3015,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-422 881 m 0
-602 881 l 0
-602 505 l 0
-978 505 l 0
-978 325 l 0
-46 325 l 0
-46 505 l 0
-422 505 l 0
-422 881 l 0
+422 642 m 0
+602 642 l 0
+602 266 l 0
+978 266 l 0
+978 86 l 0
+46 86 l 0
+46 266 l 0
+422 266 l 0
+422 642 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.vowel.u
@@ -2985,19 +3033,19 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-46 967 m 0
-226 967 l 0
-226 841 308 733 422 696 c 0
-422 967 l 0
-602 967 l 0
-602 696 l 0
-716 733 798 841 798 967 c 0
-978 967 l 0
-978 741 816 552 602 510 c 0
-602 239 l 0
-422 239 l 0
-422 510 l 0
-208 552 46 741 46 967 c 0
+46 728 m 0
+226 728 l 0
+226 602 308 494 422 457 c 0
+422 728 l 0
+602 728 l 0
+602 457 l 0
+716 494 798 602 798 728 c 0
+978 728 l 0
+978 502 816 313 602 271 c 0
+602 0 l 0
+422 0 l 0
+422 271 l 0
+208 313 46 502 46 728 c 0
 EndSplineSet
 EndChar
 StartChar: .zoitei.fullwidth.vowel.y

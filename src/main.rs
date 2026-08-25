@@ -20,12 +20,49 @@ const CONSONANT_LIST_INDICES: &[usize] = &[
 const VOWEL_LIST: &[&str] = &[
     "yh", "ae", "ih", "iy", "ah", "ia", "eh", "ea", "uh", "ou", "oh", "io",
     "ay", "ai", "ey", "ei", "oy", "oi", "iu", "au", "ao", "eu", "eo", "oa",
-    "yie", "yae", "yih", "yiy", "yah", "yia", "yeh", "yea", "yuh", "you", "yoh",
-    "yio", "yay", "yai", "yey", "yei", "yoy", "yoi", "yiu", "yau", "yao", "yeu",
-    "yeo", "yoa", "uyh", "uae", "uih", "uiy", "uah", "uia", "ueh", "uea",
-    "uoe", "uou", "uoh", "uio", "uay", "uai", "uey", "uei", "uoy", "uoi", "uiu",
-    "uau", "uao", "ueu", "ueo", "uoa",
+    "yie", "yae", "yih", "yiy", "yah", "yia", "yeh", "yea", "yuh", "you",
+    "yoh", "yio", "yay", "yai", "yey", "yei", "yoy", "yoi", "yiu", "yau",
+    "yao", "yeu", "yeo", "yoa", "uyh", "uae", "uih", "uiy", "uah", "uia",
+    "ueh", "uea", "uoe", "uou", "uoh", "uio", "uay", "uai", "uey", "uei",
+    "uoy", "uoi", "uiu", "uau", "uao", "ueu", "ueo", "uoa",
 ];
+
+// Offset to move onglide to (0, 0)
+const ONGLIDE_Y: &[i32] = &[
+    556 + 661 + 86 - 72 - 2048 + 239, // y
+    728 + 661 - 72 - 2048 + 239,      // u
+];
+
+// Vowel y positions (used to position onglides)
+const VOWEL_Y: &[i32] = &[
+    72 + 2048 - (239 + 747), // yh
+    72 + 2048 - (239 + 604), // ae
+    72 + 2048 - (239 + 747), // ih
+    72 + 2048 - (239 + 747), // ay
+    72 + 2048 - (239 + 604), // ah
+    72 + 2048 - (239 + 702), // ia
+    72 + 2048 - (239 + 747), // eh
+    72 + 2048 - (239 + 702), // ea
+    72 + 2048 - (239 + 661), // uh
+    72 + 2048 - (239 + 428), // ou
+    72 + 2048 - (239 + 792), // oh
+    72 + 2048 - (239 + 559), // io
+    72 + 2048 - (239 + 559), // ay
+    72 + 2048 - (239 + 702), // ai
+    72 + 2048 - (239 + 559), // ey
+    72 + 2048 - (239 + 702), // ei
+    72 + 2048 - (239 + 616), // oy
+    72 + 2048 - (239 + 383), // oi
+    72 + 2048 - (239 + 428), // iu
+    72 + 2048 - (239 + 428), // au
+    72 + 2048 - (239 + 383), // ao
+    72 + 2048 - (239 + 428), // eu
+    72 + 2048 - (239 + 616), // eo
+    72 + 2048 - (239 + 428), // oa
+];
+
+// The Y offset to add to the vowel, subtract from vowel Y to get onglide Y
+const ONGLIDE_OFFSET: i32 = 274;
 
 /// Replace `Close` with `LineTo` back to the last `MoveTo` position
 fn replace_close_segments(path: &Path) -> Option<Path> {
@@ -218,6 +255,26 @@ fn generate(glyph: &str) -> String {
     let refer = |gn: &mut String, number: u32| {
         refer_at(gn, number, (0, 0));
     };
+    let vowel = |gn: &mut String, vowel: u32, onglide: u32| {
+        // Y measured from bottom of glyph instead of top
+        let inverted_y = 2048 - VOWEL_Y[usize::try_from(vowel).unwrap()];
+        // The height
+        let height = (1024 - inverted_y) * 2;
+        //let inverted_y = inverted_y - ONGLIDE_OFFSET;
+        //
+        //let onglide_y = inverted_y + height;
+
+        refer_at(gn, 1114169 + vowel, (0, 0)); // -ONGLIDE_OFFSET));
+        refer_at(
+            gn,
+            1114313 + onglide,
+            (
+                0,
+                VOWEL_Y[usize::try_from(vowel).unwrap()]
+                    + ONGLIDE_Y[usize::try_from(onglide).unwrap()],
+            ),
+        ); // inverted_y - ONGLIDE_OFFSET * 4));
+    };
     let sonorant_modifier = |gn: &mut String, sonorant: u32, modifier: u32| {
         refer(gn, 1114112 + sonorant);
         refer(gn, 1114136 + modifier);
@@ -236,6 +293,56 @@ fn generate(glyph: &str) -> String {
     let generate_syllable = |gn: &mut String, syllable: &str| {};
 
     match glyph {
+        // generated combined vowel glyphs (y-)
+        "zoitei.vowel.yie" => vowel(&mut g, 0, 0),
+        "zoitei.vowel.yae" => vowel(&mut g, 1, 0),
+        "zoitei.vowel.yih" => vowel(&mut g, 2, 0),
+        "zoitei.vowel.yiy" => vowel(&mut g, 3, 0),
+        "zoitei.vowel.yah" => vowel(&mut g, 4, 0),
+        "zoitei.vowel.yia" => vowel(&mut g, 5, 0),
+        "zoitei.vowel.yeh" => vowel(&mut g, 6, 0),
+        "zoitei.vowel.yea" => vowel(&mut g, 7, 0),
+        "zoitei.vowel.yuh" => vowel(&mut g, 8, 0),
+        "zoitei.vowel.you" => vowel(&mut g, 9, 0),
+        "zoitei.vowel.yoh" => vowel(&mut g, 10, 0),
+        "zoitei.vowel.yio" => vowel(&mut g, 11, 0),
+        "zoitei.vowel.yay" => vowel(&mut g, 12, 0),
+        "zoitei.vowel.yai" => vowel(&mut g, 13, 0),
+        "zoitei.vowel.yey" => vowel(&mut g, 14, 0),
+        "zoitei.vowel.yei" => vowel(&mut g, 15, 0),
+        "zoitei.vowel.yoy" => vowel(&mut g, 16, 0),
+        "zoitei.vowel.yoi" => vowel(&mut g, 17, 0),
+        "zoitei.vowel.yiu" => vowel(&mut g, 18, 0),
+        "zoitei.vowel.yau" => vowel(&mut g, 19, 0),
+        "zoitei.vowel.yao" => vowel(&mut g, 20, 0),
+        "zoitei.vowel.yeu" => vowel(&mut g, 21, 0),
+        "zoitei.vowel.yeo" => vowel(&mut g, 22, 0),
+        "zoitei.vowel.yoa" => vowel(&mut g, 23, 0),
+        // generated combined vowel glyphs (u-)
+        "zoitei.vowel.uyh" => vowel(&mut g, 0, 1),
+        "zoitei.vowel.uae" => vowel(&mut g, 1, 1),
+        "zoitei.vowel.uih" => vowel(&mut g, 2, 1),
+        "zoitei.vowel.uiy" => vowel(&mut g, 3, 1),
+        "zoitei.vowel.uah" => vowel(&mut g, 4, 1),
+        "zoitei.vowel.uia" => vowel(&mut g, 5, 1),
+        "zoitei.vowel.ueh" => vowel(&mut g, 6, 1),
+        "zoitei.vowel.uea" => vowel(&mut g, 7, 1),
+        "zoitei.vowel.uoe" => vowel(&mut g, 8, 1),
+        "zoitei.vowel.uou" => vowel(&mut g, 9, 1),
+        "zoitei.vowel.uoh" => vowel(&mut g, 10, 1),
+        "zoitei.vowel.uio" => vowel(&mut g, 11, 1),
+        "zoitei.vowel.uay" => vowel(&mut g, 12, 1),
+        "zoitei.vowel.uai" => vowel(&mut g, 13, 1),
+        "zoitei.vowel.uey" => vowel(&mut g, 14, 1),
+        "zoitei.vowel.uei" => vowel(&mut g, 15, 1),
+        "zoitei.vowel.uoy" => vowel(&mut g, 16, 1),
+        "zoitei.vowel.uoi" => vowel(&mut g, 17, 1),
+        "zoitei.vowel.uiu" => vowel(&mut g, 18, 1),
+        "zoitei.vowel.uau" => vowel(&mut g, 19, 1),
+        "zoitei.vowel.uao" => vowel(&mut g, 20, 1),
+        "zoitei.vowel.ueu" => vowel(&mut g, 21, 1),
+        "zoitei.vowel.ueo" => vowel(&mut g, 22, 1),
+        "zoitei.vowel.uoa" => vowel(&mut g, 23, 1),
         // generated base consonant glyphs
         "zoitei.plosive.p" => sonorant_modifier(&mut g, 0, 0),
         "zoitei.plosive.t" => sonorant_modifier(&mut g, 1, 0),
@@ -369,7 +476,7 @@ fn main() {
             in_fore = true;
 
             if let Some(ref generated) = generated {
-                line.push_str("\n");
+                line.push('\n');
                 line.push_str(generated);
             } else {
                 line.push_str("\nSplineSet\n");

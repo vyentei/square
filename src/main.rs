@@ -2,8 +2,22 @@
 
 use usvg::tiny_skia_path::{Path, PathBuilder, PathSegment, PathVerb, Point};
 
-// Maximum height for a vowel without an onglide
-const VOWEL_MAX_HEIGHT: i32 = 1284;
+mod spacing {
+    /// Maximum height for a vowel without an onglide
+    pub const VOWEL_MAX_HEIGHT: i32 = 1276;
+    /// Height of the 'y-' onglide glyph (54 spacing)
+    pub const Y_ONGLIDE_HEIGHT: i32 = 486;
+    /// Height of the 'u-' onglide glyph (540 without overlap)
+    pub const U_ONGLIDE_HEIGHT: i32 = 720;
+    /// Maximum height (including spacing) a glyph can be underneath the capline
+    pub const MAX_HEIGHT_UNDER_CAPLINE: i32 = 1880;
+    /// Maximum height for onglide glyphs (not including overlap)
+    pub const MAX_ONGLIDE_HEIGHT: i32 = 604;
+    /// Distance between glpyh and onglide
+    pub const Y_ONGLIDE_DISTANCE_ABOVE: i32 = 60 + 12;
+    /// Distance between glpyh and onglide
+    pub const U_ONGLIDE_DISTANCE_ABOVE: i32 = -180 + 12;
+}
 
 // Private use area order font list
 const CONSONANT_LIST: &[&str] = &[
@@ -32,40 +46,40 @@ const VOWEL_LIST: &[&str] = &[
 
 // Offset to move onglide to (0, 0) with spacing
 const ONGLIDE_Y: &[i32] = &[
-    556 + 661 + 86 - 72 - 2048 + (239 - 82) - 90 + 172, // y
-    728 + 661 - 72 - 2048 + (239 - 82) - 90,            // u
+    -695 + spacing::Y_ONGLIDE_DISTANCE_ABOVE, // y
+    -578 + spacing::U_ONGLIDE_DISTANCE_ABOVE, // u
 ];
 
 // Vowel y positions (used to position onglides)
 const VOWEL_Y: &[i32] = &[
-    72 + 2048 - ((239 - 82) + 747), // yh
-    72 + 2048 - ((239 - 82) + 604), // ae
-    72 + 2048 - ((239 - 82) + 747), // ih
-    72 + 2048 - ((239 - 82) + 747), // ay
-    72 + 2048 - ((239 - 82) + 604), // ah
-    72 + 2048 - ((239 - 82) + 702), // ia
-    72 + 2048 - ((239 - 82) + 747), // eh
-    72 + 2048 - ((239 - 82) + 702), // ea
-    72 + 2048 - ((239 - 82) + 661), // uh
-    72 + 2048 - ((239 - 82) + 428), // ou
-    72 + 2048 - ((239 - 82) + 792), // oh
-    72 + 2048 - ((239 - 82) + 559), // io
-    72 + 2048 - ((239 - 82) + 559), // ay
-    72 + 2048 - ((239 - 82) + 702), // ai
-    72 + 2048 - ((239 - 82) + 559), // ey
-    72 + 2048 - ((239 - 82) + 702), // ei
-    72 + 2048 - ((239 - 82) + 616), // oy
-    72 + 2048 - ((239 - 82) + 383), // oi
-    72 + 2048 - ((239 - 82) + 428), // iu
-    72 + 2048 - ((239 - 82) + 428), // au
-    72 + 2048 - ((239 - 82) + 383), // ao
-    72 + 2048 - ((239 - 82) + 428), // eu
-    72 + 2048 - ((239 - 82) + 616), // eo
-    72 + 2048 - ((239 - 82) + 428), // oa
+    72 + 2048 - ((239 - 82) + 747),     // yh
+    72 + 2048 - ((239 - 82) + 604),     // ae
+    72 + 2048 - ((239 - 82) + 747),     // ih
+    72 + 2048 - ((239 - 82) + 747),     // ay
+    72 + 2048 - ((239 - 82) + 604),     // ah
+    72 + 2048 - ((239 - 82) + 702),     // ia
+    72 + 2048 - ((239 - 82) + 747),     // eh
+    72 + 2048 - ((239 - 82) + 702),     // ea
+    72 + 2048 - ((239 - 82) + 661 + 4), // uh
+    72 + 2048 - ((239 - 82) + 428 + 4), // ou
+    72 + 2048 - ((239 - 82) + 792),     // oh
+    72 + 2048 - ((239 - 82) + 559),     // io
+    72 + 2048 - ((239 - 82) + 559),     // ay
+    72 + 2048 - ((239 - 82) + 702),     // ai
+    72 + 2048 - ((239 - 82) + 559),     // ey
+    72 + 2048 - ((239 - 82) + 702),     // ei
+    72 + 2048 - ((239 - 82) + 616),     // oy
+    72 + 2048 - ((239 - 82) + 383),     // oi
+    72 + 2048 - ((239 - 82) + 428 + 4), // iu
+    72 + 2048 - ((239 - 82) + 428 + 4), // au
+    72 + 2048 - ((239 - 82) + 383 + 4), // ao
+    72 + 2048 - ((239 - 82) + 428 + 4), // eu
+    72 + 2048 - ((239 - 82) + 616 + 4), // eo
+    72 + 2048 - ((239 - 82) + 428 + 4), // oa
 ];
 
 // The Y offset to subtract from the vowel (added height / 2)
-const ONGLIDE_OFFSET: i32 = 319;
+const ONGLIDE_OFFSET: i32 = 300;
 
 /// Replace `Close` with `LineTo` back to the last `MoveTo` position
 fn replace_close_segments(path: &Path) -> Option<Path> {
@@ -259,11 +273,6 @@ fn generate(glyph: &str) -> String {
         refer_at(gn, number, (0, 0));
     };
     let vowel = |gn: &mut String, vowel: u32, onglide: u32| {
-        // Y measured from bottom of glyph instead of top
-        let inverted_y = 2048 - VOWEL_Y[usize::try_from(vowel).unwrap()];
-        // The height
-        let height = (1024 - inverted_y) * 2;
-
         refer_at(gn, 1114169 + vowel, (0, -ONGLIDE_OFFSET));
         refer_at(
             gn,

@@ -21,16 +21,18 @@ mod spacing {
 
 // Private use area order font list
 const CONSONANT_LIST: &[&str] = &[
-    "l", "p", "f", "th", "c", "t", "s", "sh", "r", "k", "x", "lh", "m", "b",
-    "v", "w", "n", "d", "z", "zh", "q", "g", "nh", "rh",
+    "l", "p", "f", "th", "c", "t", "s", "sh", "r", "k", "x", "xh", "m", "b",
+    "v", "w", "n", "d", "z", "zh", "q", "g", "nh", "gh",
 ];
 
 // Font order (x / y swapped from unicode private use order)
-const CONSONANT_LIST_INDICES: &[usize] = &[
-    0, 4, 8, 12, 16, 20, //
-    1, 5, 9, 13, 17, 21, //
-    2, 6, 10, 14, 18, 22, //
-    3, 7, 11, 15, 19, 23, //
+const CONSONANT_LIST_INDICES: &[u32] = &[
+    0, 6, 12, 18, //
+    1, 7, 13, 19, //
+    2, 8, 14, 20, //
+    3, 9, 15, 21, //
+    4, 10, 16, 22, //
+    5, 11, 17, 23, //
 ];
 
 // Vowel list (same in font and unicode private use)
@@ -300,7 +302,31 @@ fn generate(glyph: &str) -> String {
         // Middle / Standalone Cap line
         refer(gn, 1114167);
     };
-    let generate_syllable = |gn: &mut String, syllable: &str| {};
+    let generate_syllable = |gn: &mut String, syllable: &str| {
+        let mut len = 0;
+        let mut index = None;
+
+        // Half-Width Consonant
+        for (i, consonant) in CONSONANT_LIST.iter().enumerate() {
+            if consonant.len() > len && syllable.starts_with(consonant) {
+                index = Some(CONSONANT_LIST_INDICES[i]);
+                len = consonant.len();
+            }
+        }
+                
+        refer(gn, 1114112 + index.unwrap());
+
+        // Half-Width Vowel
+        for (i, vowel) in VOWEL_LIST.iter().enumerate() {
+            if syllable.ends_with(vowel) {
+                refer(gn, 1114169 + u32::try_from(i).unwrap());
+                break;
+            }
+        }
+
+        // Middle / Standalone Cap line
+        refer(gn, 1114167);
+    };
 
     match glyph {
         // generated combined vowel glyphs (y-)
@@ -368,10 +394,10 @@ fn generate(glyph: &str) -> String {
         "zoitei.unpalatalized.nh" => sonorant_modifier(&mut g, 5, 1),
         "zoitei.palatalized.th" => sonorant_modifier(&mut g, 0, 2),
         "zoitei.palatalized.sh" => sonorant_modifier(&mut g, 1, 2),
-        "zoitei.palatalized.lh" => sonorant_modifier(&mut g, 2, 2),
+        "zoitei.palatalized.xh" => sonorant_modifier(&mut g, 2, 2),
         "zoitei.palatalized.w" => sonorant_modifier(&mut g, 3, 2),
         "zoitei.palatalized.zh" => sonorant_modifier(&mut g, 4, 2),
-        "zoitei.palatalized.rh" => sonorant_modifier(&mut g, 5, 2),
+        "zoitei.palatalized.gh" => sonorant_modifier(&mut g, 5, 2),
         // generated fullwidth consonants
         "zoitei.fullwidth.plosive.p" => fw_sonorant_modifier(&mut g, 0, 0),
         "zoitei.fullwidth.plosive.t" => fw_sonorant_modifier(&mut g, 1, 0),
@@ -399,10 +425,10 @@ fn generate(glyph: &str) -> String {
         }
         "zoitei.fullwidth.palatalized.th" => fw_sonorant_modifier(&mut g, 0, 2),
         "zoitei.fullwidth.palatalized.sh" => fw_sonorant_modifier(&mut g, 1, 2),
-        "zoitei.fullwidth.palatalized.lh" => fw_sonorant_modifier(&mut g, 2, 2),
+        "zoitei.fullwidth.palatalized.xh" => fw_sonorant_modifier(&mut g, 2, 2),
         "zoitei.fullwidth.palatalized.w" => fw_sonorant_modifier(&mut g, 3, 2),
         "zoitei.fullwidth.palatalized.zh" => fw_sonorant_modifier(&mut g, 4, 2),
-        "zoitei.fullwidth.palatalized.rh" => fw_sonorant_modifier(&mut g, 5, 2),
+        "zoitei.fullwidth.palatalized.gh" => fw_sonorant_modifier(&mut g, 5, 2),
         // generated syllable consonants
         "zoitei.syllable.l" => syllable_consonant(&mut g, 0),
         "zoitei.syllable.c" => syllable_consonant(&mut g, 1),
@@ -424,10 +450,10 @@ fn generate(glyph: &str) -> String {
         "zoitei.syllable.nh" => syllable_consonant(&mut g, 17),
         "zoitei.syllable.th" => syllable_consonant(&mut g, 18),
         "zoitei.syllable.sh" => syllable_consonant(&mut g, 19),
-        "zoitei.syllable.lh" => syllable_consonant(&mut g, 20),
+        "zoitei.syllable.xh" => syllable_consonant(&mut g, 20),
         "zoitei.syllable.w" => syllable_consonant(&mut g, 21),
         "zoitei.syllable.zh" => syllable_consonant(&mut g, 22),
-        "zoitei.syllable.rh" => syllable_consonant(&mut g, 23),
+        "zoitei.syllable.gh" => syllable_consonant(&mut g, 23),
         // generated consonant + vowel
         x if x.starts_with("zoitei.syllable.") => generate_syllable(
             &mut g,
@@ -505,7 +531,7 @@ fn main() {
             }
 
             // Where to start a new paragraph
-            if matches!(encoding, 0xF600B | 0xF6017) {
+            if matches!(encoding, 0xF600B | 0xF6017 | 0xF6843 | 0xF6887) {
                 // PDF, newline, RLO
                 chars.extend(['\u{202C}', '\n', '\u{202E}']);
             }
@@ -520,7 +546,7 @@ fn main() {
     drop((lines, output_font));
     std::fs::rename("./.Square.sfd", "./Square.sfd").unwrap();
 
-    // PDF
-    chars.push('\u{202C}');
+    // Remove trailing RLO
+    chars.pop();
     std::fs::write("chars_zoitei.txt", chars).unwrap();
 }

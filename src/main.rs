@@ -552,6 +552,8 @@ fn main() {
                     | 0xF6887 // +12
                     | 0xF6893 // +12
                     | 0xF689F // +12
+                    | 0xF68AB // +12
+                    | 0xF68B7 // +12
             ) {
                 // PDF, newline, RLO
                 chars.extend(['\u{202C}', '\n', '\u{202E}']);

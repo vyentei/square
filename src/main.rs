@@ -313,13 +313,25 @@ fn generate(glyph: &str) -> String {
                 len = consonant.len();
             }
         }
-                
-        refer(gn, 1114112 + index.unwrap());
+
+        let index = index.unwrap();
+
+        refer(gn, 1114112 + index);
 
         // Half-Width Vowel
         for (i, vowel) in VOWEL_LIST.iter().enumerate() {
             if syllable.ends_with(vowel) {
-                refer(gn, 1114169 + u32::try_from(i).unwrap());
+                let vowel = u32::try_from(i).unwrap();
+                let vowel_index = 1114169 + vowel;
+
+                match index {
+                    // No diphthongs, l consonant => small kerning
+                    0 if vowel < 24 => refer_at(gn, vowel_index, (90, 0)),
+                    // All m consonant => large kerning
+                    3 => refer_at(gn, vowel_index, (180, 0)),
+                    _ => refer(gn, vowel_index),
+                }
+
                 break;
             }
         }
@@ -531,7 +543,10 @@ fn main() {
             }
 
             // Where to start a new paragraph
-            if matches!(encoding, 0xF600B | 0xF6017 | 0xF6843 | 0xF687B | 0xF6887) {
+            if matches!(
+                encoding,
+                0xF600B | 0xF6017 | 0xF6843 | 0xF687B | 0xF6887
+            ) {
                 // PDF, newline, RLO
                 chars.extend(['\u{202C}', '\n', '\u{202E}']);
             }

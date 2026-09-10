@@ -945,6 +945,246 @@ Refer: 1114135 -1 N 1 0 0 1 0 0 1
 Refer: 1114169 -1 N 1 0 0 1 0 0 1
 Refer: 1114167 -1 N 1 0 0 1 0 0 1
 EndChar
+StartChar: generated.zoitei.syllable.lae
+Encoding: 1009800 1009800 1009800
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114112 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 90 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.pae
+Encoding: 1009801 1009801 1009801
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114118 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.fae
+Encoding: 1009802 1009802 1009802
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114124 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.thae
+Encoding: 1009803 1009803 1009803
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114130 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.cae
+Encoding: 1009804 1009804 1009804
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114113 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.tae
+Encoding: 1009805 1009805 1009805
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114119 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.sae
+Encoding: 1009806 1009806 1009806
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114125 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.shae
+Encoding: 1009807 1009807 1009807
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114131 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.rae
+Encoding: 1009808 1009808 1009808
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114114 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.kae
+Encoding: 1009809 1009809 1009809
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114120 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.xae
+Encoding: 1009810 1009810 1009810
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114126 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.xhae
+Encoding: 1009811 1009811 1009811
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114132 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.mae
+Encoding: 1009812 1009812 1009812
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114115 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 180 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.bae
+Encoding: 1009813 1009813 1009813
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114121 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.vae
+Encoding: 1009814 1009814 1009814
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114127 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.wae
+Encoding: 1009815 1009815 1009815
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114133 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.nae
+Encoding: 1009816 1009816 1009816
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114116 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.dae
+Encoding: 1009817 1009817 1009817
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114122 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.zae
+Encoding: 1009818 1009818 1009818
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114128 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.zhae
+Encoding: 1009819 1009819 1009819
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114134 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.qae
+Encoding: 1009820 1009820 1009820
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114117 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.gae
+Encoding: 1009821 1009821 1009821
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114123 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.nhae
+Encoding: 1009822 1009822 1009822
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114129 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
+StartChar: generated.zoitei.syllable.ghae
+Encoding: 1009823 1009823 1009823
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1114135 -1 N 1 0 0 1 0 0 1
+Refer: 1114170 -1 N 1 0 0 1 0 0 1
+Refer: 1114167 -1 N 1 0 0 1 0 0 1
+EndChar
 StartChar: zoitei.sonorant.l
 Encoding: 1114112 -1 1114112
 Width: 2048
@@ -1241,11 +1481,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1060 874 m 0
+1112 874 m 0
 1924 874 l 0
 1924 694 l 0
-1060 694 l 0
-1060 874 l 0
+1112 694 l 0
+1112 874 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.stroke.unpalatalized
@@ -1269,15 +1509,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1240 1023 m 0
-1240 912 1278 874 1389 874 c 0
+1292 1023 m 0
+1292 912 1330 874 1441 874 c 0
 1620 874 l 0
 1620 694 l 0
-1359 694 l 0
-1192 694 1060 826 1060 993 c 0
-1060 1148 l 0
-1240 1148 l 0
-1240 1023 l 0
+1411 694 l 0
+1244 694 1112 826 1112 993 c 0
+1112 1148 l 0
+1292 1148 l 0
+1292 1023 l 0
 EndSplineSet
 EndChar
 StartChar: zoitei.fullwidth.sonorant.l

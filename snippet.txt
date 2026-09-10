@@ -1,0 +1,168 @@
+StartChar: generated.zoitei.syllable.l$VOWEL
+ncoding: $01 $01 $01
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.p$VOWEL
+Encoding: $02 $02 $02
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.f$VOWEL
+Encoding: $03 $03 $03
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.th$VOWEL
+Encoding: $04 $04 $04
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.c$VOWEL
+Encoding: $05 $05 $05
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.t$VOWEL
+Encoding: $06 $06 $06
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.s$VOWEL
+Encoding: $07 $07 $07
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.sh$VOWEL
+Encoding: $08 $08 $08
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.r$VOWEL
+Encoding: $09 $09 $09
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.k$VOWEL
+Encoding: $10 $10 $10
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.x$VOWEL
+Encoding: $11 $11 $11
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.xh$VOWEL
+Encoding: $12 $12 $12
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.m$VOWEL
+Encoding: $13 $13 $13
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.b$VOWEL
+Encoding: $14 $14 $14
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.v$VOWEL
+Encoding: $15 $15 $15
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.w$VOWEL
+Encoding: $16 $16 $16
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.n$VOWEL
+Encoding: $17 $17 $17
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.d$VOWEL
+Encoding: $18 $18 $18
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.z$VOWEL
+Encoding: $19 $19 $19
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.zh$VOWEL
+Encoding: $20 $20 $20
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.q$VOWEL
+Encoding: $21 $21 $21
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.g$VOWEL
+Encoding: $22 $22 $22
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.nh$VOWEL
+Encoding: $23 $23 $23
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar
+StartChar: generated.zoitei.syllable.gh$VOWEL
+Encoding: $24 $24 $24
+Width: 2048
+Flags: W
+LayerCount: 2
+Fore
+EndChar

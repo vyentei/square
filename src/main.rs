@@ -545,7 +545,13 @@ fn main() {
             // Where to start a new paragraph
             if matches!(
                 encoding,
-                0xF600B | 0xF6017 | 0xF6843 | 0xF687B | 0xF6887
+                0xF600B
+                    | 0xF6017
+                    | 0xF6843
+                    | 0xF687B
+                    | 0xF6887 // +12
+                    | 0xF6893 // +12
+                    | 0xF689F // +12
             ) {
                 // PDF, newline, RLO
                 chars.extend(['\u{202C}', '\n', '\u{202E}']);

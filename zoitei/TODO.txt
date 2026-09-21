@@ -1,0 +1,2 @@
+ - Make fullwidth with backstroke kern left
+ - Make fullwidth without plosive marking kern right

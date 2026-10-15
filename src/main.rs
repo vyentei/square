@@ -552,7 +552,7 @@ fn main() {
             // Where to add spacer
             if matches!(
                 encoding,
-                0xF686F..=0xF6F17
+                0xF686F..=0xF6F2F
                     if (encoding - 0xF686F) % 12 == 0
                         && (encoding - 0xF686F) % 24 != 0,
             ) {
@@ -564,7 +564,7 @@ fn main() {
                 // Vowel cluster group for syllable
                 || matches!(
                     encoding,
-                    0xF686F..=0xF6F17 if (encoding - 0xF686F) % 24 == 0,
+                    0xF686F..=0xF6F2F if (encoding - 0xF686F) % 24 == 0,
                 )
             {
                 // PDF, newline, RLO

@@ -319,14 +319,16 @@ fn generate(glyph: &str) -> String {
         refer(gn, 1114112 + index);
 
         // Half-Width Vowel
-        for (i, vowel) in VOWEL_LIST.iter().enumerate() {
+        for (i, vowel) in VOWEL_LIST.iter().enumerate().rev() {
             if syllable.ends_with(vowel) {
                 let vowel = u32::try_from(i).unwrap();
                 let vowel_index = 1114169 + vowel;
 
                 match index {
                     // No diphthongs, l consonant (except oi) => small kerning
-                    0 if vowel < 24 && vowel != 17 => refer_at(gn, vowel_index, (90, 0)),
+                    0 if vowel < 24 && vowel != 17 => {
+                        refer_at(gn, vowel_index, (90, 0))
+                    }
                     // All m consonant => large kerning
                     3 => refer_at(gn, vowel_index, (180, 0)),
                     _ => refer(gn, vowel_index),
@@ -486,13 +488,15 @@ fn main() {
     chars.push_str("Character List for ");
     // Unicode equivalent of <bdo dir = "rtl">
     chars.extend([
-        '\u{202A}', // FSI - For embedding
-        '\u{202E}', // RLO
+        '\u{202A}',  // FSI - For embedding
+        '\u{202E}',  // RLO
         '\u{F6A1A}', // ZOI
         '\u{F69DD}', // TEI
-        '\u{202C}', // PDF
-        '\u{2069}', // PDI - For embedding
-        ':', '\n', '\u{202E}', // RLO
+        '\u{202C}',  // PDF
+        '\u{2069}',  // PDI - For embedding
+        ':',
+        '\n',
+        '\u{202E}', // RLO
     ]);
 
     let input_font = std::fs::File::open("./Square.sfd").unwrap();
@@ -545,61 +549,24 @@ fn main() {
                 dbg!(&encoding);
             }
 
-            // Where to start a new paragraph
+            // Where to add spacer
             if matches!(
                 encoding,
-                0xF600B
-                    | 0xF6017
-                    | 0xF6843
-                    | 0xF687B // yh +12 =>
-                    | 0xF6887 // yh +12 =>
-                    | 0xF6893 // ae +12 =>
-                    | 0xF689F // ae +12 =>
-                    | 0xF68AB // ih +12 =>
-                    | 0xF68B7 // ih +12 =>
-                    | 0xF68C3 // iy +12 =>
-                    | 0xF68CF // iy +12 =>
-                    | 0xF68DB // ah +12 =>
-                    | 0xF68E7 // ah +12 =>
-                    | 0xF68F3 // ia +12 =>
-                    | 0xF68FF // ia +12 =>
-                    | 0xF690B // eh +12 =>
-                    | 0xF6917 // eh +12 =>
-                    | 0xF6923 // ea +12 =>
-                    | 0xF692F // ea +12 =>
-                    | 0xF693B // uh +12 =>
-                    | 0xF6947 // uh +12 =>
-                    | 0xF6953 // ou +12 =>
-                    | 0xF695F // ou +12 =>
-                    | 0xF696B // oh +12 =>
-                    | 0xF6977 // oh +12 =>
-                    | 0xF6983 // io +12 =>
-                    | 0xF698F // io +12 =>
-                    | 0xF699B // ay +12 =>
-                    | 0xF69A7 // ay +12 =>
-                    | 0xF69B3 // ai +12 =>
-                    | 0xF69BF // ai +12 =>
-                    | 0xF69CB // ey +12 =>
-                    | 0xF69D7 // ey +12 =>
-                    | 0xF69E3 // ei +12 =>
-                    | 0xF69EF // ei +12 =>
-                    | 0xF69FB // oy +12 =>
-                    | 0xF6A07 // oy +12 =>
-                    | 0xF6A13 // oi +12 =>
-                    | 0xF6A1F // oi +12 =>
-                    | 0xF6A2B // iu +12 =>
-                    | 0xF6A37 // iu +12 =>
-                    | 0xF6A43 // au +12 =>
-                    | 0xF6A4F // au +12 =>
-                    | 0xF6A5B // ao +12 =>
-                    | 0xF6A67 // ao +12 =>
-                    | 0xF6A73 // eu +12 =>
-                    | 0xF6A7F // eu +12 =>
-                    | 0xF6A8B // eo +12 =>
-                    | 0xF6A97 // eo +12 =>
-                    | 0xF6AA3 // oa +12 =>
-                    | 0xF6AAf // oa +12 =>
+                0xF686F..=0xF6F17
+                    if (encoding - 0xF686F) % 12 == 0
+                        && (encoding - 0xF686F) % 24 != 0,
             ) {
+                chars.push('　');
+            }
+
+            // Where to start a new paragraph
+            if matches!(encoding, 0xF600B | 0xF6017 | 0xF6843)
+                // Vowel cluster group for syllable
+                || matches!(
+                    encoding,
+                    0xF686F..=0xF6F17 if (encoding - 0xF686F) % 24 == 0,
+                )
+            {
                 // PDF, newline, RLO
                 chars.extend(['\u{202C}', '\n', '\u{202E}']);
             }
